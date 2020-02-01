@@ -1,0 +1,4900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: institute-management\n"
+"POT-Creation-Date: 2019-10-11 12:54+0530\n"
+"PO-Revision-Date: 2019-10-11 12:54+0530\n"
+"Last-Translator: Weblizar <lizarweb@gmail.com>\n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-KeywordsList: _e;_;__;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/WL_IM_Menu.php:8 admin/WL_IM_Menu.php:12
+msgid "Institute Management"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/WL_IM_Menu.php:8
+#, fuzzy
+#| msgid "Institute Management"
+msgid "Institute"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/WL_IM_Menu.php:12 admin/inc/wl_im_dashboard.php:53
+msgid "Dashboard"
+msgstr "डैशबोर्ड"
+
+#: admin/WL_IM_Menu.php:16 admin/inc/wl_im_courses.php:11 admin/inc/wl_im_dashboard.php:83
+msgid "Courses"
+msgstr "पाठ्यक्रम"
+
+#: admin/WL_IM_Menu.php:20 admin/inc/wl_im_batches.php:13 admin/inc/wl_im_dashboard.php:103
+#, fuzzy
+#| msgid "Branches"
+msgid "Batches"
+msgstr "ब्रांचां"
+
+#: admin/WL_IM_Menu.php:24 admin/inc/wl_im_dashboard.php:123 admin/inc/wl_im_enquiries.php:13
+msgid "Enquiries"
+msgstr "पूछताछ"
+
+#: admin/WL_IM_Menu.php:28 admin/inc/wl_im_dashboard.php:183 admin/inc/wl_im_dashboard.php:266
+#: admin/inc/wl_im_students.php:14
+#, fuzzy
+#| msgid "Former Students"
+msgid "Students"
+msgstr "पुराने विद्यार्थी"
+
+#: admin/WL_IM_Menu.php:32 admin/inc/controllers/WL_IM_Course.php:167
+#: admin/inc/controllers/WL_IM_Course.php:168 admin/inc/controllers/WL_IM_Student.php:292
+#: admin/inc/controllers/WL_IM_Student.php:715 admin/inc/controllers/WL_IM_Student.php:858
+#: admin/inc/wl_im_courses.php:46 admin/inc/wl_im_courses.php:108 admin/inc/wl_im_courses.php:109
+#: admin/inc/wl_im_dashboard.php:163 admin/inc/wl_im_fees.php:13
+msgid "Fees"
+msgstr "शुल्क"
+
+#: admin/WL_IM_Menu.php:36 admin/inc/wl_im_administrators.php:11
+msgid "Administrators"
+msgstr "व्यवस्थापक"
+
+#: admin/WL_IM_Menu.php:40 admin/inc/wl_im_settings.php:10 admin/inc/wl_im_settings.php:26
+msgid "Settings"
+msgstr "सेटिंग"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:56
+#, fuzzy
+#| msgid "Please provide first name."
+msgid "Please provide username."
+msgstr "प्रथम नाम"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:60
+#, fuzzy
+#| msgid "Please provide address."
+msgid "Please provide password."
+msgstr "पता"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:64
+#: admin/inc/controllers/WL_IM_Administrator.php:183
+#, fuzzy
+#| msgid "Please Enter Password"
+msgid "Please confirm password."
+msgstr "कृप्या पास्वर्ड भरो"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:68
+msgid "Passwords do not match."
+msgstr "पासवर्ड मेल नहीं खाते ।"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:72
+#: admin/inc/controllers/WL_IM_Administrator.php:187
+#, fuzzy
+#| msgid "Please select valid height."
+msgid "Please select valid permissions."
+msgstr "चुनें"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:93
+#, fuzzy
+#| msgid "New service added successfully."
+msgid "Administrator added successfully."
+msgstr "टाईम आफ हटा दिया गया है।"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:117
+#: admin/inc/controllers/WL_IM_Administrator.php:118 admin/inc/controllers/WL_IM_Enquiry.php:180
+#: admin/inc/controllers/WL_IM_Enquiry.php:181 admin/inc/controllers/WL_IM_Student.php:317
+#: admin/inc/controllers/WL_IM_Student.php:318 admin/inc/controllers/WL_IM_Student.php:725
+#: admin/inc/controllers/WL_IM_Student.php:726 admin/inc/controllers/WL_IM_Student.php:868
+#: admin/inc/controllers/WL_IM_Student.php:869 admin/inc/wl_im_administrators.php:43
+#: admin/inc/wl_im_administrators.php:77 admin/inc/wl_im_administrators.php:78
+#: admin/inc/wl_im_enquiries.php:58 admin/inc/wl_im_enquiries.php:108
+#: admin/inc/wl_im_enquiries.php:109 admin/inc/wl_im_students.php:50
+#: public/inc/wl_im_enquiry_form.php:36 public/inc/wl_im_enquiry_form.php:37
+msgid "First Name"
+msgstr "प्रथम नाम"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:121
+#: admin/inc/controllers/WL_IM_Administrator.php:122 admin/inc/controllers/WL_IM_Enquiry.php:184
+#: admin/inc/controllers/WL_IM_Enquiry.php:185 admin/inc/controllers/WL_IM_Student.php:321
+#: admin/inc/controllers/WL_IM_Student.php:322 admin/inc/controllers/WL_IM_Student.php:729
+#: admin/inc/controllers/WL_IM_Student.php:730 admin/inc/controllers/WL_IM_Student.php:872
+#: admin/inc/controllers/WL_IM_Student.php:873 admin/inc/wl_im_administrators.php:44
+#: admin/inc/wl_im_administrators.php:81 admin/inc/wl_im_administrators.php:82
+#: admin/inc/wl_im_enquiries.php:59 admin/inc/wl_im_enquiries.php:112
+#: admin/inc/wl_im_enquiries.php:113 admin/inc/wl_im_students.php:51
+#: public/inc/wl_im_enquiry_form.php:40 public/inc/wl_im_enquiry_form.php:41
+msgid "Last Name"
+msgstr "अंतिम नाम"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:126
+#: admin/inc/controllers/WL_IM_Administrator.php:127 admin/inc/wl_im_administrators.php:45
+#: admin/inc/wl_im_administrators.php:86 admin/inc/wl_im_administrators.php:87
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:126
+#, fuzzy
+#| msgid "Name cannot be blank."
+msgid "cannot be changed."
+msgstr "नाम रिक्त नहीं हो सकता"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:130
+#: admin/inc/controllers/WL_IM_Administrator.php:131 admin/inc/wl_im_administrators.php:90
+#: admin/inc/wl_im_administrators.php:91
+msgid "Password"
+msgstr "पासवर्ड"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:134
+#: admin/inc/controllers/WL_IM_Administrator.php:135 admin/inc/wl_im_administrators.php:94
+#: admin/inc/wl_im_administrators.php:95
+#, fuzzy
+#| msgid "Enter Password"
+msgid "Confirm Password"
+msgstr "पास वर्ड दर्ज करें"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:137 admin/inc/wl_im_administrators.php:46
+#: admin/inc/wl_im_administrators.php:97
+msgid "Permissions"
+msgstr "अनुमतियाँ"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:140
+msgid "cannot be changed for users with role 'Administrator'."
+msgstr "' व्यवस्थापक ' भूमिका वाले उपयोगकर्ताओं के लिए परिवर्तित नहीं किया जा सकता ।"
+
+#: admin/inc/controllers/WL_IM_Administrator.php:222
+#, fuzzy
+#| msgid "Service updated successfully."
+msgid "Administrator updated successfully."
+msgstr "सेवा सफलतापूर्वक नवीनतम कर दी गई है।"
+
+#: admin/inc/controllers/WL_IM_Batch.php:23 admin/inc/controllers/WL_IM_Course.php:25
+#: admin/inc/controllers/WL_IM_Enquiry.php:26 admin/inc/controllers/WL_IM_Student.php:34
+msgid "Yes"
+msgstr "हाँ"
+
+#: admin/inc/controllers/WL_IM_Batch.php:23 admin/inc/controllers/WL_IM_Course.php:25
+#: admin/inc/controllers/WL_IM_Enquiry.php:26 admin/inc/controllers/WL_IM_Student.php:34
+msgid "No"
+msgstr "नहीं"
+
+#: admin/inc/controllers/WL_IM_Batch.php:66 admin/inc/controllers/WL_IM_Batch.php:198
+#: admin/inc/controllers/WL_IM_Enquiry.php:74 admin/inc/controllers/WL_IM_Enquiry.php:238
+#: admin/inc/controllers/WL_IM_Student.php:114 admin/inc/controllers/WL_IM_Student.php:441
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:23
+#, fuzzy
+#| msgid "Please select Currency"
+msgid "Please select a course."
+msgstr "मुद्रा चुनो"
+
+#: admin/inc/controllers/WL_IM_Batch.php:70 admin/inc/controllers/WL_IM_Batch.php:202
+#, fuzzy
+#| msgid "Please provide first name."
+msgid "Please provide batch code."
+msgstr "प्रथम नाम"
+
+#: admin/inc/controllers/WL_IM_Batch.php:74 admin/inc/controllers/WL_IM_Batch.php:206
+#: admin/inc/controllers/WL_IM_Course.php:68 admin/inc/controllers/WL_IM_Course.php:208
+msgid "Maximum length cannot exceed 191 characters."
+msgstr "अधिकतम लंबाई १९१ वर्णों से अधिक नहीं हो सकती ।"
+
+#: admin/inc/controllers/WL_IM_Batch.php:78 admin/inc/controllers/WL_IM_Batch.php:210
+#: admin/inc/controllers/WL_IM_Course.php:72 admin/inc/controllers/WL_IM_Course.php:212
+#: admin/inc/controllers/WL_IM_Enquiry.php:82 admin/inc/controllers/WL_IM_Enquiry.php:86
+#: admin/inc/controllers/WL_IM_Enquiry.php:90 admin/inc/controllers/WL_IM_Enquiry.php:94
+#: admin/inc/controllers/WL_IM_Enquiry.php:246 admin/inc/controllers/WL_IM_Enquiry.php:250
+#: admin/inc/controllers/WL_IM_Enquiry.php:254 admin/inc/controllers/WL_IM_Enquiry.php:258
+#: admin/inc/controllers/WL_IM_Student.php:122 admin/inc/controllers/WL_IM_Student.php:126
+#: admin/inc/controllers/WL_IM_Student.php:130 admin/inc/controllers/WL_IM_Student.php:134
+#: admin/inc/controllers/WL_IM_Student.php:142 admin/inc/controllers/WL_IM_Student.php:146
+#: admin/inc/controllers/WL_IM_Student.php:449 admin/inc/controllers/WL_IM_Student.php:453
+#: admin/inc/controllers/WL_IM_Student.php:457 admin/inc/controllers/WL_IM_Student.php:461
+#: admin/inc/controllers/WL_IM_Student.php:469 admin/inc/controllers/WL_IM_Student.php:473
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:31
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:35
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:43
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:47
+msgid "Maximum length cannot exceed 255 characters."
+msgstr "अधिकतम लंबाई २५५ वर्णों से अधिक नहीं हो सकती ।"
+
+#: admin/inc/controllers/WL_IM_Batch.php:84 admin/inc/controllers/WL_IM_Batch.php:216
+#: admin/inc/controllers/WL_IM_Enquiry.php:104 admin/inc/controllers/WL_IM_Enquiry.php:268
+#: admin/inc/controllers/WL_IM_Student.php:156 admin/inc/controllers/WL_IM_Student.php:486
+#, fuzzy
+#| msgid "Please select valid height."
+msgid "Please select a valid course."
+msgstr "चुनें"
+
+#: admin/inc/controllers/WL_IM_Batch.php:90 admin/inc/controllers/WL_IM_Batch.php:222
+#, fuzzy
+#| msgid "is alredy exist."
+msgid "Batch code in this course already exists."
+msgstr " पहले से उपस्थित है।"
+
+#: admin/inc/controllers/WL_IM_Batch.php:108 admin/inc/controllers/WL_IM_Batch.php:241
+#: admin/inc/controllers/WL_IM_Batch.php:272 admin/inc/controllers/WL_IM_Course.php:106
+#: admin/inc/controllers/WL_IM_Course.php:246 admin/inc/controllers/WL_IM_Course.php:277
+#: admin/inc/controllers/WL_IM_Enquiry.php:124 admin/inc/controllers/WL_IM_Enquiry.php:288
+#: admin/inc/controllers/WL_IM_Enquiry.php:319 admin/inc/controllers/WL_IM_Fee.php:93
+#: admin/inc/controllers/WL_IM_Fee.php:103 admin/inc/controllers/WL_IM_Fee.php:212
+#: admin/inc/controllers/WL_IM_Fee.php:222 admin/inc/controllers/WL_IM_Fee.php:265
+#: admin/inc/controllers/WL_IM_Fee.php:275 admin/inc/controllers/WL_IM_Student.php:206
+#: admin/inc/controllers/WL_IM_Student.php:219 admin/inc/controllers/WL_IM_Student.php:241
+#: admin/inc/controllers/WL_IM_Student.php:523 admin/inc/controllers/WL_IM_Student.php:554
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:76
+msgid "An unexpected error occurred."
+msgstr "कोई अनपेक्षित त्रुटि उत्पंन हुई ।"
+
+#: admin/inc/controllers/WL_IM_Batch.php:112
+#, fuzzy
+#| msgid "New service added successfully."
+msgid "Batch added successfully."
+msgstr "टाईम आफ हटा दिया गया है।"
+
+#: admin/inc/controllers/WL_IM_Batch.php:140 admin/inc/controllers/WL_IM_Enquiry.php:166
+#: admin/inc/controllers/WL_IM_Fee.php:151 admin/inc/controllers/WL_IM_Fee.php:306
+#: admin/inc/controllers/WL_IM_Student.php:286 admin/inc/controllers/WL_IM_Student.php:708
+#: admin/inc/controllers/WL_IM_Student.php:851 admin/inc/wl_im_batches.php:47
+#: admin/inc/wl_im_batches.php:79 admin/inc/wl_im_enquiries.php:57
+#: admin/inc/wl_im_enquiries.php:94 admin/inc/wl_im_students.php:47
+#: public/inc/wl_im_enquiry_form.php:22
+#, fuzzy
+#| msgid "Courses"
+msgid "Course"
+msgstr "पाठ्यक्रम"
+
+#: admin/inc/controllers/WL_IM_Batch.php:142 admin/inc/controllers/WL_IM_Enquiry.php:168
+#: admin/inc/controllers/WL_IM_Student.php:288 admin/inc/controllers/WL_IM_Student.php:710
+#: admin/inc/controllers/WL_IM_Student.php:853 admin/inc/wl_im_batches.php:81
+#: admin/inc/wl_im_enquiries.php:96 public/inc/wl_im_enquiry_form.php:24
+#, fuzzy
+#| msgid "Select Customer"
+msgid "Select a Course"
+msgstr "ग्राहक का चयन"
+
+#: admin/inc/controllers/WL_IM_Batch.php:154 admin/inc/controllers/WL_IM_Batch.php:155
+#: admin/inc/wl_im_batches.php:45 admin/inc/wl_im_batches.php:93 admin/inc/wl_im_batches.php:94
+#, fuzzy
+#| msgid "Match Profile"
+msgid "Batch Code"
+msgstr "प्रोफ़ाइल मिलाएं"
+
+#: admin/inc/controllers/WL_IM_Batch.php:158 admin/inc/controllers/WL_IM_Batch.php:159
+#: admin/inc/wl_im_batches.php:46 admin/inc/wl_im_batches.php:97 admin/inc/wl_im_batches.php:98
+#, fuzzy
+#| msgid "Branch Name"
+msgid "Batch Name"
+msgstr "शाखा का नाम"
+
+#: admin/inc/controllers/WL_IM_Batch.php:165 admin/inc/controllers/WL_IM_Course.php:173
+#: admin/inc/controllers/WL_IM_Enquiry.php:203 admin/inc/controllers/WL_IM_Student.php:382
+#: admin/inc/controllers/WL_IM_Student.php:781 admin/inc/controllers/WL_IM_Student.php:911
+#: admin/inc/wl_im_batches.php:104 admin/inc/wl_im_courses.php:114
+#: admin/inc/wl_im_enquiries.php:131
+msgid "Is Active?"
+msgstr "सक्रिय है?"
+
+#: admin/inc/controllers/WL_IM_Batch.php:276
+#, fuzzy
+#| msgid "Service updated successfully."
+msgid "Batch removed successfully."
+msgstr "सेवा सफलतापूर्वक नवीनतम कर दी गई है।"
+
+#: admin/inc/controllers/WL_IM_Course.php:64 admin/inc/controllers/WL_IM_Course.php:204
+#, fuzzy
+#| msgid "Please provide first name."
+msgid "Please provide course code."
+msgstr "प्रथम नाम"
+
+#: admin/inc/controllers/WL_IM_Course.php:76 admin/inc/controllers/WL_IM_Course.php:216
+#, fuzzy
+#| msgid "Duration cannot be blank."
+msgid "Duration must be at least 1."
+msgstr "अवधि खाली नहीं हो सकता"
+
+#: admin/inc/controllers/WL_IM_Course.php:80 admin/inc/controllers/WL_IM_Course.php:220
+#, fuzzy
+#| msgid "Please select valid height."
+msgid "Please select valid duration in."
+msgstr "चुनें"
+
+#: admin/inc/controllers/WL_IM_Course.php:86 admin/inc/controllers/WL_IM_Course.php:226
+#, fuzzy
+#| msgid "is alredy exist."
+msgid "Course code already exists."
+msgstr " पहले से उपस्थित है।"
+
+#: admin/inc/controllers/WL_IM_Course.php:110
+#, fuzzy
+#| msgid "New service added successfully."
+msgid "Course added successfully."
+msgstr "टाईम आफ हटा दिया गया है।"
+
+#: admin/inc/controllers/WL_IM_Course.php:138 admin/inc/controllers/WL_IM_Course.php:139
+#: admin/inc/wl_im_courses.php:43 admin/inc/wl_im_courses.php:79 admin/inc/wl_im_courses.php:80
+#, fuzzy
+#| msgid "Postel Code"
+msgid "Course Code"
+msgstr "डाक कोड"
+
+#: admin/inc/controllers/WL_IM_Course.php:142 admin/inc/controllers/WL_IM_Course.php:143
+#: admin/inc/wl_im_courses.php:44 admin/inc/wl_im_courses.php:83 admin/inc/wl_im_courses.php:84
+#, fuzzy
+#| msgid "Customer Name:"
+msgid "Course Name"
+msgstr "ग्राहक का नाम"
+
+#: admin/inc/controllers/WL_IM_Course.php:147 admin/inc/controllers/WL_IM_Course.php:148
+#: admin/inc/wl_im_courses.php:88 admin/inc/wl_im_courses.php:89
+#, fuzzy
+#| msgid "More Details"
+msgid "Course Detail"
+msgstr "अधिक जानकारी"
+
+#: admin/inc/controllers/WL_IM_Course.php:152 admin/inc/controllers/WL_IM_Course.php:153
+#: admin/inc/wl_im_courses.php:45 admin/inc/wl_im_courses.php:93 admin/inc/wl_im_courses.php:94
+#: admin/inc/wl_im_students.php:49
+#, fuzzy
+#| msgid "Duration:"
+msgid "Duration"
+msgstr "अवधि"
+
+#: admin/inc/controllers/WL_IM_Course.php:156 admin/inc/wl_im_courses.php:97
+#, fuzzy
+#| msgid "Duration Unit"
+msgid "Duration In"
+msgstr "अवधि इकाई"
+
+#: admin/inc/controllers/WL_IM_Course.php:250 admin/inc/controllers/WL_IM_Enquiry.php:292
+#, fuzzy
+#| msgid "Service updated successfully."
+msgid "Course updated successfully."
+msgstr "सेवा सफलतापूर्वक नवीनतम कर दी गई है।"
+
+#: admin/inc/controllers/WL_IM_Course.php:281
+#, fuzzy
+#| msgid "Customer Created Successfully"
+msgid "Course removed successfully."
+msgstr "ग्राहक सफलतापूर्वक बनाया गया"
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:78 admin/inc/controllers/WL_IM_Enquiry.php:242
+#: admin/inc/controllers/WL_IM_Student.php:118 admin/inc/controllers/WL_IM_Student.php:445
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:27
+msgid "Please provide first name."
+msgstr "प्रथम नाम"
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:98 admin/inc/controllers/WL_IM_Enquiry.php:262
+#: admin/inc/controllers/WL_IM_Student.php:138 admin/inc/controllers/WL_IM_Student.php:465
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:51
+#, fuzzy
+#| msgid "Please provide valid email address."
+msgid "Please provide a valid email address."
+msgstr "एक वैध ई मेल पता दर्ज करें."
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:128
+#, fuzzy
+#| msgid "New service added successfully."
+msgid "Enquiry added successfully."
+msgstr "टाईम आफ हटा दिया गया है।"
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:157 admin/inc/wl_im_enquiries.php:56
+#, fuzzy
+#| msgid "Enquiries"
+msgid "Enquiry ID"
+msgstr "पूछताछ"
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:189 admin/inc/controllers/WL_IM_Enquiry.php:190
+#: admin/inc/controllers/WL_IM_Student.php:358 admin/inc/controllers/WL_IM_Student.php:359
+#: admin/inc/controllers/WL_IM_Student.php:757 admin/inc/controllers/WL_IM_Student.php:758
+#: admin/inc/controllers/WL_IM_Student.php:887 admin/inc/controllers/WL_IM_Student.php:888
+#: admin/inc/wl_im_enquiries.php:60 admin/inc/wl_im_enquiries.php:117
+#: admin/inc/wl_im_enquiries.php:118 admin/inc/wl_im_students.php:55
+#: public/inc/wl_im_enquiry_form.php:45 public/inc/wl_im_enquiry_form.php:46
+msgid "Phone"
+msgstr "फ़ोन"
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:193 admin/inc/controllers/WL_IM_Enquiry.php:194
+#: admin/inc/controllers/WL_IM_Student.php:376 admin/inc/controllers/WL_IM_Student.php:377
+#: admin/inc/controllers/WL_IM_Student.php:775 admin/inc/controllers/WL_IM_Student.php:776
+#: admin/inc/controllers/WL_IM_Student.php:905 admin/inc/controllers/WL_IM_Student.php:906
+#: admin/inc/wl_im_enquiries.php:61 admin/inc/wl_im_enquiries.php:121
+#: admin/inc/wl_im_enquiries.php:122 admin/inc/wl_im_students.php:56
+#: public/inc/wl_im_enquiry_form.php:49 public/inc/wl_im_enquiry_form.php:50
+msgid "Email"
+msgstr "ईमेल"
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:197 admin/inc/controllers/WL_IM_Enquiry.php:198
+#: admin/inc/controllers/WL_IM_Student.php:736 admin/inc/wl_im_enquiries.php:125
+#: admin/inc/wl_im_enquiries.php:126 public/inc/wl_im_enquiry_form.php:53
+#: public/inc/wl_im_enquiry_form.php:54
+#, fuzzy
+#| msgid "Info/Message:"
+msgid "Message"
+msgstr "संदेश"
+
+#: admin/inc/controllers/WL_IM_Enquiry.php:323
+#, fuzzy
+#| msgid "Holiday Created Successfully"
+msgid "Enquiry removed successfully."
+msgstr "छुट्टी सफलतापूर्वक बनाया गया"
+
+#: admin/inc/controllers/WL_IM_Fee.php:62 admin/inc/controllers/WL_IM_Fee.php:182
+msgid "Amount must be positive."
+msgstr "राशि सकारात्मक होनी चाहिए ।"
+
+#: admin/inc/controllers/WL_IM_Fee.php:68 admin/inc/controllers/WL_IM_Fee.php:194
+#, fuzzy
+#| msgid "Please select valid height."
+msgid "Please select a valid student."
+msgstr "चुनें"
+
+#: admin/inc/controllers/WL_IM_Fee.php:74
+msgid "Student is not enrolled in any course."
+msgstr "स्टूडेंट किसी भी कोर्स में दाखिला नहीं लेते हैं ।"
+
+#: admin/inc/controllers/WL_IM_Fee.php:78 admin/inc/controllers/WL_IM_Fee.php:198
+msgid "Total amount exceeded payable amount."
+msgstr "कुल राशि देय राशि से अधिक हो गई है ।"
+
+#: admin/inc/controllers/WL_IM_Fee.php:107
+#, fuzzy
+#| msgid "New service added successfully."
+msgid "Installment added successfully."
+msgstr "टाईम आफ हटा दिया गया है।"
+
+#: admin/inc/controllers/WL_IM_Fee.php:144 admin/inc/wl_im_dashboard.php:266
+#: admin/inc/wl_im_fees.php:80
+#, fuzzy
+#| msgid "Former Students"
+msgid "Student"
+msgstr "पुराने विद्यार्थी"
+
+#: admin/inc/controllers/WL_IM_Fee.php:152 admin/inc/controllers/WL_IM_Fee.php:307
+#: admin/inc/controllers/WL_IM_Student.php:326 admin/inc/controllers/WL_IM_Student.php:327
+#: admin/inc/controllers/WL_IM_Student.php:748 admin/inc/controllers/WL_IM_Student.php:749
+#: admin/inc/controllers/WL_IM_Student.php:828 admin/inc/controllers/WL_IM_Student.php:829
+#: admin/inc/controllers/WL_IM_Student.php:834 admin/inc/controllers/WL_IM_Student.php:835
+#: admin/inc/controllers/WL_IM_Student.php:878 admin/inc/controllers/WL_IM_Student.php:879
+#: admin/inc/wl_im_students.php:52
+msgid "Fees Payable"
+msgstr "देय शुल् क"
+
+#: admin/inc/controllers/WL_IM_Fee.php:153 admin/inc/controllers/WL_IM_Fee.php:308
+#: admin/inc/controllers/WL_IM_Student.php:331 admin/inc/controllers/WL_IM_Student.php:753
+#: admin/inc/controllers/WL_IM_Student.php:754 admin/inc/controllers/WL_IM_Student.php:883
+#: admin/inc/controllers/WL_IM_Student.php:884 admin/inc/wl_im_dashboard.php:171
+#: admin/inc/wl_im_students.php:53
+msgid "Fees Paid"
+msgstr "फीस अदा"
+
+#: admin/inc/controllers/WL_IM_Fee.php:154 admin/inc/controllers/WL_IM_Fee.php:309
+#, fuzzy
+#| msgid "Pending Fee"
+msgid "Pending Fees"
+msgstr "लंबित शुल्क"
+
+#: admin/inc/controllers/WL_IM_Fee.php:159 admin/inc/controllers/WL_IM_Fee.php:160
+#: admin/inc/wl_im_fees.php:46 admin/inc/wl_im_fees.php:94 admin/inc/wl_im_fees.php:95
+#, fuzzy
+#| msgid "Country"
+msgid "Amount"
+msgstr "देश"
+
+#: admin/inc/controllers/WL_IM_Fee.php:188 admin/inc/controllers/WL_IM_Fee.php:247
+msgid "Installment not found."
+msgstr "किस्त नहीं मिली ।"
+
+#: admin/inc/controllers/WL_IM_Fee.php:226
+#, fuzzy
+#| msgid "Appointment Updated Successfully"
+msgid "Installment updated successfully."
+msgstr "नियुक्ति सफलतापूर्वक अपडेट"
+
+#: admin/inc/controllers/WL_IM_Fee.php:253
+msgid "Student not found for this installment."
+msgstr "इस किस्त के लिए स्टूडेंट नहीं मिले ।"
+
+#: admin/inc/controllers/WL_IM_Fee.php:279
+#, fuzzy
+#| msgid "Appointment Created Successfully"
+msgid "Installment removed successfully."
+msgstr "नियुक्ति सफलतापूर्वक बनाया गया"
+
+#: admin/inc/controllers/WL_IM_Setting.php:10
+#, fuzzy
+#| msgid "Ask your query"
+msgid "Submit your Enquiry"
+msgstr "आपकी क्वेरी से पूछो"
+
+#: admin/inc/controllers/WL_IM_Student.php:49
+msgid "Completed"
+msgstr "पूरा कर लिया है"
+
+#: admin/inc/controllers/WL_IM_Student.php:58 admin/inc/controllers/WL_IM_Student.php:346
+#, fuzzy
+#| msgid "Pending Fee"
+msgid "Pending"
+msgstr "लंबित शुल्क"
+
+#: admin/inc/controllers/WL_IM_Student.php:60 admin/inc/controllers/WL_IM_Student.php:350
+msgid "Paid"
+msgstr "भुगतान"
+
+#: admin/inc/controllers/WL_IM_Student.php:150
+msgid "Amount paid exceeded payable amount."
+msgstr "देय राशि से अधिक भुगतान की गई राशि ।"
+
+#: admin/inc/controllers/WL_IM_Student.php:163 admin/inc/controllers/WL_IM_Student.php:493
+#, fuzzy
+#| msgid "Please select valid height."
+msgid "Please select a valid batch."
+msgstr "चुनें"
+
+#: admin/inc/controllers/WL_IM_Student.php:174
+#, fuzzy
+#| msgid "Please select valid height."
+msgid "Please select a valid enquiry"
+msgstr "चुनें"
+
+#: admin/inc/controllers/WL_IM_Student.php:177
+#, fuzzy
+#| msgid "Please select valid marital status."
+msgid "Please select valid action to perform after adding student."
+msgstr "24. कृपया अपनी वैवाहिक स्थिति बताएं ।"
+
+#: admin/inc/controllers/WL_IM_Student.php:246
+#, fuzzy
+#| msgid "New service added successfully."
+msgid "Student added successfully."
+msgstr "टाईम आफ हटा दिया गया है।"
+
+#: admin/inc/controllers/WL_IM_Student.php:277 admin/inc/wl_im_fees.php:47
+#: admin/inc/wl_im_students.php:46
+msgid "Enrollment ID"
+msgstr "नामांकन आईडी"
+
+#: admin/inc/controllers/WL_IM_Student.php:302 admin/inc/controllers/WL_IM_Student.php:584
+#: admin/inc/controllers/WL_IM_Student.php:628 admin/inc/wl_im_students.php:48
+msgid "Batch"
+msgstr ""
+
+#: admin/inc/controllers/WL_IM_Student.php:304 admin/inc/controllers/WL_IM_Student.php:586
+#: admin/inc/controllers/WL_IM_Student.php:630
+#, fuzzy
+#| msgid "Select any time."
+msgid "Select a Batch"
+msgstr "कोइ समय चुनें"
+
+#: admin/inc/controllers/WL_IM_Student.php:341 admin/inc/wl_im_students.php:54
+#, fuzzy
+msgid "Fees Status"
+msgstr "अवस्था"
+
+#: admin/inc/controllers/WL_IM_Student.php:362 admin/inc/controllers/WL_IM_Student.php:363
+#: admin/inc/controllers/WL_IM_Student.php:761 admin/inc/controllers/WL_IM_Student.php:762
+#: admin/inc/controllers/WL_IM_Student.php:891 admin/inc/controllers/WL_IM_Student.php:892
+msgid "Address"
+msgstr "पता"
+
+#: admin/inc/controllers/WL_IM_Student.php:367 admin/inc/controllers/WL_IM_Student.php:368
+#: admin/inc/controllers/WL_IM_Student.php:766 admin/inc/controllers/WL_IM_Student.php:767
+#: admin/inc/controllers/WL_IM_Student.php:896 admin/inc/controllers/WL_IM_Student.php:897
+msgid "City"
+msgstr "शहर"
+
+#: admin/inc/controllers/WL_IM_Student.php:371 admin/inc/controllers/WL_IM_Student.php:372
+#: admin/inc/controllers/WL_IM_Student.php:770 admin/inc/controllers/WL_IM_Student.php:771
+#: admin/inc/controllers/WL_IM_Student.php:900 admin/inc/controllers/WL_IM_Student.php:901
+#, fuzzy
+#| msgid "Codes"
+msgid "Zip Code"
+msgstr "कोड"
+
+#: admin/inc/controllers/WL_IM_Student.php:388
+msgid "Mark course as completed?"
+msgstr "मार्क पाठ्यक्रम के रूप में पूरा?"
+
+#: admin/inc/controllers/WL_IM_Student.php:479
+#, fuzzy
+#| msgid "Pending Fee"
+msgid "Pending Fees."
+msgstr "लंबित शुल्क"
+
+#: admin/inc/controllers/WL_IM_Student.php:527
+#, fuzzy
+#| msgid "Service updated successfully."
+msgid "Student updated successfully."
+msgstr "सेवा सफलतापूर्वक नवीनतम कर दी गई है।"
+
+#: admin/inc/controllers/WL_IM_Student.php:558
+#, fuzzy
+#| msgid "Service updated successfully."
+msgid "Student removed successfully."
+msgstr "सेवा सफलतापूर्वक नवीनतम कर दी गई है।"
+
+#: admin/inc/controllers/WL_IM_Student.php:602 admin/inc/controllers/WL_IM_Student.php:651
+#, fuzzy
+#| msgid "Enquiries"
+msgid "Batches not found."
+msgstr "पूछताछ"
+
+#: admin/inc/controllers/WL_IM_Student.php:669
+#, fuzzy
+#| msgid "Enquiries"
+msgid "Enquiry"
+msgstr "पूछताछ"
+
+#: admin/inc/controllers/WL_IM_Student.php:671
+#, fuzzy
+#| msgid "Select any time."
+msgid "Select an Enquiry"
+msgstr "कोइ समय चुनें"
+
+#: admin/inc/controllers/WL_IM_Student.php:687
+#, fuzzy
+#| msgid "Enquiries"
+msgid "Enquiries not found."
+msgstr "पूछताछ"
+
+#: admin/inc/controllers/WL_IM_Student.php:785
+#, fuzzy
+#| msgid "Registered Students"
+msgid "After Adding Student"
+msgstr "पंजीकृत छात्र"
+
+#: admin/inc/controllers/WL_IM_Student.php:788
+msgid "Mark Enquiry As Inactive"
+msgstr "निष्क्रिय के रूप में पूछताछ चिह्नित"
+
+#: admin/inc/controllers/WL_IM_Student.php:791
+#, fuzzy
+#| msgid "Update Holiday"
+msgid "Delete Enquiry"
+msgstr "अद्यतन छुट्टी"
+
+#: admin/inc/wl_im_administrators.php:13
+msgid ""
+"Here, you can either add a new administrator or assign administrative permissions to existing "
+"users."
+msgstr ""
+"यहाँ, आप या तो एक नया व्यवस्थापक जोड़ सकते हैं या मौजूदा उपयोगकर्ताओं के लिए व्यवस्थापकीय अनुमतियाँ असाइन करें."
+
+#: admin/inc/wl_im_administrators.php:27
+#, fuzzy
+#| msgid "Manage 'Aministrator Settings'"
+msgid "Manage Administrators"
+msgstr "व्यवस्थापक सेटिंग प्रबंधित करें"
+
+#: admin/inc/wl_im_administrators.php:30 admin/inc/wl_im_administrators.php:66
+#: admin/inc/wl_im_administrators.php:110
+msgid "Add New Administrator"
+msgstr "नया व्यवस्थापक जोड़ें"
+
+#: admin/inc/wl_im_administrators.php:47 admin/inc/wl_im_batches.php:49
+#: admin/inc/wl_im_courses.php:48
+msgid "Added On"
+msgstr "पर जोड़ा गया"
+
+#: admin/inc/wl_im_administrators.php:48 admin/inc/wl_im_batches.php:51
+#: admin/inc/wl_im_courses.php:50 admin/inc/wl_im_enquiries.php:65 admin/inc/wl_im_fees.php:51
+#: admin/inc/wl_im_students.php:61
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: admin/inc/wl_im_administrators.php:109 admin/inc/wl_im_administrators.php:129
+#: admin/inc/wl_im_batches.php:110 admin/inc/wl_im_batches.php:130
+#: admin/inc/wl_im_courses.php:120 admin/inc/wl_im_courses.php:140
+#: admin/inc/wl_im_enquiries.php:138 admin/inc/wl_im_enquiries.php:158
+#: admin/inc/wl_im_fees.php:101 admin/inc/wl_im_fees.php:121 admin/inc/wl_im_students.php:103
+#: admin/inc/wl_im_students.php:123
+#, fuzzy
+#| msgid "Cancelled"
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: admin/inc/wl_im_administrators.php:122 admin/inc/wl_im_administrators.php:130
+#, fuzzy
+#| msgid "Update Appointment"
+msgid "Update Administrator"
+msgstr "अद्यतन नियुक्ति"
+
+#: admin/inc/wl_im_batches.php:15
+#, fuzzy
+#| msgid "Here, you can either add a new course or edit existing courses."
+msgid "Here, you can either add a new batch or edit existing batches."
+msgstr "यहां, आप या तो एक नए पाठ्यक्रम जोड़ सकते है या मौजूदा पाठ्यक्रमों को संपादित करें ।"
+
+#: admin/inc/wl_im_batches.php:29
+#, fuzzy
+#| msgid "Manage Service"
+msgid "Manage Batches"
+msgstr "सेवा प्रबंधन"
+
+#: admin/inc/wl_im_batches.php:32 admin/inc/wl_im_batches.php:69 admin/inc/wl_im_batches.php:111
+#, fuzzy
+#| msgid "Add Branch"
+msgid "Add New Batch"
+msgstr "शाखा"
+
+#: admin/inc/wl_im_batches.php:48 admin/inc/wl_im_courses.php:47 admin/inc/wl_im_enquiries.php:62
+#: admin/inc/wl_im_students.php:57
+#, fuzzy
+#| msgid "Is Active?"
+msgid "Is Active"
+msgstr "सक्रिय है?"
+
+#: admin/inc/wl_im_batches.php:50 admin/inc/wl_im_courses.php:49 admin/inc/wl_im_enquiries.php:63
+#: admin/inc/wl_im_fees.php:50 admin/inc/wl_im_students.php:58
+msgid "Added By"
+msgstr "से जोड़ा"
+
+#: admin/inc/wl_im_batches.php:123 admin/inc/wl_im_batches.php:131
+#, fuzzy
+#| msgid "Add Branch"
+msgid "Update Batch"
+msgstr "शाखा"
+
+#: admin/inc/wl_im_courses.php:13
+msgid "Here, you can either add a new course or edit existing courses."
+msgstr "यहां, आप या तो एक नए पाठ्यक्रम जोड़ सकते है या मौजूदा पाठ्यक्रमों को संपादित करें ।"
+
+#: admin/inc/wl_im_courses.php:27
+#, fuzzy
+#| msgid "Total Courses"
+msgid "Manage Courses"
+msgstr "कुल पाठ्यक्रम"
+
+#: admin/inc/wl_im_courses.php:30 admin/inc/wl_im_courses.php:68 admin/inc/wl_im_courses.php:121
+#, fuzzy
+#| msgid "Add New Appointment"
+msgid "Add New Course"
+msgstr "नई नियुक्ति जोड़ें"
+
+#: admin/inc/wl_im_courses.php:133 admin/inc/wl_im_courses.php:141
+#, fuzzy
+#| msgid "Update Now"
+msgid "Update Course"
+msgstr "अपडेट करे"
+
+#: admin/inc/wl_im_dashboard.php:15
+#, fuzzy
+#| msgid "Institute Management"
+msgid "Institute Management Pro"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/inc/wl_im_dashboard.php:19
+#, fuzzy
+#| msgid "Institute Management"
+msgid "Institute Management Pro Features"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/inc/wl_im_dashboard.php:21
+#, fuzzy
+#| msgid "Customer Name:"
+msgid "Course Management"
+msgstr "ग्राहक का नाम"
+
+#: admin/inc/wl_im_dashboard.php:22
+#, fuzzy
+#| msgid "Staff Member"
+msgid "Batch Management"
+msgstr "कर्मचारी"
+
+#: admin/inc/wl_im_dashboard.php:23
+#, fuzzy
+#| msgid "Institute Management"
+msgid "Enquiry Management"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/inc/wl_im_dashboard.php:24
+#, fuzzy
+#| msgid "Institute Management"
+msgid "Student Management"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/inc/wl_im_dashboard.php:25
+#, fuzzy
+#| msgid "Institute Management"
+msgid "Fee Management"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/inc/wl_im_dashboard.php:26
+#, fuzzy
+#| msgid "Staff Member"
+msgid "Exam Results Management"
+msgstr "कर्मचारी"
+
+#: admin/inc/wl_im_dashboard.php:27
+#, fuzzy
+#| msgid "Staff Member"
+msgid "Staff Management"
+msgstr "कर्मचारी"
+
+#: admin/inc/wl_im_dashboard.php:28
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Admin Dashboard"
+msgstr "डैशबोर्ड"
+
+#: admin/inc/wl_im_dashboard.php:29
+#, fuzzy
+#| msgid "Dashboard"
+msgid "Student Dashboard"
+msgstr "डैशबोर्ड"
+
+#: admin/inc/wl_im_dashboard.php:30
+msgid "Access Control"
+msgstr "अभिगम नियंत्रण"
+
+#: admin/inc/wl_im_dashboard.php:31
+#, fuzzy
+#| msgid "Overall Report"
+msgid "Generate and Print Reports"
+msgstr "संपूर्ण रिपोर्ट"
+
+#: admin/inc/wl_im_dashboard.php:32
+#, fuzzy
+#| msgid "Export records to Excel"
+msgid "Export records to Excel or PDF"
+msgstr "Excel में रिकॉर्ड्स निर्यात करें"
+
+#: admin/inc/wl_im_dashboard.php:33
+msgid "Search and Filter Records"
+msgstr "रिकॉर्ड्स खोजें और फ़िल्टर करें"
+
+#: admin/inc/wl_im_dashboard.php:34
+#, fuzzy
+#| msgid "Institute Management"
+msgid "Institute Settings"
+msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#: admin/inc/wl_im_dashboard.php:35
+msgid "Print Fee Receipt, Report, ID Card, Admission Detail and Completion Certificate"
+msgstr "प्रिंट शुल्क रसीद, रिपोर्ट, आईडी कार्ड, प्रवेश विवरण और पूर्णता प्रमाण पत्र"
+
+#: admin/inc/wl_im_dashboard.php:36
+msgid "Institute Noticeboard Widget"
+msgstr "सूचनापट"
+
+#: admin/inc/wl_im_dashboard.php:37
+#, fuzzy
+#| msgid "Notification Settings"
+msgid "Send Notifications to Students"
+msgstr "अधिसूचना सेटिंग"
+
+#: admin/inc/wl_im_dashboard.php:38
+msgid "Pay Fees with PayPal, Razorpay Payment Methods"
+msgstr ""
+
+#: admin/inc/wl_im_dashboard.php:41
+#, fuzzy
+#| msgid "View"
+msgid "View Demo"
+msgstr "देखें"
+
+#: admin/inc/wl_im_dashboard.php:42
+#, fuzzy
+#| msgid "Book Now"
+msgid "Buy Now"
+msgstr "अब नियुक्ति करें"
+
+#: admin/inc/wl_im_dashboard.php:45
+msgid "Version"
+msgstr "संस्करण"
+
+#: admin/inc/wl_im_dashboard.php:55
+msgid "Here, you can view statistics and reports."
+msgstr "यहां, आप आंकड़े और रिपोर्ट देख सकते हैं ।"
+
+#: admin/inc/wl_im_dashboard.php:69
+msgid "View Statistics and Reports"
+msgstr "आंकड़े और रिपोर्ट देखें"
+
+#: admin/inc/wl_im_dashboard.php:87
+msgid "Total Courses"
+msgstr "कुल पाठ्यक्रम"
+
+#: admin/inc/wl_im_dashboard.php:91
+msgid "Active Courses"
+msgstr "सक्रिय पाठ्यक्रम"
+
+#: admin/inc/wl_im_dashboard.php:107
+#, fuzzy
+#| msgid "Total Branches"
+msgid "Total Batches"
+msgstr "कुल शाखाएं"
+
+#: admin/inc/wl_im_dashboard.php:111
+#, fuzzy
+#| msgid "Active Branches"
+msgid "Active Batches"
+msgstr "सक्रिय शाखाएं"
+
+#: admin/inc/wl_im_dashboard.php:127
+msgid "Total Enquiries"
+msgstr "कुल पूछताछ"
+
+#: admin/inc/wl_im_dashboard.php:131
+#, fuzzy
+#| msgid "Active Courses"
+msgid "Active Enquiries"
+msgstr "सक्रिय पाठ्यक्रम"
+
+#: admin/inc/wl_im_dashboard.php:143
+#, fuzzy
+#| msgid "Install Now"
+msgid "Installments"
+msgstr "इनस्टॉल करे"
+
+#: admin/inc/wl_im_dashboard.php:147
+#, fuzzy
+#| msgid "Total Appointments"
+msgid "Total Installments"
+msgstr "कुल नियुक्तियाँ"
+
+#: admin/inc/wl_im_dashboard.php:151
+msgid "Revenue"
+msgstr "राजस्व"
+
+#: admin/inc/wl_im_dashboard.php:167
+#, fuzzy
+#| msgid "Pending Fee"
+msgid "Fees Pending"
+msgstr "लंबित शुल्क"
+
+#: admin/inc/wl_im_dashboard.php:187
+#, fuzzy
+#| msgid "Former Students"
+msgid "Total Students"
+msgstr "पुराने विद्यार्थी"
+
+#: admin/inc/wl_im_dashboard.php:191
+#, fuzzy
+#| msgid "Former Students"
+msgid "Current Students"
+msgstr "पुराने विद्यार्थी"
+
+#: admin/inc/wl_im_dashboard.php:195
+msgid "Former Students"
+msgstr "पुराने विद्यार्थी"
+
+#: admin/inc/wl_im_dashboard.php:199
+msgid "Students Discontinued"
+msgstr ""
+
+#: admin/inc/wl_im_dashboard.php:213
+#, fuzzy
+#| msgid "Active Courses"
+msgid "Recent Enquiries"
+msgstr "सक्रिय पाठ्यक्रम"
+
+#: admin/inc/wl_im_dashboard.php:238
+#, fuzzy
+#| msgid "here is solution"
+msgid "There is no enquiry."
+msgstr "यहाँ समाधान है"
+
+#: admin/inc/wl_im_dashboard.php:248
+#, fuzzy
+#| msgid "Total Courses"
+msgid "Popular Courses"
+msgstr "कुल पाठ्यक्रम"
+
+#: admin/inc/wl_im_dashboard.php:279
+msgid "There is no popular course."
+msgstr "कोई लोकप्रिय पाठ्यक्रम नहीं है ।"
+
+#: admin/inc/wl_im_enquiries.php:15
+msgid "Here, you can either add a new enquiry or edit existing enquiries."
+msgstr "यहां, आप या तो कोई नई पूछताछ जोड़ सकते है या मौजूदा पूछताछ को संपादित कर सकता है ।"
+
+#: admin/inc/wl_im_enquiries.php:18
+msgid "To Display Enquiry Form on Front End, Copy and Paste Shortcode"
+msgstr "फ्रंट एंड पर पूछताछ फॉर्म प्रदर्शित करने के लिए, शोर्ट कॉपी और पेस्ट करें"
+
+#: admin/inc/wl_im_enquiries.php:40
+#, fuzzy
+#| msgid "Enquiries"
+msgid "Manage Enquiries"
+msgstr "पूछताछ"
+
+#: admin/inc/wl_im_enquiries.php:43 admin/inc/wl_im_enquiries.php:83
+#: admin/inc/wl_im_enquiries.php:139
+#, fuzzy
+#| msgid "Update Holiday"
+msgid "Add New Enquiry"
+msgstr "अद्यतन छुट्टी"
+
+#: admin/inc/wl_im_enquiries.php:64 admin/inc/wl_im_fees.php:49
+msgid "Date"
+msgstr "दिनांक"
+
+#: admin/inc/wl_im_enquiries.php:151 admin/inc/wl_im_enquiries.php:159
+#, fuzzy
+#| msgid "Update Holiday"
+msgid "Update Enquiry"
+msgstr "अद्यतन छुट्टी"
+
+#: admin/inc/wl_im_fees.php:15
+msgid "Here, you can find installments or add a new installment."
+msgstr "यहां, आप किश्तों मिल या एक नई किस्त जोड़ सकते हैं ।"
+
+#: admin/inc/wl_im_fees.php:29
+#, fuzzy
+#| msgid "Manage Service"
+msgid "Manage Fees"
+msgstr "सेवा प्रबंधन"
+
+#: admin/inc/wl_im_fees.php:32 admin/inc/wl_im_fees.php:69 admin/inc/wl_im_fees.php:102
+#, fuzzy
+#| msgid " New Appointment"
+msgid "Add New Installment"
+msgstr "नव नियुक्ति"
+
+#: admin/inc/wl_im_fees.php:45
+msgid "Receipt"
+msgstr "रसीद"
+
+#: admin/inc/wl_im_fees.php:48
+#, fuzzy
+#| msgid "Client Name"
+msgid "Student Name"
+msgstr "ग्राहक नाम"
+
+#: admin/inc/wl_im_fees.php:82
+#, fuzzy
+#| msgid "Select any time."
+msgid "Select a Student"
+msgstr "कोइ समय चुनें"
+
+#: admin/inc/wl_im_fees.php:114 admin/inc/wl_im_fees.php:122
+#, fuzzy
+#| msgid "Update Appointment"
+msgid "Update Installment"
+msgstr "अद्यतन नियुक्ति"
+
+#: admin/inc/wl_im_settings.php:12
+msgid "Here, you can view and modify settings."
+msgstr "यहां, आप सेटिंग्स को देख और संशोधित कर सकते हैं ।"
+
+#: admin/inc/wl_im_settings.php:43
+msgid "Enable Enquiry Form Title"
+msgstr "पूछताछ प्रपत्र शीर्षक सक्षम करें"
+
+#: admin/inc/wl_im_settings.php:49 admin/inc/wl_im_settings.php:51
+msgid "Enquiry Form Title"
+msgstr "ऑनलाइन एडमिशन फॉर्म"
+
+#: admin/inc/wl_im_settings.php:54
+msgid "Save"
+msgstr "सेव करें"
+
+#: admin/inc/wl_im_students.php:16
+msgid "Here, you can either add a new student or edit existing students."
+msgstr "यहां, आप या तो एक नया छात्र जोड़ सकते है या मौजूदा छात्रों को संपादित करें ।"
+
+#: admin/inc/wl_im_students.php:30
+#, fuzzy
+#| msgid "Manage Settings"
+msgid "Manage Students"
+msgstr "सेटिंग्स प्रबंधन"
+
+#: admin/inc/wl_im_students.php:33 admin/inc/wl_im_students.php:79
+#: admin/inc/wl_im_students.php:104
+#, fuzzy
+#| msgid "Add New Appointment"
+msgid "Add New Student"
+msgstr "नई नियुक्ति जोड़ें"
+
+#: admin/inc/wl_im_students.php:59
+#, fuzzy
+#| msgid "Registrations"
+msgid "Registration Date"
+msgstr "रजिस्ट्रेशनां"
+
+#: admin/inc/wl_im_students.php:60
+#, fuzzy
+#| msgid "Complete"
+msgid "Completion Date"
+msgstr "पूर्ण"
+
+#: admin/inc/wl_im_students.php:92
+msgid "From Enquiry?"
+msgstr "पूछताछ से?"
+
+#: admin/inc/wl_im_students.php:116 admin/inc/wl_im_students.php:124
+#, fuzzy
+#| msgid "Update Appointment"
+msgid "Update Student"
+msgstr "अद्यतन नियुक्ति"
+
+#: institute-management.php:27
+msgid "Try Pro"
+msgstr "प्रो कोशिश"
+
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:39
+#, fuzzy
+#| msgid "Please provide first name."
+msgid "Please provide phone number."
+msgstr "प्रथम नाम"
+
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:57
+#, fuzzy
+#| msgid "Please select valid height."
+msgid "Please select a valid course"
+msgstr "चुनें"
+
+#: public/inc/controllers/WL_IM_Enquiry_Front.php:80
+msgid "Your enquiry has been received. Thank you."
+msgstr "आपकी पूछताछ प्राप्त हुई है । धन्यवाद."
+
+#: public/inc/wl_im_enquiry_form.php:57
+msgid "Submit!"
+msgstr "जमा करें!"
+
+#, fuzzy
+#~| msgid "Service updated successfully."
+#~ msgid "Batch updated successfully."
+#~ msgstr "सेवा सफलतापूर्वक नवीनतम कर दी गई है।"
+
+#, fuzzy
+#~| msgid "Active Courses"
+#~ msgid "Active Students"
+#~ msgstr "सक्रिय पाठ्यक्रम"
+
+#~ msgid "Please specify city."
+#~ msgstr "शहर"
+
+#~ msgid "Please specify state."
+#~ msgstr "अन्य, कृपया निर्दिष्ट करें)"
+
+#~ msgid "Please specify country."
+#~ msgstr "देश"
+
+#~ msgid "Please select either Groom or Bride."
+#~ msgstr "या तो दूल्हे या दुल्हन का चयन करें ।"
+
+#, fuzzy
+#~| msgid "Invalid Date"
+#~ msgid "Invalid date."
+#~ msgstr "अमान्य दिनांक"
+
+#~ msgid "Not a recognised date."
+#~ msgstr "यह वैध तिथि नहीं है."
+
+#, fuzzy
+#~| msgid "Is Active?"
+#~ msgid "Active"
+#~ msgstr "सक्रिय है?"
+
+#~ msgid "Inactive"
+#~ msgstr "असक्रिय"
+
+#, fuzzy
+#~| msgid "Booking Done"
+#~ msgid "Looking For"
+#~ msgstr "नियुक्त हो चुकी"
+
+#~ msgid "Bride"
+#~ msgstr "दुल्हन"
+
+#~ msgid "Groom"
+#~ msgstr "दुल्हा"
+
+#, fuzzy
+#~| msgid "First Name"
+#~ msgid "Father's Name"
+#~ msgstr "प्रथम नाम"
+
+#, fuzzy
+#~| msgid "Enter User Name"
+#~ msgid "Mother's Name"
+#~ msgstr "उपयोगकर्ता नाम"
+
+#, fuzzy
+#~| msgid "Notification"
+#~ msgid "Qualification"
+#~ msgstr "अधिसूचना"
+
+#, fuzzy
+#~| msgid "Duration"
+#~ msgid "Occupation"
+#~ msgstr "अवधि"
+
+#, fuzzy
+#~| msgid "Zipcode"
+#~ msgid "Zip"
+#~ msgstr "डाक संख्या"
+
+#, fuzzy
+#~| msgid "Date Format"
+#~ msgid "Date of Birth"
+#~ msgstr "डेट प्रारूप"
+
+#~ msgid "DOB in yyyy-mm-dd"
+#~ msgstr "\"तरीक  YYYY-MM-DD फार्मैट च प्रविश्ट करो.\""
+
+#, fuzzy
+#~| msgid "Phone Number:"
+#~ msgid "Phone Number"
+#~ msgstr "फ़ोन नंबर"
+
+#~ msgid "Religion"
+#~ msgstr "धर्म"
+
+#, fuzzy
+#~| msgid "Payment Status"
+#~ msgid "Marital Status"
+#~ msgstr "भुगतान की स्थिति"
+
+#~ msgid "Never Married"
+#~ msgstr "1 = कभी विवाह नहीं किया"
+
+#~ msgid "Married"
+#~ msgstr "विवाहित"
+
+#~ msgid "Awaiting Divorce"
+#~ msgstr "प्रतीक्षारत"
+
+#~ msgid "Divorced"
+#~ msgstr "तलाकशुदा"
+
+#~ msgid "Widowed"
+#~ msgstr "विधवा"
+
+#~ msgid "Annulled"
+#~ msgstr "रद्द"
+
+#~ msgid "Height"
+#~ msgstr "ऊँचाई"
+
+#~ msgid "Select Height"
+#~ msgstr "चुनें"
+
+#, fuzzy
+#~| msgid "State."
+#~ msgid "State"
+#~ msgstr "राज्य"
+
+#~ msgid "Welcome to Match Profile Plugin"
+#~ msgstr "प्रोफ़ाइल मिलाएं"
+
+#, fuzzy
+#~| msgid "Match Profile"
+#~ msgid "Marriage Profiles"
+#~ msgstr "प्रोफ़ाइल मिलाएं"
+
+#~ msgid "Status"
+#~ msgstr "अवस्था"
+
+#~ msgid "Close"
+#~ msgstr "बंद"
+
+#, fuzzy
+#~| msgid "Save Changes"
+#~ msgid "Save changes"
+#~ msgstr "परिवर्तनों को सुरक्षित करें"
+
+#, fuzzy
+#~| msgid "Match Profile"
+#~ msgid "Marriage Profile Form"
+#~ msgstr "प्रोफ़ाइल मिलाएं"
+
+#~ msgid "Send"
+#~ msgstr "भेजें"
+
+#~ msgid "INSTITUTE MANAGEMENT"
+#~ msgstr "इंस्टीट्यूट मैनेजमेंट"
+
+#~ msgid "Counsellors"
+#~ msgstr "सलाहकार"
+
+#~ msgid "Batch Timings"
+#~ msgstr "बैच समय"
+
+#~ msgid "Total Counsellors"
+#~ msgstr "कुल काउंसलिंग"
+
+#~ msgid "Active Counsellors"
+#~ msgstr "सक्रिय काउंसलिंग"
+
+#~ msgid "Total Batch Timings"
+#~ msgstr "कुल बैच समय"
+
+#~ msgid "Active Batch Timings"
+#~ msgstr "सक्रिय बैच समय"
+
+#~ msgid "Total Registrations"
+#~ msgstr "कुल पंजीकरण"
+
+#~ msgid "Total Pending Fee"
+#~ msgstr "कुल लंबित शुल्क"
+
+#~ msgid "Certificates Issued"
+#~ msgstr "प्रमाण पत्र जारी"
+
+#~ msgid "Total Certificates Issued"
+#~ msgstr "कुल प्रमाण पत्र जारी किए गए"
+
+#~ msgid "Date Added"
+#~ msgstr "दिनांक"
+
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#~ msgid "Contact No."
+#~ msgstr "फ़ोन नंबर"
+
+#~ msgid "Select"
+#~ msgstr "चुनें"
+
+#, fuzzy
+#~ msgid "Enter name"
+#~ msgstr "नाम"
+
+#, fuzzy
+#~ msgid "Contact"
+#~ msgstr "फ़ोन नंबर"
+
+#, fuzzy
+#~ msgid "Enter contact number"
+#~ msgstr "फ़ोन नंबर"
+
+#, fuzzy
+#~| msgid "Contact No."
+#~ msgid "Contact Number"
+#~ msgstr "फ़ोन नंबर"
+
+#, fuzzy
+#~| msgid "Enter host name"
+#~ msgid "Enter branch name"
+#~ msgstr "मेजबान का नाम दर्ज करें"
+
+#, fuzzy
+#~| msgid "Enter host name"
+#~ msgid "Enter course name"
+#~ msgstr "मेजबान का नाम दर्ज करें"
+
+#, fuzzy
+#~| msgid "Enter host name"
+#~ msgid "Enter counsellor name"
+#~ msgstr "मेजबान का नाम दर्ज करें"
+
+#, fuzzy
+#~| msgid "Active Counsellors"
+#~ msgid "Update Counsellor"
+#~ msgstr "सक्रिय काउंसलिंग"
+
+#, fuzzy
+#~| msgid "Updating"
+#~ msgid "Update Timing"
+#~ msgstr "अद्यतन कर रहा है"
+
+#~ msgid "Saving"
+#~ msgstr " सुरक्षित हो रहा है"
+
+#~ msgid "Appearance Saved Successfully"
+#~ msgstr "दिखावट को सहेजा गया"
+
+#~ msgid "Custom Css Saved"
+#~ msgstr "कस्टम सीएसएस को सहेजा गया"
+
+#~ msgid "Appearance"
+#~ msgstr "दिखावट"
+
+#~ msgid " General Setting"
+#~ msgstr "सामान्य सेटिंग"
+
+#~ msgid " Service"
+#~ msgstr "सेवाएं"
+
+#~ msgid " Time"
+#~ msgstr "समय"
+
+#~ msgid " Details"
+#~ msgstr "विवरण"
+
+#~ msgid " Confirm"
+#~ msgstr "पुष्टि करें"
+
+#~ msgid " Done"
+#~ msgstr "नियुक्त हो चुकी"
+
+#~ msgid "Custom Css"
+#~ msgstr "कस्टम सीएसएस"
+
+#~ msgid "General Setting"
+#~ msgstr "सामान्य सेटिंग"
+
+#~ msgid "Select color:"
+#~ msgstr "रंग चुनो"
+
+#~ msgid "Show form progress tracker:"
+#~ msgstr "दिखाएँ प्रपत्र प्रगति पर नजर रखने वाली"
+
+#~ msgid "Show logo:"
+#~ msgstr "दिखाएँ प्रतीक चिन्ह"
+
+#~ msgid "Upload logo:"
+#~ msgstr "अपलोड प्रतीक चिन्ह"
+
+#~ msgid "No media selected!"
+#~ msgstr "कोई मीडिया चयनित नहीं"
+
+#~ msgid "Upload logo"
+#~ msgstr "अपलोड प्रतीक चिन्ह"
+
+#~ msgid "Logo width"
+#~ msgstr "चौड़ाई प्रतीक चिन्ह"
+
+#~ msgid "Logo height"
+#~ msgstr "ऊंचाई प्रतीक चिन्ह"
+
+#~ msgid "Show Phone Number:"
+#~ msgstr "फ़ोन नंबर दिखाना "
+
+#~ msgid "Select Icon"
+#~ msgstr "चिह्न चुनो"
+
+#~ msgid "Show Email Address:"
+#~ msgstr "दिखाएँ ईमेल"
+
+#~ msgid " Email Address:"
+#~ msgstr "ईमेल"
+
+#~ msgid "Social Link:"
+#~ msgstr "यहाँ सामाजिक लिंक दर्ज करें।"
+
+#~ msgid "Social Link 1"
+#~ msgstr "सामाजिक लिंक 1"
+
+#~ msgid "Social Link 2"
+#~ msgstr "सामाजिक लिंक 2"
+
+#~ msgid "Social Link 3"
+#~ msgstr "सामाजिक लिंक 3"
+
+#~ msgid "Social Link 4"
+#~ msgstr "सामाजिक लिंक 4"
+
+#~ msgid "Social Link 5"
+#~ msgstr "सामाजिक लिंक 5"
+
+#~ msgid "Service"
+#~ msgstr "सेवाएं"
+
+#~ msgid "Tips:"
+#~ msgstr "सुझाव "
+
+#~ msgid "Navigation Button Text :"
+#~ msgstr "पथ प्रदर्शन टेक्स्ट"
+
+#~ msgid "Time"
+#~ msgstr "समय"
+
+#~ msgid "Forward Navigation Button Text :"
+#~ msgstr "आगे पथ प्रदर्शन टेक्स्ट"
+
+#~ msgid "Details"
+#~ msgstr "विवरण"
+
+#~ msgid "Backward Navigation Button Text :"
+#~ msgstr "वापस पथ प्रदर्शन टेक्स्ट"
+
+#~ msgid "Confirm"
+#~ msgstr "पुष्टि करें"
+
+#~ msgid "Done"
+#~ msgstr "नियुक्त हो चुकी"
+
+#~ msgid "Custom Css Editor"
+#~ msgstr "कस्टम सीएसएस परिवर्तन"
+
+#~ msgid "Service Name:"
+#~ msgstr ""
+#~ "सर्विस \n"
+#~ "नाम"
+
+#~ msgid "-- Select a service --"
+#~ msgstr "सेवा का चयन करें"
+
+#~ msgid "Date:"
+#~ msgstr "तिथि"
+
+#~ msgid "This field is required"
+#~ msgstr "यह फ़ील्ड आवश्यक है"
+
+#~ msgid "Start Period:"
+#~ msgstr "अवधि शुरू"
+
+#~ msgid "End Period:"
+#~ msgstr "अंत अवधि"
+
+#~ msgid "Customer:"
+#~ msgstr "ग्राहक"
+
+#~ msgid "--- Select Customer ---"
+#~ msgstr "ग्राहक का चयन"
+
+#~ msgid "Contact No.:"
+#~ msgstr "फ़ोन नंबर"
+
+#~ msgid "This field is required number"
+#~ msgstr "यह फ़ील्ड आवश्यक है"
+
+#~ msgid "Status:"
+#~ msgstr "अवस्था"
+
+#~ msgid "Approved"
+#~ msgstr "स्वीकृत"
+
+#~ msgid "Payment Status:"
+#~ msgstr "भुगतान की स्थिति"
+
+#~ msgid "Print"
+#~ msgstr "छाप"
+
+#~ msgid "No Customer Add"
+#~ msgstr "कोई ग्राहक नहीं "
+
+#~ msgid "Please Confirm"
+#~ msgstr "कृपया पुष्टि करें"
+
+#~ msgid "Are you sure to Delete Appointment"
+#~ msgstr "क्या आप अपॉइंटमेंट को हटाना चाहते हैं?"
+
+#~ msgid "Delete"
+#~ msgstr "हटायें"
+
+#~ msgid "Appointment Delete Successfully"
+#~ msgstr "नियुक्ति सफलतापूर्वक हटाए गए"
+
+#~ msgid "Deleting"
+#~ msgstr "हटाया जा रहा है"
+
+#~ msgid "Please Cinfirm"
+#~ msgstr "कृपया पुष्टि करें"
+
+#~ msgid "Status Updated. Do you want to Send Mail?"
+#~ msgstr "स्थिति अपडेट की गई क्या आप मेल भेजना चाहते हैं ??"
+
+#~ msgid "Mail Sent Successfully"
+#~ msgstr "संदेश सफलतापूर्वक भेजा गया."
+
+#~ msgid "Status Updated Successfully"
+#~ msgstr "स्थिति सफलतापूर्वक अपडेट"
+
+#~ msgid "Appointments"
+#~ msgstr "नियुक्तियाँ"
+
+#~ msgid "Print All"
+#~ msgstr "सभी प्रिंट"
+
+#~ msgid "New Appointment"
+#~ msgstr "नव नियुक्ति"
+
+#~ msgid "Start Time:"
+#~ msgstr "प्रारम्भ होन का समय:"
+
+#~ msgid "End Time:"
+#~ msgstr "समाप्त होन का समय:"
+
+#~ msgid "Edit Appointment"
+#~ msgstr "संपादित नियुक्ति"
+
+#~ msgid "Booking Id"
+#~ msgstr "बुकिंग आईडी"
+
+#~ msgid "Appoinment Date"
+#~ msgstr "मिलने की तारीख"
+
+#~ msgid " Delete"
+#~ msgstr "मिटाना"
+
+#~ msgid "Appointment Booked Successfully"
+#~ msgstr "नियुक्ति सफलतापूर्वक बनाया गया"
+
+#~ msgid "Calendar"
+#~ msgstr "कैलेंडर"
+
+#~ msgid "Time Off"
+#~ msgstr "टाईम आफ"
+
+#~ msgid "Customer"
+#~ msgstr "ग्राहक"
+
+#~ msgid "All"
+#~ msgstr "सभी"
+
+#~ msgid "Book an Appointment"
+#~ msgstr "बुक एक नियुक्ति"
+
+#~ msgid "Select Service"
+#~ msgstr "सेवा का चयन करें"
+
+#~ msgid "Select Start Time"
+#~ msgstr "प्रारम्भ समय चुनें"
+
+#~ msgid "Select End Time"
+#~ msgstr "अंत समय चुनें"
+
+#~ msgid "Appointment Status"
+#~ msgstr "नियुक्ति स्थिति"
+
+#~ msgid "Repeat:"
+#~ msgstr "दोहराना"
+
+#~ msgid "Repeat Feature available in Pro Version"
+#~ msgstr "दोहराएँ फ़ीचर प्रो संस्करण में उपलब्ध"
+
+#~ msgid "January"
+#~ msgstr "जनवरी"
+
+#~ msgid "February"
+#~ msgstr "फरवरी"
+
+#~ msgid "March"
+#~ msgstr "मार्च"
+
+#~ msgid "April"
+#~ msgstr "अप्रैल"
+
+#~ msgid "May"
+#~ msgstr "मई"
+
+#~ msgid "June"
+#~ msgstr "जून"
+
+#~ msgid "July"
+#~ msgstr "जुलाई"
+
+#~ msgid "August"
+#~ msgstr "अगस्त"
+
+#~ msgid "September"
+#~ msgstr "सितंबर"
+
+#~ msgid "October"
+#~ msgstr "अक्टूबर"
+
+#~ msgid "November"
+#~ msgstr "नवंबर"
+
+#~ msgid "December"
+#~ msgstr "दिसम्बर"
+
+#~ msgid "Jan"
+#~ msgstr "जनवरी"
+
+#~ msgid "Mar"
+#~ msgstr "मार्च"
+
+#~ msgid "Apr"
+#~ msgstr "अप्रैल"
+
+#~ msgid "Jun"
+#~ msgstr "जून"
+
+#~ msgid "Jul"
+#~ msgstr "जुलाई"
+
+#~ msgid "Aug"
+#~ msgstr "अगस्त"
+
+#~ msgid "Sept"
+#~ msgstr "सितंबर"
+
+#~ msgid "Oct"
+#~ msgstr "अक्टूबर"
+
+#~ msgid "nov"
+#~ msgstr "नवंबर"
+
+#~ msgid "Dec"
+#~ msgstr "दिसम्बर"
+
+#~ msgid "Sunday"
+#~ msgstr "रविवार"
+
+#~ msgid "Monday"
+#~ msgstr "सोमवार"
+
+#~ msgid "Tuesday"
+#~ msgstr "मंगलवार"
+
+#~ msgid "Wednesday"
+#~ msgstr "बुधवार"
+
+#~ msgid "Thursday"
+#~ msgstr "गुरुवार"
+
+#~ msgid "Friday"
+#~ msgstr "शुक्रवार"
+
+#~ msgid "Saturday"
+#~ msgstr "शनिवार"
+
+#~ msgid "Sun"
+#~ msgstr "रविवार"
+
+#~ msgid "Mon"
+#~ msgstr "सोमवार"
+
+#~ msgid "Tue"
+#~ msgstr "मंगलवार"
+
+#~ msgid "Wed"
+#~ msgstr "बुधवार"
+
+#~ msgid "Thus"
+#~ msgstr "गुरुवार"
+
+#~ msgid "Fri"
+#~ msgstr "शुक्रवार"
+
+#~ msgid "Sat"
+#~ msgstr "शनिवार"
+
+#~ msgid "Today"
+#~ msgstr "आज "
+
+#~ msgid "Day"
+#~ msgstr "दिन"
+
+#~ msgid "Week"
+#~ msgstr "साप्ताहिक"
+
+#~ msgid "Month"
+#~ msgstr "मासिक"
+
+#~ msgid "Select Staff"
+#~ msgstr "कर्मचारी चयन करें"
+
+#~ msgid "Customer First Name:"
+#~ msgstr "ग्राहक का पहला नाम"
+
+#~ msgid "User Name:"
+#~ msgstr "उपयोगकर्ता नाम"
+
+#~ msgid "Password:"
+#~ msgstr "पासवर्ड"
+
+#~ msgid "Phone No:"
+#~ msgstr "फ़ोन नंबर"
+
+#~ msgid "Invalid email"
+#~ msgstr "अमान्य ईमेल"
+
+#~ msgid "Skype Id:"
+#~ msgstr "स्काइप आईडी"
+
+#~ msgid "Special Notes"
+#~ msgstr "विशेष नोट"
+
+#~ msgid "Customer Update Successfully"
+#~ msgstr "ग्राहक अद्यतन सफलतापूर्वक"
+
+#~ msgid "Are you sure to Delete Customer?"
+#~ msgstr "क्या आप ग्राहक को हटाना चाहते हैं?"
+
+#~ msgid "Customer Delete Successfully"
+#~ msgstr "ग्राहक सफलतापूर्वक मिटाएं"
+
+#~ msgid " Add Customer"
+#~ msgstr "ग्राहक जोडें"
+
+#~ msgid "Customer Last Name:"
+#~ msgstr "ग्राहक का अंतिम नाम"
+
+#~ msgid "Edit Customer"
+#~ msgstr "संपादित ग्राहक"
+
+#~ msgid "Skype Id"
+#~ msgstr "स्काइप आईडी"
+
+#~ msgid "Notes"
+#~ msgstr "विशेष नोट"
+
+#~ msgid "Appointment Reports"
+#~ msgstr "नियुक्ति स्थिति"
+
+#~ msgid "Approved Report"
+#~ msgstr "नियुक्ति की रिपोर्ट"
+
+#~ msgid "Pending Report"
+#~ msgstr "लंबित रिपोर्ट"
+
+#~ msgid "Cancel Report"
+#~ msgstr "रद्द करें"
+
+#~ msgid "Customers"
+#~ msgstr "ग्राहक"
+
+#~ msgid "Services"
+#~ msgstr "सेवाएं"
+
+#~ msgid "Data Inserted Successfully"
+#~ msgstr "डेटा सफलतापूर्वक सेव ।"
+
+#~ msgid "Save Notification Checkbox"
+#~ msgstr "विकल्प सेव करें"
+
+#~ msgid "Select Email Type"
+#~ msgstr "ईमेल प्रकार चयन "
+
+#~ msgid "Enter Wp Email"
+#~ msgstr "रिसीवर के ईमेल दर्ज"
+
+#~ msgid "Enter Php Email"
+#~ msgstr "रिसीवर के ईमेल दर्ज"
+
+#~ msgid "Enter SMTP Fields"
+#~ msgstr "SMTP मेल भरें"
+
+#~ msgid "Enable Email Checkbox"
+#~ msgstr "ईमेल चेकबॉक्स सक्षम"
+
+#~ msgid " Enter Php Email"
+#~ msgstr "रिसीवर के ईमेल दर्ज"
+
+#~ msgid " Enter SMTP Fields"
+#~ msgstr "SMTP मेल भरें"
+
+#~ msgid " Enable Email Checkbox"
+#~ msgstr "ईमेल चेकबॉक्स सक्षम"
+
+#~ msgid "Email Notification"
+#~ msgstr "ईमेल"
+
+#~ msgid "Enable"
+#~ msgstr "सक्षम"
+
+#~ msgid "Email Type"
+#~ msgstr "ईमेल प्रकार"
+
+#~ msgid "SELECT MAIL"
+#~ msgstr "मेल चुनो"
+
+#~ msgid "WP Mail"
+#~ msgstr "WP मेल"
+
+#~ msgid "PHP Mail"
+#~ msgstr "PHP ईमेल"
+
+#~ msgid "SMTP Mail"
+#~ msgstr "SMTP मेल"
+
+#~ msgid "Email-Id"
+#~ msgstr "ईमेल आईडी"
+
+#~ msgid "WP Mail is available in the Pro version of the plugin."
+#~ msgstr "WP मेल प्लगइन के प्रो संस्करण में उपलब्ध है।"
+
+#~ msgid "SMTP Mail is available in the Pro version of the plugin."
+#~ msgstr "SMTP मेल प्लगइन के प्रो संस्करण में उपलब्ध है।"
+
+#~ msgid "Customer Notification"
+#~ msgstr "ग्राहक अधिसूचना"
+
+#~ msgid "Notification to customer about pending appointment"
+#~ msgstr "लंबित नियुक्ति के बारे में ग्राहकों के लिए अधिसूचना"
+
+#~ msgid "Subject:"
+#~ msgstr "विषय"
+
+#~ msgid "Send Test Mail"
+#~ msgstr "परीक्षण मेल भेज"
+
+#~ msgid "Enter Receivers Email:"
+#~ msgstr "रिसीवर के ईमेल दर्ज"
+
+#~ msgid "Variables"
+#~ msgstr "चर"
+
+#~ msgid "Service:"
+#~ msgstr "सेवाएं"
+
+#~ msgid "Time:"
+#~ msgstr "समय"
+
+#~ msgid "Client name:"
+#~ msgstr "ग्राहक का नाम"
+
+#~ msgid "Client email:"
+#~ msgstr "ग्राहक की ईमेल"
+
+#~ msgid "Admin Name:"
+#~ msgstr "व्यवस्थापक नाम"
+
+#~ msgid "Blog Name:"
+#~ msgstr "ब्लोग नाम"
+
+#~ msgid "Site URL:"
+#~ msgstr "साइट यूआरएल"
+
+#~ msgid "Notification to customer about Approved appointment"
+#~ msgstr "स्वीकृत नियुक्ति के बारे में ग्राहकों के लिए अधिसूचना"
+
+#~ msgid "Notification to Customer about Cancel appointment"
+#~ msgstr "ग्राहक के लिए अधिसूचना के बारे में रद्द नियुक्ति"
+
+#~ msgid "Admin Notification"
+#~ msgstr "व्यवस्थापक अधिसूचना"
+
+#~ msgid "Notification to admin about pending appointment"
+#~ msgstr "अधिसूचना नियुक्ति लंबित बारे में व्यवस्थापक के लिए"
+
+#~ msgid "Notification to admin about Approved appointment"
+#~ msgstr "अधिसूचना स्वीकृत नियुक्ति के बारे में व्यवस्थापक के लिए"
+
+#~ msgid " Notification to admin about Cancel appointment"
+#~ msgstr "व्यवस्थापक करने के लिए अधिसूचना के बारे में रद्द नियुक्ति"
+
+#~ msgid "All Day Time Off"
+#~ msgstr "पूरे दिन का टाईम आफ"
+
+#~ msgid "Start Time"
+#~ msgstr "प्रारम्भ होन का समय:"
+
+#~ msgid "End Time"
+#~ msgstr "समाप्त होन का समय:"
+
+#~ msgid "Repeat"
+#~ msgstr "दोहरान"
+
+#~ msgid "Particular Date(s)"
+#~ msgstr "विशेष तिथियाँ"
+
+#~ msgid "Daily"
+#~ msgstr "दैनिक"
+
+#~ msgid "Weekly"
+#~ msgstr "साप्ताहिक"
+
+#~ msgid "Bi-Weekly"
+#~ msgstr "द्वि-साप्ताहिक"
+
+#~ msgid "Monthly"
+#~ msgstr "मासिक"
+
+#~ msgid "Repeat Day(s)"
+#~ msgstr "दोहरान दिन"
+
+#~ msgid "Repeat Week(s)"
+#~ msgstr "दोहरान हफ्तें"
+
+#~ msgid "Repeat Bi-Week(s)"
+#~ msgstr "द्वि-साप्ताहिक दोहरान हफ्तें"
+
+#~ msgid "Repeat Month(s)"
+#~ msgstr "दोहरान महिनें"
+
+#~ msgid "Start Date"
+#~ msgstr "प्रारम्भ दिनांक"
+
+#~ msgid "End Date"
+#~ msgstr "अंतिम दिनांक"
+
+#~ msgid "Note"
+#~ msgstr "व्याख्या"
+
+#~ msgid "Full Day Off"
+#~ msgstr "पूरे दिन का टाईम आफ"
+
+#~ msgid "Running"
+#~ msgstr "चल रहा"
+
+#~ msgid "Gone"
+#~ msgstr "बीता हुआ"
+
+#~ msgid "Upcoming"
+#~ msgstr "आगामी"
+
+#~ msgid "No Repeat"
+#~ msgstr "दोहरान नहीं"
+
+#~ msgid "No Holiday Add"
+#~ msgstr "कोई छुट्टी नहीं"
+
+#~ msgid "Creating"
+#~ msgstr "बनाना"
+
+#~ msgid "Create Holiday"
+#~ msgstr "छुट्टी जोडें"
+
+#~ msgid "Holiday Update Successfully"
+#~ msgstr "छुट्टी अद्यतन सफलतापूर्वक"
+
+#~ msgid "Are you sure to Delete Holiday?"
+#~ msgstr "क्या आप अवकाश हटाना चाहते हैं?"
+
+#~ msgid "Delete Successfully"
+#~ msgstr "सफलतापूर्वक हटाए गए"
+
+#~ msgid "Holiday Delete Successfully"
+#~ msgstr "छुट्टी सफलतापूर्वक हटाए गए"
+
+#~ msgid "Holiday"
+#~ msgstr "छुट्टी का दिन"
+
+#~ msgid " Add Holiday"
+#~ msgstr "छुट्टी जोडें"
+
+#~ msgid "Add Holiday"
+#~ msgstr "छुट्टी जोडें"
+
+#~ msgid "All Day Off"
+#~ msgstr "पूरे दिन का टाईम आफ"
+
+#~ msgid "Appoinment"
+#~ msgstr "नियुक्ति"
+
+#~ msgid "Plugin Details"
+#~ msgstr "प्लगइन विवरण"
+
+#~ msgid "No Services Found"
+#~ msgstr "कोई सेवा नही "
+
+#~ msgid "Padding Time:before"
+#~ msgstr "पैडिंग समय: पहले"
+
+#~ msgid "Padding Time:after"
+#~ msgstr "पैडिंग समय: बाद"
+
+#~ msgid "Price:"
+#~ msgstr "मूल्य"
+
+#~ msgid "Category:"
+#~ msgstr "श्रेणी"
+
+#~ msgid "Select Icon:"
+#~ msgstr "आइकन का चयन करें:"
+
+#~ msgid "Select Color:"
+#~ msgstr "रंग चुनो"
+
+#~ msgid "Duration (in minutes):"
+#~ msgstr "अवधि"
+
+#~ msgid "Padding Time Before</br>(in minutes):"
+#~ msgstr "पैडिंग पहले समय (मिनट में):"
+
+#~ msgid "Padding Time After</br>(in minutes):"
+#~ msgstr "पैडिंग समय बाद (मिनट में):"
+
+#~ msgid "Capacity:"
+#~ msgstr "क्षमता"
+
+#~ msgid "Select Category"
+#~ msgstr "श्रेणीचुनें"
+
+#~ msgid "Info / Message:"
+#~ msgstr "संदेश"
+
+#~ msgid "Category Created Successfully"
+#~ msgstr "श्रेणी सफलतापूर्वक बनाया गया"
+
+#~ msgid "Are you sure to Delete Category?"
+#~ msgstr "क्या आप श्रेणी को हटाना चाहते हैं?"
+
+#~ msgid "Category Deleted Successfully"
+#~ msgstr "श्रेणी सफलतापूर्वक नष्ट कर दिया"
+
+#~ msgid "Service Created Successfully"
+#~ msgstr "सेवा सफलतापूर्वक बनाया गया"
+
+#~ msgid "Please select any service"
+#~ msgstr "कृपया  सेवा का चयन करें"
+
+#~ msgid "Are you sure to Delete Services?"
+#~ msgstr "क्या आप सेवाओं को हटाना चाहते हैं?"
+
+#~ msgid "Update Successfully"
+#~ msgstr "अद्यतन सफलतापूर्वक"
+
+#~ msgid "Category Updated Successfully"
+#~ msgstr "श्रेणी सफलतापूर्वक अपडेट"
+
+#~ msgid " Add Services"
+#~ msgstr "सेवाओं को जोडें"
+
+#~ msgid "Category List"
+#~ msgstr "श्रेणी सूची"
+
+#~ msgid " Add Category"
+#~ msgstr "श्रेणी जोडें"
+
+#~ msgid "Add Service"
+#~ msgstr "सर्विस जोडें"
+
+#~ msgid "Settings Saved"
+#~ msgstr "सेटिंग  को सहेजा गया"
+
+#~ msgid "Are you sure to REMOVE PLUGIN?"
+#~ msgstr "क्या आप प्लग-इन को निकालना चाहते हैं?"
+
+#~ msgid "Remove"
+#~ msgstr "हटाए"
+
+#~ msgid "Removing"
+#~ msgstr "निकाला जा रहा है"
+
+#~ msgid "Bussiness Info "
+#~ msgstr "व्यापार जानकारी"
+
+#~ msgid "Bussiness Hours"
+#~ msgstr "काम करने के घंटे"
+
+#~ msgid "Calendar Setting"
+#~ msgstr "कैलेंडर सेटिंग"
+
+#~ msgid "Remove Plugin"
+#~ msgstr "प्लगइन हटायें"
+
+#~ msgid "Time Format"
+#~ msgstr "समय प्रारूप"
+
+#~ msgid "Click Here To Change"
+#~ msgstr "यहाँ बदलने के लिए क्लिक"
+
+#~ msgid "Currency Setting"
+#~ msgstr "मुद्रा सेटिंग"
+
+#~ msgid "Select Currency"
+#~ msgstr "मुद्रा चुनो"
+
+#~ msgid "Theme Color"
+#~ msgstr "थीम रंग"
+
+#~ msgid "Show Time Slots by"
+#~ msgstr "दिखाएँ समय स्लॉट द्वारा"
+
+#~ msgid "Select Time Slots"
+#~ msgstr "समय स्लॉट चुनो"
+
+#~ msgid "Custom Slots"
+#~ msgstr "कस्टम समय स्लॉट "
+
+#~ msgid "Time Slots (in minutes):"
+#~ msgstr "समय स्लॉट  (मिनट में):"
+
+#~ msgid "Bussiness Profile"
+#~ msgstr "बिजनेस प्रोफ़ाइल"
+
+#~ msgid "Bussiness Name"
+#~ msgstr "बिजनेस नाम"
+
+#~ msgid "Bussiness Owner"
+#~ msgstr "व्यवसाय के मालिक"
+
+#~ msgid "Phone No"
+#~ msgstr "फ़ोन नंबर"
+
+#~ msgid "Fax No"
+#~ msgstr "फैक्स नंबर"
+
+#~ msgid "Blog Url"
+#~ msgstr "ब्लोग यूआरएल"
+
+#~ msgid "This field is number"
+#~ msgstr "यह फ़ील्ड आवश्यक है"
+
+#~ msgid "Bussiness Address"
+#~ msgstr "बिजनेस पता"
+
+#~ msgid "Calendar Themes"
+#~ msgstr "कैलेंडर का रुप"
+
+#~ msgid "Theme 01"
+#~ msgstr "थीम"
+
+#~ msgid "DD-MM-YYYY"
+#~ msgstr "डीडी-एमएम-वाय वाय वाय वाय"
+
+#~ msgid "MM-DD-YYYY"
+#~ msgstr "एमएम-डीडी-वाय वाय वाय वाय"
+
+#~ msgid "YYYY-MM-DD"
+#~ msgstr "वाय वाय वाय वाय-एमएम-डीडी"
+
+#~ msgid "12 Hour Time"
+#~ msgstr "12 घंटे का समय"
+
+#~ msgid "24 Hour Time"
+#~ msgstr "24 घंटे का समय"
+
+#~ msgid "Calendar View"
+#~ msgstr "कैलेंडर का रुप"
+
+#~ msgid "Calendar First Days"
+#~ msgstr "कैलेंडर पहले दिन"
+
+#~ msgid "Appointment Status Color"
+#~ msgstr "नियुक्ति स्थिति रंग"
+
+#~ msgid "Time off Color"
+#~ msgstr "समय बंद रंग"
+
+#~ msgid "Font Style"
+#~ msgstr "फ़ॉन्ट ओसम "
+
+#~ msgid "Customer Backup"
+#~ msgstr "ग्राहक बैकअप"
+
+#~ msgid "Services Backup "
+#~ msgstr "सेवा बैकअप"
+
+#~ msgid "Appoinment Backup"
+#~ msgstr "नियुक्ति बैकअप"
+
+#~ msgid "Remove Appointment Scheduler Plugin"
+#~ msgstr "हटाये नियुक्ति समयबद्धक प्लगइन"
+
+#~ msgid ""
+#~ "This operation wiil delete all Appointment Scheduler data &amp; settings. If you continue, "
+#~ "You will not be able to retrieve or restore your appointments entries."
+#~ msgstr ""
+#~ "इस आपरेशन के सभी नियुक्ति समयबद्धक डेटा सेटिंग निकाल देंगे। यदि आप जारी रखते हैं, तो आप पुनः प्राप्त करने या "
+#~ "अपने नियुक्तियों प्रविष्टियों को बहाल करने में सक्षम नहीं होगा।"
+
+#~ msgid " REMOVE PLUGIN"
+#~ msgstr "प्लगइन हटायें"
+
+#~ msgid "Please Select Service"
+#~ msgstr "कृपया  सेवा का चयन करें"
+
+#~ msgid "Please Select Staff"
+#~ msgstr "कृप्या कर्मचारी चुनो      "
+
+#~ msgid "Please Wait"
+#~ msgstr "कृपया प्रतीक्षा करें"
+
+#~ msgid "Next"
+#~ msgstr "आगे जायें"
+
+#~ msgid "Please Select Appointment Time"
+#~ msgstr "कृप्या समय चयन करें"
+
+#~ msgid "Please Login Your Account"
+#~ msgstr "अपने खाते में प्रवेश करें"
+
+#~ msgid "1. Services"
+#~ msgstr "1. सेवाएं"
+
+#~ msgid "2. Time"
+#~ msgstr "2. समय"
+
+#~ msgid "3. Details"
+#~ msgstr "3. विवरण"
+
+#~ msgid "4. Confirm"
+#~ msgstr "4. पुष्टि करें"
+
+#~ msgid "5. Done"
+#~ msgstr "5. नियुक्त हो चुकी"
+
+#~ msgid "--Select--"
+#~ msgstr "चुनो"
+
+#~ msgid "Appointment Date"
+#~ msgstr "नियुक्ति की तारीख"
+
+#~ msgid "Thank You! Your Booking Is Complete."
+#~ msgstr "धन्यवाद! अपनी बुकिंग पूरा हो गया।"
+
+#~ msgid "Please Enter Username"
+#~ msgstr "कृपया प्रयोक्ता नाम दर्ज करें"
+
+#~ msgid "Please Enter Last Name"
+#~ msgstr "कृपया अंतिम नाम दर्ज"
+
+#~ msgid "Please Enter Contact Number"
+#~ msgstr "कृपया संपर्क नंबर"
+
+#~ msgid "Please Enter Email"
+#~ msgstr "कृपया ईमेल दर्ज"
+
+#~ msgid "Loading"
+#~ msgstr "लोड हो रहा है"
+
+#~ msgid "Login"
+#~ msgstr "लॉग-इन"
+
+#~ msgid "You are about to request an appointment for"
+#~ msgstr "आप के बारे में के लिए एक नियुक्ति करने का अनुरोध कर रहे हैं"
+
+#~ msgid "at"
+#~ msgstr "पर"
+
+#~ msgid "on"
+#~ msgstr "पर"
+
+#~ msgid "Price for the"
+#~ msgstr "के लिए मूल्य"
+
+#~ msgid "is"
+#~ msgstr "है"
+
+#~ msgid "New User"
+#~ msgstr "नया उपयोगकर्ता"
+
+#~ msgid "Existing User"
+#~ msgstr "मौजूदा उपयोगकर्ता"
+
+#~ msgid "Username :"
+#~ msgstr "उपयोगकर्ता नाम"
+
+#~ msgid "Email :"
+#~ msgstr "ईमेल:"
+
+#~ msgid "Enter Email Address"
+#~ msgstr "ईमेल पता दर्ज"
+
+#~ msgid "First Name :"
+#~ msgstr "प्रथम नाम:"
+
+#~ msgid "Last Name :"
+#~ msgstr "अंतिम नाम"
+
+#~ msgid "Password :"
+#~ msgstr "पासवर्ड:"
+
+#~ msgid "Phone :"
+#~ msgstr "फोन: "
+
+#~ msgid "Skype Id :"
+#~ msgstr "स्काइप आईडी"
+
+#~ msgid "Enter Skype Id"
+#~ msgstr "स्काइप आईडी दर्ज करें"
+
+#~ msgid "Notes :"
+#~ msgstr "विशेष नोट"
+
+#~ msgid "Enter Notes"
+#~ msgstr "नोट्स दर्ज करें"
+
+#~ msgid "Enter Email"
+#~ msgstr "ईमेल दर्ज करें"
+
+#~ msgid "Back"
+#~ msgstr "पीछे जायें"
+
+#~ msgid "Login Successfull"
+#~ msgstr "लॉग इन सफल"
+
+#~ msgid "Name :"
+#~ msgstr "नाम :"
+
+#~ msgid "Email Id.:"
+#~ msgstr "ईमेल आईडी :"
+
+#~ msgid "Appointment Time :"
+#~ msgstr "समय :"
+
+#~ msgid "Skype Id.:"
+#~ msgstr "स्काइप आईडी :"
+
+#~ msgid "Staff Member :"
+#~ msgstr "कर्मचारी :"
+
+#~ msgid "Price :"
+#~ msgstr "मूल्य :"
+
+#~ msgid "Service Detail"
+#~ msgstr "सेवा विस्तार"
+
+#~ msgid "User Detail"
+#~ msgstr "उपयोगकर्ता विस्तार"
+
+#~ msgid "Do u want to Confirm Appointment ?"
+#~ msgstr "क्या आप नियुक्ति की पुष्टि करना चाहते हैं।"
+
+#~ msgid "Invalid Password"
+#~ msgstr "अवैध पासवर्ड"
+
+#~ msgid ""
+#~ "<center><p>You have entered invalid Password, Please Try Again.</center><br><center>Thank "
+#~ "You</center></p>"
+#~ msgstr "आप गलत पासवर्ड दर्ज किया है, फिर कोशिश करें।"
+
+#~ msgid "Try Again"
+#~ msgstr "दोबारा कोशश करो"
+
+#~ msgid "Email Does Not Exist."
+#~ msgstr "ईमेल मौजूद नहीं है।"
+
+#~ msgid ""
+#~ "<center><p>Email Does Not Exist, Please Register Your Account.</center><br><center>Thank "
+#~ "You</center></p>"
+#~ msgstr "ईमेल मौजूद नहीं है, अपना खाता रजिस्टर करें।"
+
+#~ msgid "Email Already Registered."
+#~ msgstr "ईमेल पहले से ही पंजीकृत है।"
+
+#~ msgid "The Email You Entered is already registered with us, Please Login Your Account."
+#~ msgstr "आपके द्वारा दर्ज ईमेल पहले से ही हमारे साथ पंजीकृत है, कृपया अपना खाता दर्ज करें"
+
+#~ msgid "Thank You"
+#~ msgstr "धन्यवाद"
+
+#~ msgid "Available time slots for"
+#~ msgstr "उपलब्ध समय प्रकोष्ठ"
+
+#~ msgid "minutes"
+#~ msgstr "मिनट"
+
+#~ msgid ""
+#~ "<center>Business Hours Closed for Today. Please Select Another Date.</"
+#~ "center><br><center>Thank You</center>"
+#~ msgstr "व्यापार आज बंद के लिए  है। कृपया एक और तारीख का चयन करें। धन्यवाद"
+
+#~ msgid "Opening Hours: "
+#~ msgstr "खुलने का समय:"
+
+#~ msgid "Plugin Shortcode"
+#~ msgstr "प्लगइन छोटे संकेत"
+
+#~ msgid ""
+#~ "Appointment Scheduler adds a booking system to WordPress, allowing customers to book "
+#~ "appointments, service that needs to be scheduled by date and time. <br>  To insert "
+#~ "Appointment Scheduler into any post or page, use the shortcode: <b>[appointment]</b>"
+#~ msgstr ""
+#~ "नियुक्ति समयबद्धक सेवा वर्डप्रेस के लिए एक बुकिंग प्रणाली, ग्राहकों नियुक्तियों बुक करने के लिए अनुमति देता है, "
+#~ "तारीख और समय के द्वारा निर्धारित किया जा करने की जरूरत है कि कहते हैं।  किसी भी पद या पृष्ठ में नियुक्ति "
+#~ "समयबद्धक सम्मिलित करने के लिए, शोर्ट का उपयोग करें: [appointment]"
+
+#~ msgid ""
+#~ "Complete and proper understandable documentation for installation and configuration "
+#~ "APOINTMENT SCHEDULER PRO with visual and video tutorials guide. Click Here for  Demo "
+#~ "<br><br><a class=\"btn add-new\" target=\"_blank\" href=\"https://weblizar.com/plugins/"
+#~ "appointment-scheduler-pro/\">Installation Guide</a>"
+#~ msgstr ""
+#~ "दृश्य और वीडियो ट्यूटोरियल गाइड के साथ स्थापना और विन्यास APOINTMENT अनुसूचक समर्थक के लिए पूर्ण और उचित "
+#~ "समझा जा प्रलेखन। डेमो के लिए यहां क्लिक करें  <a class=\"btn add-new\" target=\"_blank\" href="
+#~ "\"https://weblizar.com/plugins/appointment-scheduler-pro/\">इंस्टालेशन गाइड</a>"
+
+#~ msgid "Time off"
+#~ msgstr "पूरे दिन का टाईम आफ"
+
+#~ msgid "DeleteAre you sure to Delete Appointment"
+#~ msgstr "क्या आप अपॉइंटमेंट को हटाना चाहते हैं?"
+
+#~ msgid "Staff"
+#~ msgstr "कर्मचारी"
+
+#~ msgid " Add Member"
+#~ msgstr "कर्मचारी जोडें"
+
+#~ msgid "Basic Detail"
+#~ msgstr "बुनियादी विस्तार"
+
+#~ msgid "Member Full Name:"
+#~ msgstr "सदस्य का पूरा नाम"
+
+#~ msgid "Member Pics:"
+#~ msgstr "सदस्य की छवि"
+
+#~ msgid "Upload"
+#~ msgstr "अपलोड"
+
+#~ msgid "Email:"
+#~ msgstr "ईमेल"
+
+#~ msgid "Invalid Email"
+#~ msgstr "अमान्य ईमेल"
+
+#~ msgid "Skype-ID:"
+#~ msgstr "स्काइप आईडी"
+
+#~ msgid "This field required number"
+#~ msgstr "यह फ़ील्ड आवश्यक है"
+
+#~ msgid "MMember Name: "
+#~ msgstr "कर्मचारी नाम"
+
+#~ msgid "Prices"
+#~ msgstr "मूल्य"
+
+#~ msgid "Capacity"
+#~ msgstr "क्षमता"
+
+#~ msgid "You must select at least 1 service"
+#~ msgstr "आपको कम से कम 1 सेवा का चयन करना होगा"
+
+#~ msgid " Click here to Refresh"
+#~ msgstr "यहाँ क्लिक करें डेटा ताज़ा"
+
+#~ msgid "Reset"
+#~ msgstr "रीसेट"
+
+#~ msgid "Schedule"
+#~ msgstr "अनुसूची"
+
+#~ msgid "Break Start Time"
+#~ msgstr "दोपहर के भोजन के समय प्रारंभ"
+
+#~ msgid "Break End Time"
+#~ msgstr "दोपहर के भोजन के अंत समय"
+
+#~ msgid "Day Off"
+#~ msgstr "पूरे दिन का टाईम आफ"
+
+#~ msgid "Last Name : :"
+#~ msgstr "अंतिम नाम"
+
+#~ msgid " New Appoinment"
+#~ msgstr "नव नियुक्ति"
+
+#~ msgid "User Name"
+#~ msgstr "यूज़र नेम"
+
+#~ msgid "Contact Us:"
+#~ msgstr "हमसे संपर्क करें"
+
+#~ msgid "Please upload a valid .json file"
+#~ msgstr "कृपया केवल जैसन फ़ाइल अपलोड करें!"
+
+#~ msgid "Please upload a file to import"
+#~ msgstr "कृपया इम्पोर्ट के लिए फाइल अपलोड करे"
+
+#~ msgid "Login Settings"
+#~ msgstr "लॉगिन सेटिंग्स"
+
+#~ msgid "Login Form Position"
+#~ msgstr "लॉग इन फॉर्म की स्थिति"
+
+#~ msgid "Default"
+#~ msgstr "डीफाल्ट"
+
+#~ msgid "Floating"
+#~ msgstr "घूमता हुआ"
+
+#~ msgid "Floating With Customization"
+#~ msgstr "कस्टोमाईज़ेसन  के साथ घूमता हुआ"
+
+#~ msgid "Float Settings"
+#~ msgstr "फ्लोट सेटिंग्स"
+
+#~ msgid "Left"
+#~ msgstr "बाया"
+
+#~ msgid "Center"
+#~ msgstr "केंद्र"
+
+#~ msgid "Floating With Customization Settings"
+#~ msgstr "कस्टोमाईज़ेसन  के साथ घूमता हुआ"
+
+#~ msgid "Note: This form position setting will be not responsive."
+#~ msgstr "नोट: इस फॉर्म की पोजीशन रेसपोनसिव नही होगी"
+
+#~ msgid "Select Background"
+#~ msgstr "पृष्ठभूमि चयन करें"
+
+#~ msgid "Select background"
+#~ msgstr "चयन करें पृष्ठभूमि"
+
+#~ msgid "Static Background Color"
+#~ msgstr "स्थिर पृष्ठभूमि का रंग"
+
+#~ msgid "Static Background Image"
+#~ msgstr "स्थिर पृष्ठभूमि छवि"
+
+#~ msgid "Background Color"
+#~ msgstr "पृष्ठभूमि का रंग "
+
+#~ msgid "Login Form Opacity"
+#~ msgstr "पर्चा अपारदर्शिता लॉगिन"
+
+#~ msgid "Background Image"
+#~ msgstr "पृष्ठभूमि छवि"
+
+#~ msgid "preview"
+#~ msgstr "पूर्व दर्शन"
+
+#~ msgid "Login Background Image"
+#~ msgstr "लॉगिन पृष्ठभूमि छवि"
+
+#~ msgid "Background Repeat"
+#~ msgstr "पृष्ठभूमि दोहरान"
+
+#~ msgid "Repeat Horizontally"
+#~ msgstr "क्षैतिज दोहराएँ"
+
+#~ msgid "Repeat Vertically"
+#~ msgstr "लंबवत दोहराएँ"
+
+#~ msgid "Background Position "
+#~ msgstr "पृष्ठभूमि स्थिति"
+
+#~ msgid "Left Top"
+#~ msgstr "बाएँ शीर्ष"
+
+#~ msgid "Left Center"
+#~ msgstr "बायां केंद्र"
+
+#~ msgid "Left Bottom"
+#~ msgstr "बायां नीचे"
+
+#~ msgid "Right Top"
+#~ msgstr "दांया शीर्ष"
+
+#~ msgid "Right Center"
+#~ msgstr "दायें केंद्र"
+
+#~ msgid "Right Bottom"
+#~ msgstr "दांया नीचे"
+
+#~ msgid "Center Top"
+#~ msgstr "केंद्र शीर्ष"
+
+#~ msgid "Center Center"
+#~ msgstr "केंद्र"
+
+#~ msgid "Center Bottom"
+#~ msgstr "केंद्र निचला"
+
+#~ msgid "Background Effect"
+#~ msgstr "पृष्ठभूमि प्रभाव"
+
+#~ msgid "Select overlay effect"
+#~ msgstr "ओवरले प्रभाव का चयन करें"
+
+#~ msgid "No Overlay Effect"
+#~ msgstr "कोई ओवरले प्रभाव नहीं"
+
+#~ msgid "Overlay Effect 1"
+#~ msgstr "ओवरले प्रभाव 1"
+
+#~ msgid "Overlay Effect 2"
+#~ msgstr "ओवरले प्रभाव 2"
+
+#~ msgid "Overlay Effect 3"
+#~ msgstr "ओवरले प्रभाव 3"
+
+#~ msgid "Login Form Width"
+#~ msgstr "लॉगिन"
+
+#~ msgid "Border Color"
+#~ msgstr "सीमा रंग"
+
+#~ msgid "Border Radius"
+#~ msgstr "सीमा त्रिज्या"
+
+#~ msgid "Border Style"
+#~ msgstr "झालर की शैली"
+
+#~ msgid "None"
+#~ msgstr "नहीं"
+
+#~ msgid "Solid"
+#~ msgstr "ठोस"
+
+#~ msgid "Dotted"
+#~ msgstr "बिंदुओं से अंकित"
+
+#~ msgid "Dashed"
+#~ msgstr "मिश्रण"
+
+#~ msgid "Double"
+#~ msgstr "दोहरा"
+
+#~ msgid "Border Thickness"
+#~ msgstr "सीमा की मोटाई"
+
+#~ msgid "Enable form shadow?"
+#~ msgstr "फार्म छाया सक्षम करें?"
+
+#~ msgid "Form Shadow Color"
+#~ msgstr "छाया रंग रूप"
+
+#~ msgid "Custom CSS"
+#~ msgstr "कस्टम सी एस  एस"
+
+#~ msgid "Enter any custom css you want to apply on login panel."
+#~ msgstr "कोई भी  कस्टम सी एस  एस डाले जो आप लॉग इन पैनल पर लगाना चाहते है"
+
+#~ msgid "Note: Please Do Not Use"
+#~ msgstr "नोट: किरपिया प्रयोग न करे"
+
+#~ msgid "Tag With Custom CSS"
+#~ msgstr "कस्टम सी एस  एस के साथ स्टाइल टैग परयोग न करे"
+
+#~ msgid "Login "
+#~ msgstr "लॉगिन"
+
+#~ msgid "Setting Save Successfully"
+#~ msgstr "सफलतापूर्वक सहेजें स्थापना"
+
+#~ msgid "Setting Reset Successfully"
+#~ msgstr "सफलतापूर्वक सहेजें स्थापना"
+
+#~ msgid "Reset Default"
+#~ msgstr "पुनः तैयार करना"
+
+#~ msgid "Admin Custom Login"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन"
+
+#~ msgid "Powered By"
+#~ msgstr "द्वारा संचालित"
+
+#~ msgid "Weblizar"
+#~ msgstr "वेब्लिज़र"
+
+#~ msgid "Show Us Some Love (Rate Us)"
+#~ msgstr "आपका सहयोग दे(रैट दे)"
+
+#~ msgid "Application overview"
+#~ msgstr "आवेदन सिंहावलोकन"
+
+#~ msgid "Background Design"
+#~ msgstr "पृष्ठभूमि डिजाइन"
+
+#~ msgid "Modify Background design here"
+#~ msgstr "यहाँ पृष्ठभूमि डिजाइन सुधारे"
+
+#~ msgid "Login form Setting"
+#~ msgstr "प्रवेश फार्म की स्थापना"
+
+#~ msgid "Modify Login design here"
+#~ msgstr "यहां लॉग इन डिजाइन सुधारे"
+
+#~ msgid "Font Setting"
+#~ msgstr "फ़ॉन्ट सेटिंग"
+
+#~ msgid "Modify Login Form Style here"
+#~ msgstr "यहां लॉगिन फार्म शैली सुधारे"
+
+#~ msgid "Logo Settings"
+#~ msgstr "लोगो सेटिंग्स"
+
+#~ msgid "Customize Logo Settings here"
+#~ msgstr "यहाँ लोगो सेटिंग्स को अनुकूलित"
+
+#~ msgid "Social Settings"
+#~ msgstr "सामाजिक व्यवस्था"
+
+#~ msgid "Connect with your social profile"
+#~ msgstr "अपने सामाजिक प्रोफाइल के साथ कनेक्ट"
+
+#~ msgid "Export / Import"
+#~ msgstr "इम्पोर्ट/एक्सपोर्ट"
+
+#~ msgid "Export / Import Your Data"
+#~ msgstr "इम्पोर्ट/एक्सपोर्ट आपका डाटा"
+
+#~ msgid "Recommendations"
+#~ msgstr "सिफारिश"
+
+#~ msgid "Get More Free Useful Plugins"
+#~ msgstr "अन्य महत्वपूर्ण प्लगिन"
+
+#~ msgid "Help And Support"
+#~ msgstr "मदद और समर्थन"
+
+#~ msgid "Please rate us "
+#~ msgstr "किरपया हमे रैट करे"
+
+#~ msgid "If you like us"
+#~ msgstr "यदि आप हमें पसंद करते हो तो"
+
+#~ msgid "Admin Custom Login Dashboard"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन डैशबोर्ड"
+
+#~ msgid "Admin Custom Login Status"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन स्टेटस"
+
+#~ msgid "Disable"
+#~ msgstr "असक्षम"
+
+#~ msgid "View Login Page"
+#~ msgstr "देखें लॉगिन पृष्ठ"
+
+#~ msgid "Copy below link and open in another browser where you are not logged in"
+#~ msgstr "नीचे दिये हुए लिंक को कॉपी करे और पेस्ट करे दुसरे ब्राउज़र में जहाँ आप लॉग इन ना हो"
+
+#~ msgid "Dashboard "
+#~ msgstr "डैशबोर्ड"
+
+#~ msgid "Background Settings"
+#~ msgstr "पृष्ठभूमि सेटिंग"
+
+#~ msgid "No background Selected"
+#~ msgstr "कोई चयनित पृष्ठभूमि नहीं"
+
+#~ msgid "Background SlideShow"
+#~ msgstr "पृष्ठभूमि स्लाइड शो"
+
+#~ msgid "Preview"
+#~ msgstr "पूर्वावलोकन"
+
+#~ msgid "Cover or Strech"
+#~ msgstr "आवरण"
+
+#~ msgid "Background Attachment"
+#~ msgstr "पृष्ठभूमि संलग्न"
+
+#~ msgid "Fixed"
+#~ msgstr "स्थिर"
+
+#~ msgid "Scroll"
+#~ msgstr "लपेटा हुआ"
+
+#~ msgid "Inherit"
+#~ msgstr "विरासत में पाना"
+
+#~ msgid "No. Of Background Slideshow"
+#~ msgstr "पृष्ठभूमि स्लाइड शो की संख्या"
+
+#~ msgid "Select Number of Slide Show"
+#~ msgstr "स्लाइड शो के नंबर का चयन"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "Slider Animation"
+#~ msgstr "स्लाइडर एनिमेशन"
+
+#~ msgid "Slider Animation 1"
+#~ msgstr "स्लाइडर एनिमेशन 1"
+
+#~ msgid "Slider Animation 2"
+#~ msgstr "स्लाइडर एनिमेशन 2"
+
+#~ msgid "Slider Animation 3"
+#~ msgstr "स्लाइडर एनिमेशन 3"
+
+#~ msgid "Slider Animation 4"
+#~ msgstr "स्लाइडर एनिमेशन 4"
+
+#~ msgid "Top Background "
+#~ msgstr "पृष्ठभूमि का रंग"
+
+#~ msgid "Text And Color Settings"
+#~ msgstr "पाठ और रंग सेटिंग्स"
+
+#~ msgid "Headline Font Color"
+#~ msgstr "शीर्षक फ़ॉन्ट रंग"
+
+#~ msgid "Input Font Color"
+#~ msgstr "इनपुट फ़ॉन्ट रंग"
+
+#~ msgid "Link Color"
+#~ msgstr "लिंक रंग"
+
+#~ msgid "Button Color"
+#~ msgstr "बटन रंग"
+
+#~ msgid "Headline Font size"
+#~ msgstr "शीर्षक फ़ॉन्ट आकार"
+
+#~ msgid "Input Font Size"
+#~ msgstr "इनपुट फ़ॉन्ट का आकार"
+
+#~ msgid "Link Font Size"
+#~ msgstr "लिंक फ़ॉन्ट का आकार"
+
+#~ msgid "Button Font Size"
+#~ msgstr "बटन फ़ॉन्ट का आकार"
+
+#~ msgid "Enable Link shadow?"
+#~ msgstr "लिंक छाया सक्षम करें?"
+
+#~ msgid "Link Shadow Color"
+#~ msgstr "लिंक छाया रंग"
+
+#~ msgid "Headline Font Style"
+#~ msgstr "शीर्षक फ़ॉन्ट शैली"
+
+#~ msgid "Input Font Style"
+#~ msgstr "इनपुट फ़ॉन्ट शैली"
+
+#~ msgid "Link Font Style"
+#~ msgstr "लिंक फ़ॉन्ट शैली"
+
+#~ msgid "Button Font Style"
+#~ msgstr "बटन फ़ॉन्ट शैली"
+
+#~ msgid "Enable Input Box Icon?"
+#~ msgstr "इनपुट बॉक्स चिह्न सक्षम करें?"
+
+#~ msgid "Icon For user Input Box"
+#~ msgstr "उपयोगकर्ता इनपुट बॉक्स के लिए चिह्न"
+
+#~ msgid "Icon For Password Input Box"
+#~ msgstr "पासवर्ड इनपुट बॉक्स के लिए चिह्न"
+
+#~ msgid "Text and Color "
+#~ msgstr "पाठ और रंग"
+
+#~ msgid "View Support Docs or Open a Ticket"
+#~ msgstr "समर्थन डॉक्स देखें या एक टिकट को खोलने"
+
+#~ msgid "Rate Us"
+#~ msgstr "प्रवाह दर"
+
+#~ msgid ""
+#~ "If you are enjoying using our Admin Custom Login plugin and find it useful, then please "
+#~ "consider writing a positive feedback. Your feedback will help us to encourage and support "
+#~ "the plugins continued development and better user support."
+#~ msgstr ""
+#~ "अगर आपको प्लगइन अच्छा लगा हो तो फीडबैक दे. आपका फीडबैक हमें उत्साहित करेगे  नये प्रोडक्ट बनाने के लिए इससे "
+#~ "हम और अच्छा सपोर्ट दे पाएंगे"
+
+#~ msgid "Share Us Your Suggestion"
+#~ msgstr "हमें आपके सुझाव साझा करें"
+
+#~ msgid ""
+#~ "If you have any suggestion or features in your mind then please share us. We will try our "
+#~ "best to add them in this plugin."
+#~ msgstr "अगर आपके पास कोई सुझाव हो तो  हमें बताये .हम उससे प्लगइन में शामिल करेंगे"
+
+#~ msgid "Language Contribution "
+#~ msgstr "भाषा योगदान"
+
+#~ msgid " Translate this plugin into your language"
+#~ msgstr "प्लगइन को आपकी भाषा में बदले"
+
+#~ msgid "Question : How to convert Plguin into My Language ?"
+#~ msgstr "प्रश्न: प्लगइन को अपनी भाषा में कैसे बदले"
+
+#~ msgid ""
+#~ "We need your feedback for improve our plugin functionality on WordPress. So, if you like "
+#~ "our plugin then please rate us"
+#~ msgstr "प्लगइन को अच्छा बनाने के लिए हमें आपके सुझाव की जरूरत है"
+
+#~ msgid "Export Custom Login Data "
+#~ msgstr " कस्टम लॉगिन  का डाटा एक्सपोर्ट करे"
+
+#~ msgid ""
+#~ "Export the plugin settings for this site as a .json file. This allows you to easily import "
+#~ "the configuration into another site."
+#~ msgstr ""
+#~ "एक्सपोर्ट करे प्लगइन सेटिंग को जैसन फाइल के रूप में . इससे आप इसे आसानी से अलग साईट में  परयोग कर सकते है"
+
+#~ msgid "Import Custom Login Data "
+#~ msgstr " कस्टम लॉगिन  का डाटा इम्पोर्ट  करे"
+
+#~ msgid ""
+#~ "Import the plugin settings from a .json file. This file can be obtained by exporting the "
+#~ "settings on another site using the form above."
+#~ msgstr ""
+#~ "इम्पोर्ट करे प्लगइन सेटिंग को जैसन फाइल से.इसे आसानी से प्राप्त किया जा सकता एक्सपोर्ट करके दूसरी साईट में "
+
+#~ msgid "Plugin Recommendation"
+#~ msgstr "प्लगइन सिफारिस"
+
+#~ msgid "Get More Free Wordpress Plguins From Weblizar"
+#~ msgstr "वेब्लिज़ार के प्लगइन प्राप्त करे"
+
+#~ msgid "By "
+#~ msgstr "से"
+
+#~ msgid "Premium Editions"
+#~ msgstr "प्रीमियम एडिसन"
+
+#~ msgid "Visit Website"
+#~ msgstr "वेबसाइट देखे"
+
+#~ msgid "Last Updated:"
+#~ msgstr "पिछली  बार अपडेट"
+
+#~ msgid "<strong>Untested</strong> with your version of WordPress"
+#~ msgstr "आपके वर्शन के साथ अनटेस्टेड"
+
+#~ msgid "Incompatible with your version of WordPress"
+#~ msgstr "आपके वर्शन के साथ  सहायक नही"
+
+#~ msgid "Compatible with your version of WordPress"
+#~ msgstr "आपके वर्शन के साथ  सहायक है"
+
+#~ msgid "Logo"
+#~ msgstr "लोगो"
+
+#~ msgid "Logo Width"
+#~ msgstr "लोगो चौड़ाई"
+
+#~ msgid "Logo Height"
+#~ msgstr "लोगो ऊँचाई"
+
+#~ msgid "Logo URL"
+#~ msgstr "लोगो URL"
+
+#~ msgid "Logo URL Title"
+#~ msgstr "लोगो URL शीर्षक"
+
+#~ msgid "Logo "
+#~ msgstr "लोगो"
+
+#~ msgid "Enable Social Icons"
+#~ msgstr "सामाजिक आइकन सक्रिय"
+
+#~ msgid "No Icon"
+#~ msgstr "कोई चिह्न"
+
+#~ msgid "Inner"
+#~ msgstr "आंतरिक"
+
+#~ msgid "Outer"
+#~ msgstr "आउटर"
+
+#~ msgid "Both"
+#~ msgstr "दोनो"
+
+#~ msgid "Social Media Icon Size"
+#~ msgstr "सामाजिक मीडिया चिह्न का आकार"
+
+#~ msgid "Small"
+#~ msgstr "छोटा"
+
+#~ msgid "Medium"
+#~ msgstr "मध्यम"
+
+#~ msgid "Large"
+#~ msgstr "बडा"
+
+#~ msgid "Social Media Icon Layout"
+#~ msgstr "सामाजिक मीडिया चिह्न लेआउट"
+
+#~ msgid "Rectangle"
+#~ msgstr "आयत"
+
+#~ msgid "Circle"
+#~ msgstr "गोला"
+
+#~ msgid "Social Media Icon Color"
+#~ msgstr "सामाजिक मीडिया आइकन रंग"
+
+#~ msgid "Social Media Icon Color On Hover"
+#~ msgstr "सामाजिक मीडिया आइकन रंग हॉवर पर "
+
+#~ msgid "Social Media Icon Background Color"
+#~ msgstr "सामाजिक मीडिया चिह्न पृष्ठभूमि रंग"
+
+#~ msgid "Social Media Background Color On Hover"
+#~ msgstr "सामाजिक मीडिया पृष्ठभूमि रंग हॉवर पर"
+
+#~ msgid "Enter your social profiles complete url here"
+#~ msgstr "यहाँ अपने सामाजिक प्रोफाइल पूरा URL दर्ज करें"
+
+#~ msgid "Facebook"
+#~ msgstr "फेसबुक"
+
+#~ msgid "Twitter"
+#~ msgstr "ट्विटर"
+
+#~ msgid "Linkedin"
+#~ msgstr "लिंकेडीन"
+
+#~ msgid "google plus"
+#~ msgstr "गूगल  प्लस "
+
+#~ msgid "Pinterest"
+#~ msgstr "पिंट्रेस्ट "
+
+#~ msgid "Digg"
+#~ msgstr "डिग"
+
+#~ msgid "Youtube"
+#~ msgstr "यूटूब"
+
+#~ msgid "Flickr"
+#~ msgstr "फिलिकर"
+
+#~ msgid "Tumblr"
+#~ msgstr "टमबलर"
+
+#~ msgid "VKontakte"
+#~ msgstr "वीकोनटेकट"
+
+#~ msgid "Skype"
+#~ msgstr "स्काइप"
+
+#~ msgid "Instagram"
+#~ msgstr "इन्स्ताग्राम"
+
+#~ msgid "Social "
+#~ msgstr "सामाजिक"
+
+#~ msgid "Login from Floating"
+#~ msgstr "फ्लोटिंग से लॉगिन"
+
+#~ msgid "Admin Custom login Status"
+#~ msgstr "व्यवस्थापक कस्टम लॉगिन स्थिति"
+
+#~ msgid "Disabled"
+#~ msgstr "अक्षम"
+
+#~ msgid "Enable Custom Login"
+#~ msgstr "कस्टम लॉगिन सक्षम"
+
+#~ msgid "  Login Preview"
+#~ msgstr "लॉगिन पूर्वावलोकन"
+
+#~ msgid "Open Your WP Login Page in a New Tab"
+#~ msgstr "एक नए टैब में अपने WP लॉगिन पृष्ठ खोलें"
+
+#~ msgid "Background Noise"
+#~ msgstr "पृष्ठभूमि शोर"
+
+#~ msgid "Noise"
+#~ msgstr "शोर"
+
+#~ msgid "Overlay Effect"
+#~ msgstr "ओवरले प्रभाव"
+
+#~ msgid "Full-Screen YouTube Background"
+#~ msgstr "पूर्ण स्क्रीन यूट्यूब पृष्ठभूमि"
+
+#~ msgid "Youtube Video Url"
+#~ msgstr "YouTube वीडियो URL"
+
+#~ msgid "Top video url"
+#~ msgstr "शीर्ष वीडियो URL"
+
+#~ msgid "Need Help"
+#~ msgstr "कोई मदद चाहिए"
+
+#~ msgid "Our Products"
+#~ msgstr "हमारे उत्पाद"
+
+#~ msgid "Display Facebook Page Live Stream & Fans"
+#~ msgstr "फेसबुक पेज लाइव स्ट्रीम और प्रशंसक प्रदर्शित"
+
+#~ msgid "Facebook Page URL"
+#~ msgstr "फेसबुक पेज यूआरएल"
+
+#~ msgid "Widget Color Scheme"
+#~ msgstr "विजेट रंग योजना"
+
+#~ msgid "Show Widget Header"
+#~ msgstr "विजेट हैडर दिखाएँ "
+
+#~ msgid "Show Faces"
+#~ msgstr "चेहरे दिखाएँ"
+
+#~ msgid "Show Live Stream"
+#~ msgstr "लाइव स्ट्रीम दिखाएँ"
+
+#~ msgid "Widget Width"
+#~ msgstr "विजेट चौड़ाई"
+
+#~ msgid "Facebook App ID"
+#~ msgstr "फेसबुक एप्लिकेशन आईडी"
+
+#~ msgid "Required"
+#~ msgstr "आवश्यक"
+
+#~ msgid "Get Your Facebook App. Id"
+#~ msgstr "आपका फेसबुक एप्लिकेशन प्राप्त करें"
+
+#~ msgid "Shortcode Settings"
+#~ msgstr "लघु कोड सेटिंग्स"
+
+#~ msgid "Light Color Theme"
+#~ msgstr "हल्के रंग थीम"
+
+#~ msgid "Dark Color Theme"
+#~ msgstr "काले रंग की थीम"
+
+#~ msgid "Get Your Own Facebook APP Id"
+#~ msgstr "अपनी खुद फेसबुक एपीपी आईडी प्राप्त करें"
+
+#~ msgid "Settings successfully saved. Reloading page for generating preview below."
+#~ msgstr "सेटिंग्स सफलतापूर्वक बना दी गई है। नीचे पूर्वावलोकन पैदा करने के लिए पेज को पुन: लोड किया जा रहा है।"
+
+#~ msgid ""
+#~ "Thank you for scheduling appointment with us.<br>A confirmation mail will be forward to you "
+#~ "soon after admin approval."
+#~ msgstr ""
+#~ "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही "
+#~ "आपको भेजा जाएगा।"
+
+#~ msgid "Select any service."
+#~ msgstr "कोइ सेवा चुनें"
+
+#~ msgid "Invalid name."
+#~ msgstr "अमान्य नाम"
+
+#~ msgid "Email required."
+#~ msgstr "ईमेल देना आवश्यक है"
+
+#~ msgid "Invalid Email."
+#~ msgstr "अमान्य ईमेल"
+
+#~ msgid "Phone required."
+#~ msgstr "फोन नंबर देना आवश्यक है"
+
+#~ msgid "Invalid phone number."
+#~ msgstr "अमान्य फ़ोन नंबर"
+
+#~ msgid "Schedule New Appointment"
+#~ msgstr "नई नियुक्ति बनायें"
+
+#~ msgid ""
+#~ "Thank you for scheduling appointment with us. A confirmation mail will be sent to you soon "
+#~ "after admin approval."
+#~ msgstr ""
+#~ "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही "
+#~ "आपको भेजा जाएगा।"
+
+#~ msgid "Click Here"
+#~ msgstr "यहाँ क्लिक करें"
+
+#~ msgid "to book another appointment."
+#~ msgstr "एक और नियुक्ति बुक करने के लिए."
+
+#~ msgid "Select Date & Service"
+#~ msgstr "तिथि एवं सेवा का चयन करें"
+
+#~ msgid "Your Appointment Date"
+#~ msgstr "आपकी नियुक्ति की दिनांक"
+
+#~ msgid "Loading..."
+#~ msgstr "लोड हो रहा है..."
+
+#~ msgid "Select Time & Fill Out Form"
+#~ msgstr "समय का चयन करें और प्रपत्र भरें"
+
+#~ msgid "Sorry! No time available today."
+#~ msgstr "क्षमा करें! आज कोई समय उपलब्ध नहीं है।"
+
+#~ msgid "Available Time For"
+#~ msgstr "समय का चयन इस सेवा के लिए"
+
+#~ msgid "On"
+#~ msgstr "पर"
+
+#~ msgid "Eg: 1234567890"
+#~ msgstr "उदाहरण के लिए: 1234567890"
+
+#~ msgid "Special Instruction"
+#~ msgstr "विशेष निर्देश"
+
+#~ msgid "Scheduling your appointment please wait..."
+#~ msgstr "नई नियुक्ति बन रही है, प्रतीक्षा करें..."
+
+#~ msgid "Booked"
+#~ msgstr "नियुक्ति"
+
+#~ msgid "Invalid Name"
+#~ msgstr "अमान्य नाम"
+
+#~ msgid ""
+#~ "Thank you for scheduling appointment with us. A confirmation mail will be forward to you "
+#~ "soon after admin approval."
+#~ msgstr ""
+#~ "हमारे साथ नियुक्ति का समय निर्धारण करने के लिए धन्यवाद। एक संपुष्टि मेल व्यवस्थापक अनुमोदन के बाद जल्द ही "
+#~ "आपको भेजा जाएगा।"
+
+#~ msgid "Sorry! Today's all appointments has been booked."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Appointment Calendar"
+#~ msgstr "नियुक्ति कैलेंडर"
+
+#~ msgid "Manage Appointments"
+#~ msgstr "नियुक्ति प्रबंधन"
+
+#~ msgid "Get Premium Version"
+#~ msgstr "प्रीमियम संस्करण प्राप्त करें"
+
+#~ msgid "Help & Support"
+#~ msgstr "मदद और समर्थन"
+
+#~ msgid ""
+#~ "Appointment Calendar Plugin has been successfully removed. It can be re-activated from the "
+#~ msgstr "नियुक्ति कैलेंडर प्लगइन सफलतापूर्वक हटा दिया गया है। आप इसे फिर से सक्रिय कर सकते हैं"
+
+#~ msgid "Plugins Page"
+#~ msgstr "प्लगइन पृष्ठ"
+
+#~ msgid "Remove Appointment Calendar Plugin"
+#~ msgstr "नियुक्ति कैलेंडर प्लगइन हटायें।"
+
+#~ msgid ""
+#~ "This operation wiil delete all Appointment Calendar data & settings. If you continue, You "
+#~ "will not be able to retrieve or restore your appointments entries."
+#~ msgstr ""
+#~ "यह कार्यवाही नियुक्ति कैलेंडर डेटा की नियुक्ति प्रविष्टियों सहित सेटिंग्स, नष्ट कर देगी. यह पूर्ववत प्राप्त नहीं "
+#~ "किया जा सकता है।"
+
+#~ msgid ""
+#~ "Warning! Appointment Calendar data & settings, including appointment entries will be "
+#~ "deleted. This cannot be undone. OK to delete, CANCEL to stop"
+#~ msgstr ""
+#~ "चेतावनी! नियुक्ति कैलेंडर डेटा और नियुक्ति प्रविष्टियों सहित सेटिंग्स, नष्ट कर दिया जाएगा. यह पूर्ववत प्राप्त "
+#~ "नहीं किया जा सकता है. इसको रोकने के लिए रद्द करें।"
+
+#~ msgid "REMOVE PLUGIN"
+#~ msgstr "प्लगइन हटायें"
+
+#~ msgid "Eg : 1234567890"
+#~ msgstr "उदाहरण के लिए: 1234567890"
+
+#~ msgid "Scheduling appointment please wait..."
+#~ msgstr "नई नियुक्ति बन रही है, प्रतीक्षा करें..."
+
+#~ msgid "Booked By"
+#~ msgstr "नियुक्ति द्वारा"
+
+#~ msgid "Email cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता"
+
+#~ msgid "Invalid email."
+#~ msgstr "अमान्य ईमेल"
+
+#~ msgid "Phone cannot be blank."
+#~ msgstr "फोन खाली नहीं हो सकता"
+
+#~ msgid "Thank you, appointment has been scheduled. Confirmation mail sent to the client."
+#~ msgstr "धन्यवाद! आपकी नियुक्ति निर्धारित की जा चुकी है।"
+
+#~ msgid "Setect Date & Service"
+#~ msgstr "तिथि एवं सेवा का चयन करें"
+
+#~ msgid "Select any service"
+#~ msgstr "किसी सेवा का चयन करें"
+
+#~ msgid "Appointment Calendar Plugin"
+#~ msgstr "नियुक्ति कैलेंडर प्लगइन "
+
+#~ msgid "Manage Appointment(s)"
+#~ msgstr "नियुक्ति प्रबंधन"
+
+#~ msgid "All Appointments"
+#~ msgstr "सभी नियुक्तियाँ"
+
+#~ msgid "Pending Appointments"
+#~ msgstr "लंबित नियुक्तियाँ"
+
+#~ msgid "Apporved Appointments"
+#~ msgstr "स्वीकृत नियुक्तियाँ"
+
+#~ msgid "Cancelled Appointments"
+#~ msgstr "रद्द नियुक्तियाँ"
+
+#~ msgid "Today's Appointments"
+#~ msgstr "आज की नियुक्तियाँ"
+
+#~ msgid "Filter Appointments"
+#~ msgstr "नियुक्ति फ़िल्टर"
+
+#~ msgid "Filter Appointment(s)"
+#~ msgstr "नियुक्ति फ़िल्टर"
+
+#~ msgid "No."
+#~ msgstr "संख्या"
+
+#~ msgid "Select All Appointments"
+#~ msgstr "सभी नियुक्तियों का चयन करें"
+
+#~ msgid "Do you want to delete this appointment?"
+#~ msgstr "क्या आप यह नियुक्ति हटाना चाहते हैं?"
+
+#~ msgid "Click to select"
+#~ msgstr "चयन करने के लिए चुनें"
+
+#~ msgid "Do you want to delete selected appointments?"
+#~ msgstr "क्या आप यह नियुक्ति हटाना चाहते हैं?"
+
+#~ msgid "Sorry No Appointments"
+#~ msgstr "माफ करें। कोई नियुक्ति उपलब्ध नहीं हैं।"
+
+#~ msgid "Manage Notification Settings"
+#~ msgstr "अधिसूचना सेटिंग प्रबंधित करें"
+
+#~ msgid "ON/OFF Notification"
+#~ msgstr " शुरू / बंद अधिसूचना"
+
+#~ msgid "Select Type"
+#~ msgstr "प्रकार चुनें"
+
+#~ msgid "Notification Type"
+#~ msgstr "अधिसूचना प्रकार"
+
+#~ msgid "WP Mail Details"
+#~ msgstr "WP मेल विवरण"
+
+#~ msgid "Admin Email"
+#~ msgstr "व्यवस्थापक ईमेल"
+
+#~ msgid "PHPMail Details"
+#~ msgstr "PHP मेल विवरण"
+
+#~ msgid "SMTP Mail Details"
+#~ msgstr "SMTP मेल विवरण"
+
+#~ msgid "Host Name"
+#~ msgstr "होस्ट नाम"
+
+#~ msgid "Port Number"
+#~ msgstr "पोर्ट संख्या"
+
+#~ msgid "SMTP Port Number"
+#~ msgstr "पोर्ट संख्या"
+
+#~ msgid "Admin SMTP Email"
+#~ msgstr "व्यवस्थापक SMTP ईमेल"
+
+#~ msgid "Admin SMTP Email Password"
+#~ msgstr "व्यवस्थापक SMTP ईमेल पासवर्ड"
+
+#~ msgid "Select email type"
+#~ msgstr "ईमेल प्रकार चुनें"
+
+#~ msgid "Enter wp email"
+#~ msgstr "Wp ईमेल दर्ज करें"
+
+#~ msgid "Enter php email"
+#~ msgstr "Php ईमेल दर्ज करें"
+
+#~ msgid "Invalid port number."
+#~ msgstr "अमान्य पोर्ट संख्या"
+
+#~ msgid "Enter password"
+#~ msgstr "पासवर्ड दर्ज करें "
+
+#~ msgid "Description"
+#~ msgstr "विवरण"
+
+#~ msgid "Service Description"
+#~ msgstr "सेवा विवरण"
+
+#~ msgid "Service Duration.<br>Enter Numeric Value.<br>Eg: 5, 10, 15, 30, 60"
+#~ msgstr "सेवा अवधि<br>अंको में हो<br>उदहरण: 5, 10, 15, 30, 60"
+
+#~ msgid "Select Duration's Unit"
+#~ msgstr "अवधि इकाई चुनें"
+
+#~ msgid "Minute(s)"
+#~ msgstr "मिनट"
+
+#~ msgid "Cost"
+#~ msgstr "मूल्य"
+
+#~ msgid "Service Cost<br>Enter Numeric Value<br> Eg: 5 , 10, 25, 50, 100, 150"
+#~ msgstr "सेवा शुल्क<br>अंको में हो<br>उदहरण: 5 , 10, 25, 50, 100, 150"
+
+#~ msgid "Availability"
+#~ msgstr "उपलब्धता"
+
+#~ msgid "Select Service Availability"
+#~ msgstr "सेवा की उपलब्धता का चयन करें"
+
+#~ msgid "Service Availability"
+#~ msgstr "सेवा की उपलब्धता"
+
+#~ msgid "Category"
+#~ msgstr "श्रेणी"
+
+#~ msgid "Service Category"
+#~ msgstr "सेवा श्रेणी"
+
+#~ msgid "Create"
+#~ msgstr "बनायें"
+
+#~ msgid "New service successfully created."
+#~ msgstr "नई सेवा सफलतापूर्वक बना दि गयी है।"
+
+#~ msgid "Service successfully updated."
+#~ msgstr "सेवा सफलतापूर्वक नवीनतम बना दि गयी है।"
+
+#~ msgid "Description  cannot be blank."
+#~ msgstr "विवरण खाली नहीं हो सकता"
+
+#~ msgid "Invalid Duration."
+#~ msgstr "अमान्य अवधि"
+
+#~ msgid "Duration will be in multiple of 5, like as: 5, 10, 15, 20, 25."
+#~ msgstr "अवधि 5 के गुणांक में हो, उदहरण: 5, 10, 15, 20, 25"
+
+#~ msgid "Select Durations Unit."
+#~ msgstr "अवधि इकाई चुनें"
+
+#~ msgid "Cost cannot be blank."
+#~ msgstr "मूल्य खाली नहीं हो सकता"
+
+#~ msgid "Invalid cost."
+#~ msgstr "अमान्य मूल्य"
+
+#~ msgid "Select availability."
+#~ msgstr "उपलब्धता का चयन करें"
+
+#~ msgid "Select category."
+#~ msgstr "श्रेणी चुनें"
+
+#~ msgid "Calendar Slot Time"
+#~ msgstr "कैलेंडर स्लॉट समय"
+
+#~ msgid "Select Time"
+#~ msgstr "समय चुनें"
+
+#~ msgid "15 Minute"
+#~ msgstr "15 मिनट"
+
+#~ msgid "30 Minute"
+#~ msgstr "30 मिनट"
+
+#~ msgid "60 Minute"
+#~ msgstr "60 मिनट"
+
+#~ msgid "Calendar Time Slot"
+#~ msgstr "कैलेंडर के स्लॉट का समय"
+
+#~ msgid "Day Start Time"
+#~ msgstr "दिन का प्रारम्भिक समय"
+
+#~ msgid "Calendar Day Start Time"
+#~ msgstr "कैलेंडर के दिन प्रारम्भ होने का समय है"
+
+#~ msgid "Day End Time"
+#~ msgstr "दिन की समाप्ति समय"
+
+#~ msgid "Calendar Day End Time"
+#~ msgstr "कैलेंडर के दिन की समाप्ति का समय"
+
+#~ msgid "Select View"
+#~ msgstr "प्रकार चुनें"
+
+#~ msgid "Calendar First Day"
+#~ msgstr "कैलेंडर का प्रथम दिवस"
+
+#~ msgid "Select Start Day"
+#~ msgstr "प्रारम्भ दिन चुनें"
+
+#~ msgid "Booking Button Text"
+#~ msgstr "आरक्षण का बटन पाठ"
+
+#~ msgid "Booking Time Slot"
+#~ msgstr "कैलेंडर के स्लॉट का समय"
+
+#~ msgid "5 Minutes"
+#~ msgstr "5 मिनट"
+
+#~ msgid "10 Minutes"
+#~ msgstr "10 मिनट"
+
+#~ msgid "15 Minutes"
+#~ msgstr "15 मिनट"
+
+#~ msgid "20 Minutes"
+#~ msgstr "20 मिनट"
+
+#~ msgid "25 Minutes"
+#~ msgstr "25 मिनट"
+
+#~ msgid "30 Minutes"
+#~ msgstr "30 मिनट"
+
+#~ msgid "35 Minutes"
+#~ msgstr "35 मिनट"
+
+#~ msgid "40 Minutes"
+#~ msgstr "40 मिनट"
+
+#~ msgid "45 Minutes"
+#~ msgstr "45 मिनट"
+
+#~ msgid "60 Minutes (1 Hour)"
+#~ msgstr "60 मिनट (1 घंटा)"
+
+#~ msgid "75 Minutes"
+#~ msgstr "75 मिनट"
+
+#~ msgid "90 Minutes"
+#~ msgstr "90 मिनट"
+
+#~ msgid "120 Minutes (2 Hour)"
+#~ msgstr "120 मिनट (2 घंटे)"
+
+#~ msgid "150 Minutes"
+#~ msgstr "150 मिनट"
+
+#~ msgid "180 Minutes (3 Hour)"
+#~ msgstr "180 मिनट (3 घंटे)"
+
+#~ msgid "210 Minutes"
+#~ msgstr "210 मिनट"
+
+#~ msgid "240 Minutes (4 Hour)"
+#~ msgstr "240 मिनट (4 घंटे)"
+
+#~ msgid "270 Minutes"
+#~ msgstr "270 मिनट"
+
+#~ msgid "300 Minutes (5 Hour)"
+#~ msgstr "300 मिनट (5 घंटे)"
+
+#~ msgid "Select slot time."
+#~ msgstr "स्लॉट समय चुनें"
+
+#~ msgid "Select start time."
+#~ msgstr "प्रारम्भ समय चुनें"
+
+#~ msgid "Select end time."
+#~ msgstr "समाप्ति समय चुनें"
+
+#~ msgid "Select calendar view."
+#~ msgstr "कैलेंडर रुप चुनें"
+
+#~ msgid "Select calendar start day."
+#~ msgstr "कैलेंडर का प्रारंभ दिन चुनें"
+
+#~ msgid "ON"
+#~ msgstr "चालू"
+
+#~ msgid "OFF"
+#~ msgstr "बंद"
+
+#~ msgid "Not Available"
+#~ msgstr "अनुपलब्ध"
+
+#~ msgid "WP Email"
+#~ msgstr "WP ईमेल"
+
+#~ msgid "PHP Email"
+#~ msgstr "PHP ईमेल"
+
+#~ msgid "Notification settings successfully updated."
+#~ msgstr "अधिसूचना सेटिंग सफलतापूर्वक नवीनतम हो चुकी है।"
+
+#~ msgid "Rename Category"
+#~ msgstr "श्रेणी का नाम बदलें"
+
+#~ msgid "Rename"
+#~ msgstr "नाम परिवर्तन करें"
+
+#~ msgid "Do you want to delete this Category?"
+#~ msgstr "क्या आप यह श्रेणी हटाना चाहते हैं?"
+
+#~ msgid "Do you want to delete this service?"
+#~ msgstr "क्या आप ये सेवा हटाना चाहते हैं?"
+
+#~ msgid "Add New Service to this Category"
+#~ msgstr "इस श्रेणी में नई सेवा जोंडे़"
+
+#~ msgid "+ Add New Service to this Category"
+#~ msgstr "इस श्रेणी में नई सेवा जोंडे"
+
+#~ msgid "Create New Service Category"
+#~ msgstr "सेवा की नई श्रेणी बनायें"
+
+#~ msgid "Service Category name "
+#~ msgstr "सेवा श्रेणी का नाम"
+
+#~ msgid "Create Category"
+#~ msgstr "श्रेणी बनायें"
+
+#~ msgid "Invalid group name"
+#~ msgstr "अमान्य समूह नाम"
+
+#~ msgid "Group name cannot be blank."
+#~ msgstr "समूह का नाम खाली नहीं हो सकता."
+
+#~ msgid "Category name cannot be blank."
+#~ msgstr "श्रेणी का नाम खाली नहीं हो सकता"
+
+#~ msgid "Invalid category name."
+#~ msgstr "अमान्य श्रेणी नाम"
+
+#~ msgid "Not Available."
+#~ msgstr "उपलब्ध नहीं"
+
+#~ msgid "Calendar Start Day"
+#~ msgstr "कैलेंडर का प्रारंभ दिन"
+
+#~ msgid "Settings successfully updated"
+#~ msgstr "सेटिंग सफलतापूर्वक नवीनतम बना दी गई है।"
+
+#~ msgid "Select All"
+#~ msgstr "सभी को चुनें"
+
+#~ msgid "Do you want to delete this time off?"
+#~ msgstr "क्या आप यह टाईम आफ हटाना चाहते हैं?"
+
+#~ msgid "Do you want to delete all Time Off"
+#~ msgstr "क्या आप सभी टाईम आफ हटाना चाहते हैं?"
+
+#~ msgid "Create Time Off"
+#~ msgstr "टाईम आफ बनायें"
+
+#~ msgid "Time-off successfully added."
+#~ msgstr "टाईम आफ बना दिया गया है।"
+
+#~ msgid "Time-off successfully deleted."
+#~ msgstr "टाईम आफ हटा दिया गया है।"
+
+#~ msgid "Selected Time-off successfully deleted."
+#~ msgstr "चुने हुए टाईम आफ हटा दिये गये हैं।"
+
+#~ msgid "No time-off selected to delete."
+#~ msgstr "कोई टाईम आफ हटाने के लिये नहीं चुना गया।"
+
+#~ msgid "This field required."
+#~ msgstr "यह देना आवश्यक है."
+
+#~ msgid "Start-time and End-time cant be equal."
+#~ msgstr "प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Start-time must be smaller then End-time."
+#~ msgstr "प्रारंभ समय अंत समय से छोटा होना चाहिए"
+
+#~ msgid "End-time must be bigger then Start-time."
+#~ msgstr "अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Update Appointment(s)"
+#~ msgstr "नियुक्ति नवीनीकरण"
+
+#~ msgid "Client Email"
+#~ msgstr "ग्राहक ईमेल"
+
+#~ msgid "Client Phone Number"
+#~ msgstr "ग्राहक फोन संख्या"
+
+#~ msgid "Appointment Start Time"
+#~ msgstr "नियुक्ति का प्रारंभिक  "
+
+#~ msgid "Appointment End Time"
+#~ msgstr "नियुक्ति का अंतिम समय"
+
+#~ msgid "Appointment Description"
+#~ msgstr "नियुक्ति विवरण"
+
+#~ msgid "Appointment By"
+#~ msgstr "नियुक्ति बनाने वाला"
+
+#~ msgid "Admin"
+#~ msgstr "व्यवस्थापक"
+
+#~ msgid "User"
+#~ msgstr "उपयोगकर्ता"
+
+#~ msgid "Appointment Booked By"
+#~ msgstr "नियुक्ति बनाने वाला"
+
+#~ msgid "Email field cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता"
+
+#~ msgid "Phone field cannot be blank."
+#~ msgstr "फोन खाली नहीं हो सकता"
+
+#~ msgid "Invalid Phone number."
+#~ msgstr "अमान्य फ़ोन नंबर"
+
+#~ msgid "Start Time  cannot be blank."
+#~ msgstr "राज्य रिक्त नहीं हो सकता"
+
+#~ msgid "End Time cannot be blank."
+#~ msgstr "समाप्ति समय रिक्त नहीं हो सकता."
+
+#~ msgid "Start Date cannot be blank."
+#~ msgstr "राज्य रिक्त नहीं हो सकता"
+
+#~ msgid "Appointment successfully updated."
+#~ msgstr "नियुक्ति को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "View Appointment(s)"
+#~ msgstr "नियुक्ति देखें"
+
+#~ msgid "Appointment Key"
+#~ msgstr "नियुक्ति कुंजी"
+
+#~ msgid "Update Time Off"
+#~ msgstr "टाईम आफ नवीनतम बनायें"
+
+#~ msgid "Repeat Weeks(s)"
+#~ msgstr "दोहरान हफ्तें"
+
+#~ msgid "Time-off successfully updated."
+#~ msgstr "टाईम आफ सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Time Off deleted successfully."
+#~ msgstr "टाईम आफ सफलतापूर्वक हटा दिया गया है।"
+
+#~ msgid "Shedule New Appointment"
+#~ msgstr "नई नियुक्ति बनायें"
+
+#~ msgid "Done Appointments"
+#~ msgstr "पुरी हो चुकी नियुक्तियाँ"
+
+#~ msgid "Smtp Post Number"
+#~ msgstr "SMTP पोर्ट संख्या"
+
+#~ msgid "Invalid gruop name"
+#~ msgstr "अमान्य समूह नाम"
+
+#~ msgid "Gruop name cannot be blank."
+#~ msgstr "समूह का नाम खाली नहीं हो सकता"
+
+#~ msgid "Star Time"
+#~ msgstr "प्रारम्भ होन का समय:"
+
+#~ msgid ""
+#~ "<strong>Appointment Calendar Lite</strong> is a simple but effective plugin which enables "
+#~ "you to take appointments on your wordpress blog."
+#~ msgstr ""
+#~ "<strong>नियुक्ति कैलेंडर एक सरल लेकिन प्रभावी प्लगइन जो आपको अपने वर्डप्रैस ब्लॉग पर नियुक्तियों को लेने के "
+#~ "लिए सक्षम बनाता है। </strong>"
+
+#~ msgid ""
+#~ "If you are a consultant/doctor/lawyer etc, you can harness the power of appointment "
+#~ "calendar."
+#~ msgstr "यदि आप एक परामर्शदाता चिकित्सक, वकील आदि हैं, तो आप नियुक्ति कैलेंडर की शक्ति का दोहन कर सकते हैं।"
+
+#~ msgid ""
+#~ "Simply unzip and upload appointment-calendar directory to /wp-content/plugins/ directory "
+#~ "and activate the plugin."
+#~ msgstr ""
+#~ "बस खोलें और नियुक्ति कैलेंडर प्रीमियम प्लगइन को /wp-content/plugins/ डयरेक्ट्री में अपलोड करें और प्लगइन को "
+#~ "सक्रिय करें।"
+
+#~ msgid "To insert Appointment Calendar into any post or page, use the shortcode:"
+#~ msgstr "किसी भी पोस्ट या पृष्ठ में नियुक्ति कैलेंडर डालने के लिए इस शोर्टकोड का उपयोग करें:"
+
+#~ msgid "Appointment Calendar shortcode for Mobile Devices:"
+#~ msgstr "मोबाइल उपकरणों के लिए नियुक्ति कैलेंडर शोर्टकोड"
+
+#~ msgid "That's it, you can now start taking appointments on your wordpress site."
+#~ msgstr "यह ठीक है, अब आप अपने वर्डप्रैस साइट पर नियुक्तियों लेने शुरू कर सकते हैं।"
+
+#~ msgid "<strong>WordPress Forum Support:</strong>"
+#~ msgstr "<strong>वर्डप्रेस फोरम सहायता:</strong>"
+
+#~ msgid "WordPress Forum Support"
+#~ msgstr "वर्डप्रेस फोरम सहायता"
+
+#~ msgid "HERE"
+#~ msgstr "यहाँ जायें"
+
+#~ msgid "Documentation For Appointment Calendar Plugin"
+#~ msgstr "नियुक्ति कैलेंडर प्लगइन के लिए प्रलेखन"
+
+#~ msgid "AppointZilla : Appointment Scheduling Plugin For Wordpress"
+#~ msgstr "आपोंईटजिला: वर्डप्रैस के लिए नियुक्ति निर्धारण प्लगइन"
+
+#~ msgid "AppointZilla"
+#~ msgstr "आपोंईटजिला"
+
+#~ msgid "Minute(S)"
+#~ msgstr "मिनट"
+
+#, fuzzy
+#~ msgid "Repeat Bi-Weeks(s)"
+#~ msgstr "दोहरान हफ्तें"
+
+#~ msgid "Invalid field value."
+#~ msgstr "अमान्य तथ्य"
+
+#~ msgid "Invalid value."
+#~ msgstr "अमान्य तथ्य."
+
+#, fuzzy
+#~ msgid "Step-1. Select Time & Service"
+#~ msgstr "चरण 1-. दिनांक और सेवा का चयन करें"
+
+#~ msgid "Your Appointment Date:"
+#~ msgstr "आपकी नियुक्ति की दिनांक:"
+
+#~ msgid "Select Service:"
+#~ msgstr "सेवा चयन करें:"
+
+#~ msgid "Loading Staff..."
+#~ msgstr "कर्मचारी लोड हो रहें हैं ..."
+
+#~ msgid "Select Staff:"
+#~ msgstr "कर्मचारी चयन करें:"
+
+#~ msgid "Step-3. Fill Up Your`s Details"
+#~ msgstr "चयण-3. ग्राहक विवरण भरें"
+
+#~ msgid "Your Appointment Details"
+#~ msgstr "आपकी नियुक्ति का विवरण"
+
+#, fuzzy
+#~ msgid "Payment received and your appointment has been confirmed."
+#~ msgstr "धन्यवाद! आपकी नियुक्ति निर्धारित की जा चुकी है।"
+
+#, fuzzy
+#~ msgid "Thank you sheduling appointment with us."
+#~ msgstr "धन्यवाद! आपकी नियुक्ति निर्धारित की जा चुकी है।"
+
+#, fuzzy
+#~ msgid "Sorry! Your appointment not successfull."
+#~ msgstr "माफ करना कोई नियुक्तियां नहीं हैं।"
+
+#, fuzzy
+#~ msgid "Sorry! Your appointment not successful."
+#~ msgstr "माफ करना कोई नियुक्तियां नहीं हैं।"
+
+#, fuzzy
+#~ msgid "Sorry! Appointment can't be booked for past dates."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Appointment Calendar Premium Powered By:"
+#~ msgstr "नियुक्ति कैलेंडर प्रीमियम द्वारा संचालित:"
+
+#~ msgid "Appointment Scheduling Plugin For Wordpress"
+#~ msgstr "आपोंईटजिला: वर्डप्रैस के लिए नियुक्ति निर्धारण प्लगइन"
+
+#~ msgid "Your Appointments"
+#~ msgstr "आपकी नियुक्तियाँ"
+
+#~ msgid "Client"
+#~ msgstr "ग्राहक"
+
+#, fuzzy
+#~ msgid "Step-2. Select Service Time"
+#~ msgstr "चरण-2.सेवा समय का चयन करें"
+
+#, fuzzy
+#~ msgid "Capacity Per Time Slot:"
+#~ msgstr "कैलेंडर के स्लॉट का समय."
+
+#, fuzzy
+#~ msgid "Sorry! Today all appointments has been booked with this service."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Sorry! Today business is closed."
+#~ msgstr "क्षमा करें! आज व्यापार बंद है।"
+
+#, fuzzy
+#~ msgid "Sorry! Today this staff not available or business close."
+#~ msgstr "क्षमा करें! आज व्यापार बंद है।"
+
+#~ msgid "Invalid Start Time. Start Time should be less than End Time."
+#~ msgstr "अमान्य प्रारंभ समय. शुरू करने का समय समाप्ति समय कम से कम होना चाहिए."
+
+#~ msgid "End Time: "
+#~ msgstr "समाप्त होन का समय:"
+
+#~ msgid "Invalid End Time. End Time should be greater than Start Time."
+#~ msgstr "अमान्य समाप्ति समय. समाप्ति समय प्रारंभ समय से अधिक होना चाहिए."
+
+#~ msgid "Invalid time range."
+#~ msgstr "अमान्य समय सीमा"
+
+#~ msgid "Repeat Days required"
+#~ msgstr "दिनों की दोहरान संख्या डालें"
+
+#~ msgid "Repeat Weeks required."
+#~ msgstr "हफ्तों की दोहरान संख्या डालें"
+
+#~ msgid "Repeat Months required."
+#~ msgstr "महीनों की दोहरान संख्या डालें"
+
+#, fuzzy
+#~ msgid "Invalid Date! Start-Date should be less than End-Date."
+#~ msgstr "अमान्य प्रारंभ समय. शुरू करने का समय समाप्ति समय कम से कम होना चाहिए."
+
+#~ msgid "Client name cannot be blank."
+#~ msgstr "क्लाइंट का नाम खाली नहीं हो सकता."
+
+#~ msgid "Filter Appointments By Staff"
+#~ msgstr "कर्मचारियों द्वारा नियुक्ति फ़िल्टर:"
+
+#~ msgid "Recurring Appointments"
+#~ msgstr "पुनरावर्ती नियुक्तियाँ"
+
+#~ msgid "Apply"
+#~ msgstr "लागू करें"
+
+#~ msgid "Appointments (No Staff Assigned)"
+#~ msgstr "नियुक्ति (कोई कर्मचारी नियुक्त नहीं)"
+
+#, fuzzy
+#~ msgid "Step-1. Select Date & Service"
+#~ msgstr "चरण 1-. दिनांक और सेवा का चयन करें"
+
+#, fuzzy
+#~ msgid "Step-2. Select Service Time & Repeat"
+#~ msgstr "चरण-2.सेवा समय और दोहरान का चयन करें"
+
+#~ msgid "Sorry! No Time Available Today."
+#~ msgstr "क्षमा करें! आज कोई समय उपलब्ध नहीं है।"
+
+#~ msgid "Particular Dates"
+#~ msgstr "विशेष तिथियाँ"
+
+#~ msgid "(Min = 1, Max = 99 Days)"
+#~ msgstr "( न्यूनतम = 1, अधिकतम = 99 महीनें)"
+
+#~ msgid "(Min = 1, Max = 99 Weeks)"
+#~ msgstr "( न्यूनतम = 1, अधिकतम = 99 हफ्तें)"
+
+#~ msgid "(Min = 1, Max = 99 Months)"
+#~ msgstr "( न्यूनतम = 1, अधिकतम = 99 महीने)"
+
+#~ msgid "This field is required."
+#~ msgstr "यह डालना आवश्यक है."
+
+#~ msgid "Admin can create appointments at any time."
+#~ msgstr "व्यवस्थापक नियुक्तियाँ किसी भी समय बना सकता है।"
+
+#~ msgid "Step-3. Fill Up Client Details"
+#~ msgstr "चयण-3. ग्राहक विवरण भरें"
+
+#~ msgid "Sheduling Apoointment, Please wait..."
+#~ msgstr "नई नियुक्ति बन रही है, प्रतीक्षा करें..."
+
+#~ msgid "Step-4. Appointment has been scheduled."
+#~ msgstr "चरण-4. आपको नियुक्त किया जा चुका है।"
+
+#~ msgid "Add Client"
+#~ msgstr "ग्राहक जोडे़"
+
+#, fuzzy
+#~ msgid "Client Name :"
+#~ msgstr "ग्राहक नाम"
+
+#~ msgid "Special Note"
+#~ msgstr "विशेष निर्देश"
+
+#, fuzzy
+#~ msgid "Appointment History"
+#~ msgstr "नियुक्ति बनाने वाला"
+
+#~ msgid "Do you want to delete this client"
+#~ msgstr "क्या आप यह ग्राहक हटाना चाहते हैं?"
+
+#~ msgid "First"
+#~ msgstr "प्रथम"
+
+#~ msgid "Last"
+#~ msgstr "अंतिम"
+
+#~ msgid "Do you want to delete clients"
+#~ msgstr "क्या आप यह ग्राहक हटाना चाहते हैं?"
+
+#, fuzzy
+#~ msgid "Sorry no Client(s)."
+#~ msgstr "माफ करना कोई ग्राहक नहीं है।"
+
+#~ msgid "Client successfully deleted."
+#~ msgstr "ग्राहक हटा दिया गया है।"
+
+#~ msgid "Seleted client(s) successfully deleted."
+#~ msgstr "चुने हुए ग्राहक सफलतापूर्वक हटा दिये गये हैं।"
+
+#~ msgid "No client(s) selected to delete."
+#~ msgstr "कोई ग्राहक हटाने के लिये नहीं चुना गया।"
+
+#~ msgid "Manage Client"
+#~ msgstr "ग्राहक प्रबंधन"
+
+#~ msgid "Client Name."
+#~ msgstr "ग्राहक नाम"
+
+#~ msgid "Client Email."
+#~ msgstr "ग्राहक ईमेल"
+
+#~ msgid "Phone Number."
+#~ msgstr "फोन नंबर"
+
+#~ msgid "Client Note."
+#~ msgstr "ग्राहक र्निदेश"
+
+#, fuzzy
+#~ msgid "Client Details"
+#~ msgstr "ग्राहक ईमेल"
+
+#, fuzzy
+#~ msgid "Client Detailed Appointment History"
+#~ msgstr "रद्द नियुक्तियाँ"
+
+#, fuzzy
+#~ msgid "All Appointment History"
+#~ msgstr "सभी नियुक्तियाँ"
+
+#~ msgid "Appointment Creation Date"
+#~ msgstr "नियुक्ति निर्माण तिथि"
+
+#~ msgid "Repeat Type"
+#~ msgstr "दोहरान प्रकार"
+
+#~ msgid "Repeat Start Date"
+#~ msgstr "दोहरान प्रारम्भ होन की दिनांक"
+
+#~ msgid "Repeat End Date"
+#~ msgstr "दोहरान समाप्त होन की दिनांक"
+
+#, fuzzy
+#~ msgid "No Appointment For This Client"
+#~ msgstr "नियुक्ति का समय"
+
+#~ msgid "is alredy existing."
+#~ msgstr " पहले से उपस्थित है।"
+
+#~ msgid "New client successfully added."
+#~ msgstr "नया ग्राहक सफलतार्पूक जोड़ दिया गया है।"
+
+#~ msgid "Client details successfully updated."
+#~ msgstr "ग्राहक विवरण सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "is alredy existing Client email."
+#~ msgstr "पहले से उपस्थित है।"
+
+#~ msgid "invalid  value."
+#~ msgstr "अमान्य तथ्य"
+
+#~ msgid "Phone Number cannot be blank."
+#~ msgstr "फोन खाली नहीं हो सकता."
+
+#, fuzzy
+#~ msgid "Paid`s  Appointments"
+#~ msgstr "आज की नियुक्तियाँ"
+
+#, fuzzy
+#~ msgid "Unpaid`s  Appointments"
+#~ msgstr "आज की नियुक्तियाँ"
+
+#, fuzzy
+#~ msgid "Updating..."
+#~ msgstr "लोड हो रहा है..."
+
+#~ msgid "Appointment successfully deleted."
+#~ msgstr "नियुक्ति को सफलतापूर्वक हटा दिया गया है।"
+
+#~ msgid "Selected Appointment(s) successfully deleted."
+#~ msgstr "चुने हुए नियुक्तियों को सफलतापूर्वक हटा दिया गया है।"
+
+#~ msgid "No Appointment(s) selected to delete."
+#~ msgstr "कोई नियुक्ति हटाने के लिये नहीं चुना गया।"
+
+#, fuzzy
+#~ msgid "Service Duration<br>Enter Numeric Value In Multiple Of 5<br>Eg: 15, 30, 60"
+#~ msgstr "अवधि 5 के गुणांक में हो, उदहरण: 5, 10, 15, 20, 25"
+
+#, fuzzy
+#~ msgid "Payment Type"
+#~ msgstr "दोहरान प्रकार"
+
+#~ msgid "Assign Staff(s)"
+#~ msgstr "स्टाफ जोडे़"
+
+#~ msgid "Use CTRL to Select Multiple Staff(s)"
+#~ msgstr "CTRL को दबाकर ज्यादा स्टाफ जोंडे़"
+
+#, fuzzy
+#~ msgid "Assign Staff(s) To This Service<br>Use CTRL To Select Multiple Staffs"
+#~ msgstr "CTRL को दबाकर ज्यादा स्टाफ को इस सेवा से जोंडे़"
+
+#, fuzzy
+#~ msgid "Capacity cannot be blank."
+#~ msgstr "शहर खाली नहीं हो सकता."
+
+#, fuzzy
+#~ msgid "Invalid capacity."
+#~ msgstr "अमान्य मूल्य"
+
+#, fuzzy
+#~ msgid "Percentage ammount cannot be blank."
+#~ msgstr "क्लाइंट का नाम खाली नहीं हो सकता."
+
+#~ msgid "Assign any staff."
+#~ msgstr "कोई भी स्टाफ जोंडे़"
+
+#~ msgid "Manage Staff"
+#~ msgstr "कर्मचारी प्रबंधन"
+
+#~ msgid "Staff Name."
+#~ msgstr "कर्मचारी का नाम"
+
+#~ msgid "Staff Email."
+#~ msgstr "कर्मचारी का ईमेल"
+
+#~ msgid "Experience"
+#~ msgstr "अनुभव "
+
+#~ msgid "Staff Experience(In year)."
+#~ msgstr "कर्मचारी अनुभव (वर्ष में)"
+
+#~ msgid "Group Name"
+#~ msgstr "समूह का नाम"
+
+#~ msgid "Select Staff Group"
+#~ msgstr "कर्मचारी की समूह का चयन करें"
+
+#~ msgid "Staff Group Name."
+#~ msgstr "कर्मचारी की समूह का नाम"
+
+#~ msgid "Staff Address."
+#~ msgstr "कर्मचारी का पता"
+
+#~ msgid "Staff City."
+#~ msgstr "कर्मचारी का शहर"
+
+#~ msgid "Assign Service(s)"
+#~ msgstr "सेवांए जोडे़"
+
+#~ msgid "Use CTRL to Select Multiple Service(s)"
+#~ msgstr "CTRL को दबाकर ज्यादा सेवांए जोंडे़"
+
+#~ msgid "Assign Staff(s) To This Service.&lt;br&gt;Use CTRL To Select Multiple Staffs"
+#~ msgstr "CTRL को दबाकर ज्यादा स्टाफ को इस सेवा से जोंडे़"
+
+#~ msgid "View Staff"
+#~ msgstr "कर्मचारी देखें"
+
+#, fuzzy
+#~ msgid "Year(s)"
+#~ msgstr "वर्ष"
+
+#~ msgid "Group name"
+#~ msgstr "समूह का नाम"
+
+#~ msgid "New Staff"
+#~ msgstr "नया कर्मचारी"
+
+#~ msgid "is successfully added."
+#~ msgstr "सफलतापूर्वक बना दिया गया है।"
+
+#~ msgid "Staff details successfully updated."
+#~ msgstr "कर्मचारी विवरण सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Staff name cannot be blank."
+#~ msgstr "कर्मचारी रिक्त नहीं हो सकता"
+
+#~ msgid "Invalid  value."
+#~ msgstr "अमान्य तथ्य"
+
+#~ msgid "Select any group."
+#~ msgstr "कोई समूह चुनें"
+
+#~ msgid "Assign any service."
+#~ msgstr "कोई भी सेवा जोंडे़"
+
+#, fuzzy
+#~ msgid "Time & Date"
+#~ msgstr "समय क्षेत्र"
+
+#, fuzzy
+#~ msgid "Do you want to delete this transaction"
+#~ msgstr "क्या आप यह ग्राहक हटाना चाहते हैं?"
+
+#, fuzzy
+#~ msgid "Do you want to delete these transaction"
+#~ msgstr "क्या आप यह नियुक्तियाँ हटाना चाहते हैं?"
+
+#, fuzzy
+#~ msgid "Transaction successfully deleted."
+#~ msgstr "टाईम आफ हटा दिया गया है।"
+
+#, fuzzy
+#~ msgid "Selected transaction successfully deleted."
+#~ msgstr "चुने हुए टाईम आफ हटा दिये गये हैं।"
+
+#, fuzzy
+#~ msgid "No transaction(s) selected to delete."
+#~ msgstr "कोई ग्राहक हटाने के लिये नहीं चुना गया।"
+
+#~ msgid "Delete Category"
+#~ msgstr "श्रेणी हटायें"
+
+#~ msgid "name"
+#~ msgstr "नाम"
+
+#~ msgid "Service category successfully renamed"
+#~ msgstr "सेवा श्रेणी सफलतापूर्वक हटा दि गयी है।"
+
+#~ msgid "Invalid group name."
+#~ msgstr "अमान्य समूह नाम"
+
+#~ msgid "Service category successfully deleted."
+#~ msgstr "सेवा श्रेणी सफलतापूर्वक हटा दि गयी है।"
+
+#~ msgid "invalid Category name."
+#~ msgstr "अमान्य श्रेणी नाम."
+
+#~ msgid "Settings Panel"
+#~ msgstr "सेटिंग्स पैनल"
+
+#~ msgid "Business Profile"
+#~ msgstr "व्यापार रूपरेखा"
+
+#~ msgid "Business Hours"
+#~ msgstr "व्यापार के घटें"
+
+#, fuzzy
+#~ msgid "Staff Hours"
+#~ msgstr "कर्मचारी का पता"
+
+#~ msgid "Calendar Settings"
+#~ msgstr "कैलेंडर सेटिंग्स"
+
+#~ msgid "Admin Settings"
+#~ msgstr "व्यवस्थापक सेटिंग्स"
+
+#~ msgid "Notification Message"
+#~ msgstr "अधिसूचना सूचना"
+
+#~ msgid "Google Calendar"
+#~ msgstr "गूगल कैलेंडर"
+
+#, fuzzy
+#~ msgid "Payment Settings"
+#~ msgstr "सेटिंग्स सहेजें"
+
+#~ msgid "Settings Panel Allows Admin To Manage Following Settings"
+#~ msgstr "सेटिंग्स पैनल व्यवस्थापक को निम्न सेटिंग का प्रबन्धन प्रदान करता है।"
+
+#~ msgid "Setup 'Business Profile'"
+#~ msgstr "व्यापार रूपरेखा का प्रबन्धन करें"
+
+#~ msgid "Manage 'Business Working Hours'"
+#~ msgstr "व्यापार के घटों का प्रबन्धन करें"
+
+#, fuzzy
+#~ msgid "Manage 'Staff Hours'"
+#~ msgstr "कर्मचारी प्रबंधन"
+
+#~ msgid "Manage 'Calendar Settings'"
+#~ msgstr "कैलेंडर सेटिंग्स का प्रबंधन"
+
+#~ msgid "Manage 'Notification Settings'"
+#~ msgstr "अधिसूचना सेटिंग का प्रबन्धन"
+
+#~ msgid "Customize 'Notification Message'"
+#~ msgstr "खुद अधिसूचना सूचना बनायें"
+
+#~ msgid "Sync Appointments With 'Google Calendar'"
+#~ msgstr "गूगल कैलेंडर के साथ नियुक्ति तुल्यकालित करें"
+
+#~ msgid "Rename Group"
+#~ msgstr "समूह का नाम परिवर्तन करें"
+
+#~ msgid "Do you want to delete this Group"
+#~ msgstr "क्या आप ये समूह हटाना चाहते हैं?"
+
+#~ msgid "Delete Group"
+#~ msgstr "समूह हटायें"
+
+#~ msgid "Staff Name"
+#~ msgstr "स्टाफ़ का नाम"
+
+#~ msgid "Do you want to delete this Staff"
+#~ msgstr "क्या आप यह कर्मचारी हटाना चाहते हैं?"
+
+#~ msgid "Add New Staff to this Group"
+#~ msgstr "+ इस समूह में नया कर्मचारी जोंडे़"
+
+#~ msgid "+ Add New Staff to this Group"
+#~ msgstr "+ इस समूह में नया कर्मचारी जोंडे़"
+
+#~ msgid "Create New Staff Group"
+#~ msgstr "नयी कर्मचारी समूह बनायें"
+
+#~ msgid "Staff Group name"
+#~ msgstr "स्टाफ़ समूह का नाम"
+
+#~ msgid "Create Group"
+#~ msgstr "समूह बनायें"
+
+#~ msgid "New staff group successfully created."
+#~ msgstr "नई कर्मचारी समूह सफलतापूर्वक बना दि गयी है।"
+
+#~ msgid "Staff group successfully renamed."
+#~ msgstr "कर्मचारी समूह का नाम सफलतापूर्वक बदल दिया गया है।"
+
+#~ msgid "Staff group successfully deleted."
+#~ msgstr "कर्मचारी समूह सफलतापूर्वक हटा दिया गया है।"
+
+#~ msgid "Staff successfully deleted."
+#~ msgstr "कर्मचारी सफलतापूर्वक  हटा दिया गया है।"
+
+#~ msgid "Appointment Calendar Premium"
+#~ msgstr "नियुक्ति कैलेंडर प्रीमियम"
+
+#~ msgid ""
+#~ "To insert Appointment Calendar Premium Button into any post or page, use the shortcode:"
+#~ msgstr "किसी भी पोस्ट या पृष्ठ में नियुक्ति कैलेंडर प्रीमियम बटन डालने के लिए इस शोर्टकोड का उपयोग करें:"
+
+#, fuzzy
+#~ msgid "AppointZilla Documentation"
+#~ msgstr "आपोंईटजिला"
+
+#~ msgid "Particular Day"
+#~ msgstr "विशेष तिथियाँ"
+
+#, fuzzy
+#~ msgid "Repeat Week`s"
+#~ msgstr "दोहरान हफ्तें"
+
+#, fuzzy
+#~ msgid "Repeat Month`s"
+#~ msgstr "दोहरान महिनें"
+
+#, fuzzy
+#~ msgid "Repeat Day`s"
+#~ msgstr "दोहरान दिन"
+
+#, fuzzy
+#~ msgid "Repeat Bi-week`s"
+#~ msgstr "दोहरान हफ्तें"
+
+#, fuzzy
+#~ msgid "Updating Appoitnment..."
+#~ msgstr "नियुक्ति नवीनीकरण"
+
+#, fuzzy
+#~ msgid "Update TimeOff"
+#~ msgstr "टाईम आफ नवीनतम बनायें"
+
+#, fuzzy
+#~ msgid "Updating Time Off..."
+#~ msgstr "टाईम आफ नवीनतम बनायें"
+
+#, fuzzy
+#~ msgid "Start-date must be smaller then End-date."
+#~ msgstr "प्रारंभ समय अंत समय से छोटा होना चाहिए"
+
+#, fuzzy
+#~ msgid "End-date must be bigger then Start-date."
+#~ msgstr "अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Service Name."
+#~ msgstr "सेवा का नाम"
+
+#~ msgid "staff Name."
+#~ msgstr "स्टाफ़ का नाम"
+
+#~ msgid "Appointment Date."
+#~ msgstr "नियुक्ति की तारीख"
+
+#~ msgid "Appointment Repeat On/OFF."
+#~ msgstr "नियुक्ति दोहरान चालू/बंद\" "
+
+#~ msgid "Appointment Repeat Type."
+#~ msgstr "नियुक्ति दोहरान प्रकार"
+
+#~ msgid "Appointment Repeat Start Date."
+#~ msgstr "नियुक्ति दोहरान प्रारंभिक तिथि"
+
+#~ msgid "Appointment Repeat End Date."
+#~ msgstr "नियुक्ति दोहरान अंतिम तिथि"
+
+#~ msgid "Appointment Booked By User/Admin."
+#~ msgstr "नियुक्ति किस के द्वारा की गई? (व्यवस्थापक या ग्राहक)"
+
+#~ msgid "Appointment Status."
+#~ msgstr "नियुक्ति स्थिति"
+
+#~ msgid "Admin settings sucessfully saved."
+#~ msgstr "व्यवस्थापक सेटिंग्स सफलतापूर्वक बना दी गई है।"
+
+#~ msgid "Language"
+#~ msgstr "भाषा"
+
+#~ msgid "Time Zone"
+#~ msgstr "समय क्षेत्र"
+
+#~ msgid "Currency"
+#~ msgstr "मुद्रा"
+
+#~ msgid "Business Hours successfully updated."
+#~ msgstr "व्यापार के घंटो को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Close Day"
+#~ msgstr "छुट्टी का दिन"
+
+#~ msgid "Monday's Start-time and End-time can't be equal"
+#~ msgstr "सोमवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Monday's Start-time must be smaller then End-time"
+#~ msgstr "सोमवार का प्रारंभ समय अंत समय से छोटा होना चाहिए। "
+
+#~ msgid "Monday's End-time must be bigger then Start-time"
+#~ msgstr "सोमवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Tuesday's Start-time and End-time can't be equal"
+#~ msgstr "मंगलवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Tuesday's Start-time must be smaller then End-time"
+#~ msgstr "मंगलवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Tuesday's End-time must be bigger then Start-time"
+#~ msgstr "मंगलवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Wednesday's Start-time and End-time can't be equal"
+#~ msgstr "बुधवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Wednesday's Start-time must be smaller then End-time"
+#~ msgstr "बुधलवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Wednesday's End-time must be bigger then Start-time"
+#~ msgstr "बुधवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Thursday's Start-time and End-time can't be equal"
+#~ msgstr "गुरुवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Thursday's Start-time must be smaller then End-time"
+#~ msgstr "गुरुवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Thursday's End-time must be bigger then Start-time"
+#~ msgstr "गुरुवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Friday's Start-time and End-time can't be equal"
+#~ msgstr "शुक्रवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Friday's Start-time must be smaller then End-time"
+#~ msgstr "शुक्रवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Friday's End-time must be bigger then Start-time"
+#~ msgstr "शुक्रवार का अंत समय, प्रारंभ समय से बड़ा होगा"
+
+#~ msgid "Saturday's Start-time and End-time can't be equal"
+#~ msgstr "शनिवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Saturday's Start-time must be smaller then End-time"
+#~ msgstr "शनिवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Saturday's End-time must be bigger then Start-time"
+#~ msgstr "शनिवार का अंत समय, प्रारंभ समय बड़ा होगा"
+
+#~ msgid "Sunday's Start-time and End-time can't be equal"
+#~ msgstr "रविवार का प्रारंभ समय, अंत समय के बराबर नहीं हो सकता"
+
+#~ msgid "Sunday's Start-time must be smaller then End-time"
+#~ msgstr "रविवार का प्रारंभ समय अंत समय से छोटा होना चाहिए।"
+
+#~ msgid "Sunday's End-time must be bigger then Start-time"
+#~ msgstr "रविवार का अंत समय, प्रारंभ समय बड़ा होगा"
+
+#~ msgid "ERROR! Check Monday's Working Hours"
+#~ msgstr "त्रुटि सोमवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Tuesday's Working Hours"
+#~ msgstr "त्रुटि मंगलवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Wednesday's Working Hours"
+#~ msgstr "त्रुटि बुधवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Thursday's Working Hours"
+#~ msgstr "त्रुटि गुरुवार काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Friday's Working Hours"
+#~ msgstr "त्रुटि शुक्रवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Saturday's Working Hours"
+#~ msgstr "त्रुटि शनिवार के काम के घंटे की जाँच करें"
+
+#~ msgid "ERROR! Check Sunday's Working Hours"
+#~ msgstr "त्रुटि रविवार के काम के घंटे की जाँच करें"
+
+#~ msgid "Business Name"
+#~ msgstr "व्यापार नाम"
+
+#~ msgid "Owner"
+#~ msgstr "मालिक"
+
+#~ msgid "Fax"
+#~ msgstr "फैक्स"
+
+#~ msgid "Website"
+#~ msgstr "वेबसाइट"
+
+#~ msgid "Setup Business Profile"
+#~ msgstr "व्यापार रूपरेखा तैयार करे"
+
+#~ msgid "Business  Name."
+#~ msgstr "व्यापार नाम"
+
+#~ msgid "Owner Name."
+#~ msgstr "मालिक का नाम"
+
+#~ msgid "Address."
+#~ msgstr "पता"
+
+#~ msgid "City."
+#~ msgstr "शहर"
+
+#~ msgid "Fax Number."
+#~ msgstr "फैक्स संख्या"
+
+#~ msgid "Email."
+#~ msgstr "ईमेल"
+
+#~ msgid "Business Website URL."
+#~ msgstr "बिजनैस वेबसाइट यूआरएल"
+
+#~ msgid "Blog URL."
+#~ msgstr "ब्लोग यूआरएल"
+
+#~ msgid "Business profile successfully created."
+#~ msgstr "व्यापार प्रोफ़ाइल सफलतापूर्वक बना दिया गया है।"
+
+#~ msgid "Business profile successfully updated."
+#~ msgstr "व्यापार प्रोफ़ाइल सफलतापूर्वक नवीनतम कर दिया है।"
+
+#~ msgid "No updates made."
+#~ msgstr "कुछ नवीनतम नहीं किया गया।"
+
+#~ msgid "Business name cannot be blank."
+#~ msgstr "व्यापार नाम रिक्त नहीं हो सकता."
+
+#~ msgid "Owner name cannot be blank."
+#~ msgstr "मालिक का नाम खाली नहीं हो सकता."
+
+#~ msgid "Address cannot be blank."
+#~ msgstr "पता खाली नहीं हो सकता."
+
+#~ msgid "City cannot be blank."
+#~ msgstr "शहर खाली नहीं हो सकता."
+
+#~ msgid "State cannot be blank."
+#~ msgstr "राज्य रिक्त नहीं हो सकता."
+
+#, fuzzy
+#~ msgid "Postal code cannot be blank."
+#~ msgstr "मूल्य खाली नहीं हो सकता."
+
+#~ msgid "Calendar settings sucessfully saved."
+#~ msgstr "कैलेंडर सेटिंग्स सफलतापूर्वक बना दी गई है।"
+
+#, fuzzy
+#~ msgid "Google Calendar Client ID"
+#~ msgstr "गूगल कैलेंडर सिंक"
+
+#, fuzzy
+#~ msgid "Google Calendar Secret Key"
+#~ msgstr "गूगल कैलेंडर सिंक"
+
+#, fuzzy
+#~ msgid "Allow Google Calendar Sync"
+#~ msgstr "गूगल कैलेंडर सिंक"
+
+#, fuzzy
+#~ msgid "Connecting..."
+#~ msgstr "लोड हो रहा है..."
+
+#~ msgid "Manage Admin Settings"
+#~ msgstr "व्यवस्थापक सेटिंग प्रबंधित करें"
+
+#~ msgid "Your Living Country."
+#~ msgstr "आप जिस देश में रहते हो"
+
+#~ msgid "Your Country's Language."
+#~ msgstr "आपके देश की भाषा."
+
+#~ msgid "Your Country's Time Zone."
+#~ msgstr "आपके देश का समय क्षेत्र"
+
+#~ msgid "Your Country's Currency."
+#~ msgstr "आपके देश की मुद्रा"
+
+#~ msgid "Select End Time."
+#~ msgstr "अंत समय चुनें"
+
+#~ msgid "Manage Calendar Settings"
+#~ msgstr "कैलेंडर सेटिंग्स का प्रबंधन"
+
+#~ msgid "Enable Notification."
+#~ msgstr "अधिसूचना चालू करें"
+
+#~ msgid "Notification Type."
+#~ msgstr "अधिसूचना टाइप"
+
+#~ msgid "Host Name Like eg: smtp.gmail.com, smtp.yahoo.com."
+#~ msgstr "होस्ट नाम, उदाहरण के लिए: smtp.gmail.com, smtp.yahoo.com"
+
+#~ msgid "Smtp Port Number Like eg: Gmail & Yahoo Port Number = 465."
+#~ msgstr "SMTP पोर्ट संख्या, उदाहरण: जीमेल और याहू की पोर्ट संख्या = 465."
+
+#, fuzzy
+#~ msgid "Manage Payment Settings"
+#~ msgstr "व्यवस्थापक सेटिंग प्रबंधित करें"
+
+#, fuzzy
+#~ msgid "Select Payment Gateway"
+#~ msgstr "कोइ समय चुनें"
+
+#, fuzzy
+#~ msgid "Payment Email"
+#~ msgstr "ग्राहक ईमेल"
+
+#, fuzzy
+#~ msgid "Select payment gateway."
+#~ msgstr "कोइ समय चुनें"
+
+#, fuzzy
+#~ msgid "Manage Reminder Settings"
+#~ msgstr "व्यवस्थापक सेटिंग प्रबंधित करें"
+
+#, fuzzy
+#~ msgid "Reminder Type"
+#~ msgstr "दोहरान प्रकार"
+
+#, fuzzy
+#~ msgid "Select Reminder Type"
+#~ msgstr "प्रकार चुनें"
+
+#, fuzzy
+#~ msgid "Select Reminder Frequency"
+#~ msgstr "के लिए समय का चयन करें"
+
+#, fuzzy
+#~ msgid "You can use these Tags in message subject & body"
+#~ msgstr "आप संदेश के मुख्य भाग में इन टैग का उपयोग कर सकते हैं।"
+
+#~ msgid "Appointment Time"
+#~ msgstr "नियुक्ति का समय"
+
+#~ msgid "Appointment Note"
+#~ msgstr "नियुक्ति विशेष निर्देश"
+
+#~ msgid "Blog Name"
+#~ msgstr "ब्लॉग नाम"
+
+#, fuzzy
+#~ msgid "Select reminder type."
+#~ msgstr "कैलेंडर रुप"
+
+#~ msgid "Notify Client On New Appointment"
+#~ msgstr "नई नियुक्ति पर ग्राहक को सूचित करें"
+
+#~ msgid "Subject"
+#~ msgstr "विषय"
+
+#~ msgid "Body"
+#~ msgstr "संदेश"
+
+#~ msgid "You can use these Tags in message body"
+#~ msgstr "आप संदेश के मुख्य भाग में इन टैग का उपयोग कर सकते हैं।"
+
+#~ msgid "Client Phone"
+#~ msgstr "ग्राहक फोन"
+
+#~ msgid "Client Special Instruction"
+#~ msgstr "ग्राहक विशेष निर्देश"
+
+#~ msgid "Notify Admin On New Appointment"
+#~ msgstr "नई नियुक्ति पर व्यवस्थापक को सूचित करें"
+
+#~ msgid "Notify Client On Approve/Cancel Appointment"
+#~ msgstr "नियुक्ति स्वीकार या रद्द करने पर ग्राहक का संदेश"
+
+#~ msgid "Notify Client On New Appointment Message sucessfully updated."
+#~ msgstr "नई नियुक्ति पर ग्राहक के संदेश को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Notify Admin On New Appointment Message sucessfully updated."
+#~ msgstr "नई नियुक्ति पर व्यवस्थापक के संदेश को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Notify Client On Approve/Cancel Appointment Message sucessfully updated."
+#~ msgstr "नियुक्ति स्वीकार या रद्द करने पर ग्राहक के संदेश को सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#, fuzzy
+#~ msgid "Payment setting successfully saved"
+#~ msgstr "व्यवस्थापक सेटिंग्स सफलतापूर्वक बना दी गई है।"
+
+#, fuzzy
+#~ msgid "Reminder settings successfully saved"
+#~ msgstr "व्यवस्थापक सेटिंग्स सफलतापूर्वक बना दी गई है।"
+
+#, fuzzy
+#~ msgid "Reminder setting successfully updated"
+#~ msgstr "गूगल कैलेंडर सेटिंग सफलतापूर्वक नवीनतम बना दी गई है।"
+
+#, fuzzy
+#~ msgid "Staff hours suceccfully saved."
+#~ msgstr "कर्मचारी समूह का नाम सफलतापूर्वक बदल दिया गया है।"
+
+#, fuzzy
+#~ msgid "Loading staff hours..."
+#~ msgstr "कर्मचारी लोड हो रहें हैं ..."
+
+#, fuzzy
+#~ msgid "Staff hours suceccfully updated."
+#~ msgstr "कर्मचारी विवरण सफलतापूर्वक नवीनतम बना दिया गया है।"
+
+#~ msgid "Schedule An Appointment"
+#~ msgstr "नई नियुक्ति बनायें"
+
+#~ msgid "with"
+#~ msgstr "के साथ"
+
+#~ msgid "Sorry! Today`s all appointments has been booked."
+#~ msgstr "क्षमा करें! आज सभी नियुक्तियों को बुक किया जा चुका है।"
+
+#~ msgid "Support & Help"
+#~ msgstr "समर्थन और मदद"
+
+#~ msgid "Duration Unit."
+#~ msgstr "अवधि इकाई"
+
+#~ msgid "Experience cannot be blank."
+#~ msgstr "अनुभव खाली नहीं हो सकता"
+
+#~ msgid "Zip Number."
+#~ msgstr "डाक संख्या"
+
+#~ msgid "Zipcode cannot be blank."
+#~ msgstr "ज़िपकोड खाली नहीं हो सकता."
+
+#~ msgid "Website cannot be blank."
+#~ msgstr "वेबसाइट खाली नहीं हो सकती।"
+
+#~ msgid "Invalid url."
+#~ msgstr "अमान्य यूआरएल."
+
+#~ msgid "Invalid blog url."
+#~ msgstr "अमान्य ब्लॉग यूआरएल."
+
+#~ msgid "Google Email"
+#~ msgstr "गूगल ईमेल"
+
+#~ msgid "Google Email Password"
+#~ msgstr "गूगल ईमेल पासवर्ड"
+
+#~ msgid "Manage Google Calendar"
+#~ msgstr "गूगल कैलेंडर का प्रबंधन"
+
+#~ msgid "Time Zone "
+#~ msgstr "समय क्षेत्र"
+
+#~ msgid "Google calendar setting successfully saved"
+#~ msgstr "गूगल कैलेंडर सेटिंग सफलतापूर्वक बना दी गई है।"
+
+#~ msgid "Google email cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता."
+
+#~ msgid "invalid google email."
+#~ msgstr "अमान्य गूगल ईमेल."
+
+#~ msgid "Google email password cannot be blank."
+#~ msgstr "ईमेल खाली नहीं हो सकता."
+
+#~ msgid "Calendar View."
+#~ msgstr "कैलेंडर रुप"
+
+#~ msgid "Calendar First Day."
+#~ msgstr "कैलेंडर का प्रथम दिवस."
+
+#~ msgid "Appointment Created On"
+#~ msgstr "नियुक्ति बनने की तारीख"
+
+#~ msgid "Staff category successfully deleted."
+#~ msgstr "कर्मचारी श्रेणी सफलतापूर्वक हटा दि गयी है।"
+
+#~ msgid "Appointment"
+#~ msgstr "नियुक्तियाँ"
+
+#~ msgid "Do you want to delete this Clients"
+#~ msgstr "क्या आप यह ग्राहक हटाना चाहते हैं?"
+
+#, fuzzy
+#~ msgid "All Day Event"
+#~ msgstr "पूरे दिन का टाईम आफ"
