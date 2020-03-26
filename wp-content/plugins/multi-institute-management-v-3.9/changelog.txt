@@ -1,0 +1,130 @@
+Ver 3.9 (05 March 2020)
+========
+* Added institute registration number field.
+* Registration number added in Admission Form, Fee Receipt, Admit Card.
+
+Ver 3.8 (04 March 2020)
+========
+* Set courses status directly when updating institute
+
+Ver 3.7 (03 March 2020)
+========
+* Added Enquiry Reminders in Dashboard
+* Added Reference field in Enquiry
+
+Ver 3.6 (27 Feburary 2020)
+========
+* Assign courses to institute by administrator
+* Restrict institute to add, edit or delete courses
+* Added Paystack payment gateway
+
+Ver 3.5 (31 December 2019)
+========
+* Added CSV export and Print option in Report
+
+Ver 3.4 (27 December 2019)
+========
+* Added EBulkSMS SMS carrier
+
+Ver 3.3 (26 December 2019)
+========
+* Added multiple batch selection in attendance report
+
+Ver 3.2 (24 December 2019)
+========
+* Added in report enquiries
+* Added in enquiries follow up and note
+
+Ver 3.1 (20 December 2019)
+========
+* Added new template to send birthday wishes to students
+* Added multiple batch selection when taking attendance
+
+Ver 3.0 (19 December 2019)
+========
+* Added datepicker when adding new invoice.
+* Added datepicker when adding new fee installment
+* Added outstanding fees invoice report - date wise
+
+Ver 2.9 (11 December 2019)
+========
+* Fixed batch validation error when course is less than a month.
+
+Ver 2.8 (10 December 2019)
+========
+* Added Textlocal SMS provider
+
+Ver 2.7 (02 November 2019)
+========
+* Added MsgClub SMS provider
+
+Ver 2.6 (30 October 2019)
+========
+* Fixed Monthly Fees Bug
+
+Ver 2.5 (25 September 2019)
+========
+* Allowed Ended Batches when adding Students
+
+Ver 2.4 (30 August 2019)
+========
+* Updated License Code
+
+Ver 2.3 (13 July 2019)
+========
+* Added New Shortcode for Exam Results By Name
+
+Ver 2.2 (02 July 2019)
+========
+* Added Optional Roll Number Field Setting
+
+Ver 2.1 (28 June 2019)
+========
+* Monthly Fees Validation Bug Fix
+
+Ver 2.0 (19 June 2019)
+========
+* Added Custom Registration Date Field
+* Added Custom Signature Upload Functionality
+
+Ver 1.9 (17 June 2019)
+========
+* Added Certificate Shortcode
+
+Ver 1.8 (03 June 2019)
+========
+* Added ID Card Shortcode
+
+Ver 1.7 (25 May 2019)
+========
+* Added Admit Card Shortcode
+* Added Admit Card in Student Dashboard
+* Added Admit Card in Admin Dashboard
+
+Ver 1.6 (03 May 2019)
+========
+* Fixed ID Card Layout in mobile devices
+
+Ver 1.5 (24 April 2019)
+========
+* Fixed Validation Issue When Adding a Batch
+
+Ver 1.4 (26 Mar 2019)
+========
+* Export Student Records to PDF, CSV
+
+Ver 1.3 (01 Mar 2019)
+========
+* Added Reset Plugin Functionality
+
+Ver 1.2 (25 Feb 2019)
+========
+* Added Monthly Fees and Invoices
+
+Ver 1.1 (21 Feb 2019)
+========
+* Added Envato License Check
+
+Ver 1.0 (20 Feb 2019)
+========
+* New Release
