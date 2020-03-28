@@ -138,7 +138,7 @@ if ( isset( $attr['id'] ) ) {
                         <div class="row">
                             <div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-address" class="col-form-label"><?php esc_html_e( 'Address', WL_MIM_DOMAIN ); ?>:</label>
-                                <textarea name="address" class="form-control" rows="6" id="wlim-enquiry-address" placeholder="<?php esc_html_e( "Address", WL_MIM_DOMAIN ); ?>"></textarea>
+                                <textarea name="address" class="form-control" rows="4" id="wlim-enquiry-address" placeholder="<?php esc_html_e( "Address", WL_MIM_DOMAIN ); ?>"></textarea>
                             </div>
                             <div class="col-sm-6 form-group">
                                 <div>
@@ -149,7 +149,7 @@ if ( isset( $attr['id'] ) ) {
                                     <label for="wlim-enquiry-zip" class="col-form-label"><?php esc_html_e( 'Pin Code', WL_MIM_DOMAIN ); ?>:</label>
                                     <input name="zip" type="text" class="form-control" id="wlim-enquiry-zip" placeholder="<?php esc_html_e( "Pin Code", WL_MIM_DOMAIN ); ?>">
                                 </div>
-                                <div>
+                                <div class="col-sm-6 form-group">
                                     <label for="wlim-enquiry-state" class="col-form-label"><?php esc_html_e( 'State', WL_MIM_DOMAIN ); ?>:</label>
                                     <input name="state" type="text" class="form-control" id="wlim-enquiry-state" placeholder="<?php esc_html_e( "State", WL_MIM_DOMAIN ); ?>">
                                 </div>
@@ -165,16 +165,16 @@ if ( isset( $attr['id'] ) ) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 form-group">
-                                <label for="wlim-enquiry-phone" class="col-form-label">* <?php esc_html_e( 'Phone', WL_MIM_DOMAIN ); ?>:</label>
-                                <input name="phone" type="text" class="form-control" id="wlim-enquiry-phone" placeholder="<?php esc_html_e( "Phone", WL_MIM_DOMAIN ); ?>">
-                            </div>
                             <!--<div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-nationality" class="col-form-label"><?php esc_html_e( 'Nationality', WL_MIM_DOMAIN ); ?>:</label>
                                 <input name="nationality" type="text" class="form-control" id="wlim-enquiry-nationality" placeholder="<?php esc_html_e( "Nationality", WL_MIM_DOMAIN ); ?>">
                             </div> -->
                         </div>
                         <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label for="wlim-enquiry-phone" class="col-form-label">* <?php esc_html_e( 'Phone', WL_MIM_DOMAIN ); ?>:</label>
+                                <input name="phone" type="text" class="form-control" id="wlim-enquiry-phone" placeholder="<?php esc_html_e( "Phone", WL_MIM_DOMAIN ); ?>">
+                            </div>
                             <div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-email" class="col-form-label"><?php esc_html_e( 'Email', WL_MIM_DOMAIN ); ?>:</label>
                                 <input name="email" type="text" class="form-control" id="wlim-enquiry-email" placeholder="<?php esc_html_e( "Email", WL_MIM_DOMAIN ); ?>">
@@ -219,7 +219,7 @@ if ( isset( $attr['id'] ) ) {
                             <textarea name="message" class="form-control" rows="3" id="wlim-enquiry-message" placeholder="<?php esc_html_e( "Message", WL_MIM_DOMAIN ); ?>"></textarea>
                         </div> -->
 
-                        <div class="form-group">
+                        <div class="form-check pl-0">
                             <input name="is_active" class="position-static mt-0 form-check-input" type="checkbox" id="wlim-enquiry-is_active" checked>
                             <label class="form-check-label" for="wlim-enquiry-is_active">
 								<?php esc_html_e( 'R', WL_MIM_DOMAIN ); ?>
