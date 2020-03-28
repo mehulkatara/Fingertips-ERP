@@ -181,7 +181,7 @@ if ( isset( $attr['id'] ) ) {
                                 <input name="id_proof" type="file" id="wlim-enquiry-id_proof">
                             </div> -->
                         </div>
-                        <div class="row">
+                        <!-- <div class="row">
                             <div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-photo" class="col-form-label"><?php esc_html_e( 'Choose Photo', WL_MIM_DOMAIN ); ?>:</label><br>
                                 <input name="photo" type="file" id="wlim-enquiry-photo">
@@ -190,7 +190,7 @@ if ( isset( $attr['id'] ) ) {
                                 <label for="wlim-enquiry-signature" class="col-form-label"><?php esc_html_e( 'Choose Signature', WL_MIM_DOMAIN ); ?>:</label><br>
                                 <input name="signature" type="file" id="wlim-enquiry-signature">
                             </div>
-                        </div>
+                        </div> -->
 						<?php if ( ! $institute ) { ?>
                             <div id="wlim-fetch-institute-custom-fields"></div>
 						<?php } else { if ( count( $custom_fields ) ) { ?>
