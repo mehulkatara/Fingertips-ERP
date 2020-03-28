@@ -205,10 +205,10 @@ if ( isset( $attr['id'] ) ) {
                             </div>
 						<?php }
 						} ?>
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label for="wlim-enquiry-message" class="col-form-label"><?php esc_html_e( 'Message', WL_MIM_DOMAIN ); ?>:</label>
                             <textarea name="message" class="form-control" rows="3" id="wlim-enquiry-message" placeholder="<?php esc_html_e( "Message", WL_MIM_DOMAIN ); ?>"></textarea>
-                        </div>
+                        </div> -->
                             
                         
 
