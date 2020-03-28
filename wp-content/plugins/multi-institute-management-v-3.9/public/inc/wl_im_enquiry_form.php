@@ -220,16 +220,67 @@ if ( isset( $attr['id'] ) ) {
                         </div> -->
 
                         <div class="row">
-                            <input name="r" class="position-static mt-0 form-check-input" type="checkbox" id="wlim-enquiry-is_active">
-                            <label class="form-check-label" for="wlim-enquiry-r">
-								<?php esc_html_e( 'R', WL_MIM_DOMAIN ); ?>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Artificial Intelligence', WL_MIM_DOMAIN ); ?>
                             </label>
-                            <input name="r" class="position-static mt-0 form-check-input" type="checkbox" id="wlim-enquiry-is_active">
-                            <label class="form-check-label" for="wlim-enquiry-r">
-								<?php esc_html_e( 'Python', WL_MIM_DOMAIN ); ?>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Deep Learning', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Cloud Computing', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Machine Learning', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Neural Network', WL_MIM_DOMAIN ); ?>
                             </label>
                         </div>
-                            
+                        <div class="row">
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'R', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Python', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Data Science', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'IOT', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Power BI', WL_MIM_DOMAIN ); ?>
+                            </label>
+                        </div>
+                        <div class="row">
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Open CV', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Spark', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Tensor Flow', WL_MIM_DOMAIN ); ?>
+                            </label>
+                            <input name="r" type="checkbox" id="wlim-enquiry-is_active">
+                            <label class="col-2" for="wlim-enquiry-r">
+								<?php esc_html_e( 'Big Data', WL_MIM_DOMAIN ); ?>
+                            </label>
+                        </div>
                         
 
                         <div class="mt-3">
