@@ -176,10 +176,10 @@ if ( isset( $attr['id'] ) ) {
                                 <label for="wlim-enquiry-qualification" class="col-form-label"><?php esc_html_e( 'Qualification', WL_MIM_DOMAIN ); ?>:</label>
                                 <input name="qualification" type="text" class="form-control" id="wlim-enquiry-qualification" placeholder="<?php esc_html_e( "Qualification", WL_MIM_DOMAIN ); ?>">
                             </div>
-                            <div class="col-sm-6 form-group">
+                            <!-- <div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-id_proof" class="col-form-label"><?php esc_html_e( 'ID Proof', WL_MIM_DOMAIN ); ?>:</label><br>
                                 <input name="id_proof" type="file" id="wlim-enquiry-id_proof">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-sm-6 form-group">
