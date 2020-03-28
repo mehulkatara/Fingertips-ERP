@@ -147,7 +147,7 @@ if ( isset( $attr['id'] ) ) {
                                 </div>
                                 <div>
                                     <label for="wlim-enquiry-zip" class="col-form-label"><?php esc_html_e( 'Zip Code', WL_MIM_DOMAIN ); ?>:</label>
-                                    <input name="zip" type="text" class="form-control" id="wlim-enquiry-zip" placeholder="<?php esc_html_e( "Zip Code", WL_MIM_DOMAIN ); ?>">
+                                    <input name="zip" type="text" class="form-control" id="wlim-enquiry-zip" placeholder="<?php esc_html_e( "Pin Code", WL_MIM_DOMAIN ); ?>">
                                 </div>
                             </div>
                         </div>
