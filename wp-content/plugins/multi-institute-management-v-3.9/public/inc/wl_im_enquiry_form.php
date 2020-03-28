@@ -146,17 +146,26 @@ if ( isset( $attr['id'] ) ) {
                                     <input name="city" type="text" class="form-control" id="wlim-enquiry-city" placeholder="<?php esc_html_e( "City", WL_MIM_DOMAIN ); ?>">
                                 </div>
                                 <div>
-                                    <label for="wlim-enquiry-zip" class="col-form-label"><?php esc_html_e( 'Zip Code', WL_MIM_DOMAIN ); ?>:</label>
+                                    <label for="wlim-enquiry-zip" class="col-form-label"><?php esc_html_e( 'Pin Code', WL_MIM_DOMAIN ); ?>:</label>
                                     <input name="zip" type="text" class="form-control" id="wlim-enquiry-zip" placeholder="<?php esc_html_e( "Pin Code", WL_MIM_DOMAIN ); ?>">
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <label for="wlim-enquiry-state" class="col-form-label"><?php esc_html_e( 'State', WL_MIM_DOMAIN ); ?>:</label>
+                                    <input name="state" type="text" class="form-control" id="wlim-enquiry-state" placeholder="<?php esc_html_e( "State", WL_MIM_DOMAIN ); ?>">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6 form-group">
-                                <label for="wlim-enquiry-state" class="col-form-label"><?php esc_html_e( 'State', WL_MIM_DOMAIN ); ?>:</label>
-                                <input name="state" type="text" class="form-control" id="wlim-enquiry-state" placeholder="<?php esc_html_e( "State", WL_MIM_DOMAIN ); ?>">
+                                <label class="col-form-label">* <?php esc_html_e( 'Student/Professional', WL_MIM_DOMAIN ); ?>:</label><br>
+                                <div class="row mt-2">
+                                    <div class="col-sm-12">
+                                        <label class="radio-inline mr-3"><input checked type="radio" name="sp" class="mr-2" value="Student" id="wlim-enquiry-student"><?php esc_html_e( 'Student', WL_MIM_DOMAIN ); ?></label>
+                                        <label class="radio-inline"><input type="radio" name="sp" class="mr-2" value="Professional" id="wlim-enquiry-professional"><?php esc_html_e( 'Professional', WL_MIM_DOMAIN ); ?></label>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- <div class="col-sm-6 form-group">
+                            <!--<div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-nationality" class="col-form-label"><?php esc_html_e( 'Nationality', WL_MIM_DOMAIN ); ?>:</label>
                                 <input name="nationality" type="text" class="form-control" id="wlim-enquiry-nationality" placeholder="<?php esc_html_e( "Nationality", WL_MIM_DOMAIN ); ?>">
                             </div> -->
@@ -173,8 +182,8 @@ if ( isset( $attr['id'] ) ) {
                         </div>
                         <div class="row">
                             <div class="col-sm-6 form-group">
-                                <label for="wlim-enquiry-qualification" class="col-form-label"><?php esc_html_e( 'Qualification', WL_MIM_DOMAIN ); ?>:</label>
-                                <input name="qualification" type="text" class="form-control" id="wlim-enquiry-qualification" placeholder="<?php esc_html_e( "Qualification", WL_MIM_DOMAIN ); ?>">
+                                <label for="wlim-enquiry-qualification" class="col-form-label"><?php esc_html_e( 'Degree', WL_MIM_DOMAIN ); ?>:</label>
+                                <input name="qualification" type="text" class="form-control" id="wlim-enquiry-qualification" placeholder="<?php esc_html_e( "Degree", WL_MIM_DOMAIN ); ?>">
                             </div>
                             <!-- <div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-id_proof" class="col-form-label"><?php esc_html_e( 'ID Proof', WL_MIM_DOMAIN ); ?>:</label><br>
