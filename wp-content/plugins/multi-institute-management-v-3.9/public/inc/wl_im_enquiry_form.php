@@ -138,7 +138,7 @@ if ( isset( $attr['id'] ) ) {
                         <div class="row">
                             <div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-address" class="col-form-label"><?php esc_html_e( 'Address', WL_MIM_DOMAIN ); ?>:</label>
-                                <textarea name="address" class="form-control" rows="6" id="wlim-enquiry-address" placeholder="<?php esc_html_e( "Address", WL_MIM_DOMAIN ); ?>"></textarea>
+                                <textarea name="address" class="form-control" rows="7" id="wlim-enquiry-address" placeholder="<?php esc_html_e( "Address", WL_MIM_DOMAIN ); ?>"></textarea>
                             </div>
                             <div class="col-sm-6 form-group">
                                 <div>
@@ -163,23 +163,23 @@ if ( isset( $attr['id'] ) ) {
                                         <label class="radio-inline mr-3"><input checked type="radio" name="sp" class="mr-2" value="Student" id="wlim-enquiry-student"><?php esc_html_e( 'Student', WL_MIM_DOMAIN ); ?></label>
                                         <label class="radio-inline"><input type="radio" name="sp" class="mr-2" value="Professional" id="wlim-enquiry-professional"><?php esc_html_e( 'Professional', WL_MIM_DOMAIN ); ?></label>
                                     </div>
-                                    <div>
-                                        <label for="wlim-enquiry-email" class="col-form-label"><?php esc_html_e( 'Email', WL_MIM_DOMAIN ); ?>:</label>
-                                        <input name="email" type="text" class="form-control" id="wlim-enquiry-email" placeholder="<?php esc_html_e( "Email", WL_MIM_DOMAIN ); ?>">
-                                    </div>
                                 </div>
                             </div>
                             <!--<div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-nationality" class="col-form-label"><?php esc_html_e( 'Nationality', WL_MIM_DOMAIN ); ?>:</label>
                                 <input name="nationality" type="text" class="form-control" id="wlim-enquiry-nationality" placeholder="<?php esc_html_e( "Nationality", WL_MIM_DOMAIN ); ?>">
                             </div> -->
+                            <div class="col-sm-6 form-group">
+                                <label for="wlim-enquiry-email" class="col-form-label"><?php esc_html_e( 'Email', WL_MIM_DOMAIN ); ?>:</label>
+                                <input name="email" type="text" class="form-control" id="wlim-enquiry-email" placeholder="<?php esc_html_e( "Email", WL_MIM_DOMAIN ); ?>">
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6 form-group">
                                 <label for="wlim-enquiry-phone" class="col-form-label">* <?php esc_html_e( 'Phone', WL_MIM_DOMAIN ); ?>:</label>
                                 <input name="phone" type="text" class="form-control" id="wlim-enquiry-phone" placeholder="<?php esc_html_e( "Phone", WL_MIM_DOMAIN ); ?>">
                             </div>
-                            <div class="col-sm-6 form-group">
+                            <div class="col-sm-6 form-group"
                                 <label for="wlim-enquiry-qualification" class="col-form-label"><?php esc_html_e( 'Degree', WL_MIM_DOMAIN ); ?>:</label>
                                 <input name="qualification" type="text" class="form-control" id="wlim-enquiry-qualification" placeholder="<?php esc_html_e( "Degree", WL_MIM_DOMAIN ); ?>">
                             </div>
