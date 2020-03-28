@@ -209,6 +209,13 @@ if ( isset( $attr['id'] ) ) {
                             <label for="wlim-enquiry-message" class="col-form-label"><?php esc_html_e( 'Message', WL_MIM_DOMAIN ); ?>:</label>
                             <textarea name="message" class="form-control" rows="3" id="wlim-enquiry-message" placeholder="<?php esc_html_e( "Message", WL_MIM_DOMAIN ); ?>"></textarea>
                         </div> -->
+
+                        <div class="form-check pl-0">
+                            <input name="is_active" class="position-static mt-0 form-check-input" type="checkbox" id="wlim-enquiry-is_active" checked>
+                            <label class="form-check-label" for="wlim-enquiry-is_active">
+								<?php esc_html_e( 'R', WL_MIM_DOMAIN ); ?>
+                            </label>
+                        </div>
                             
                         
 
